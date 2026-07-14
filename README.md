@@ -35,6 +35,7 @@ timestamps of both inputs.
 | **SEC EDGAR filings** (424B3, 10-Q) | NAV marks for DXYZ, SSSS (via hand-curated `wrappers_overlay.yaml`, exact filing cited) | Same as above | Quarterly, by hand |
 | **ARK Invest holdings CSV** (`assets.ark-funds.com`) | ARKVX top holdings | Published openly by the issuer for public consumption; ingested read-only, attributed | Nightly |
 | **Yahoo Finance chart endpoint** (`query1.finance.yahoo.com/v8/finance/chart/`) | Market prices (DXYZ, XOVR, SSSS) and ARKVX NAV (fund transacts at NAV) | **Unofficial, undocumented endpoint** — no API contract. Used read-only at ~5 requests/night with attribution and per-quote `as_of`. If it breaks or access posture changes, quotes go absent and validation holds the last-good feed rather than publishing stale prices | Nightly |
+| **Yahoo Finance search endpoint** (`query1.finance.yahoo.com/v1/finance/search`) | Status cross-check only: resolving company names/aliases to trading symbols | Same unofficial posture as the chart endpoint; ~60 read-only requests/night at ≤1 req/sec. Used to *refuse* publishing on mismatch, never to publish a datum directly | Nightly |
 | **Issuer pages/PDFs** (ARK, ERShares, Fundrise, Destiny) | Fee, liquidity, and holdings facts in `wrappers_seed.yaml` | Ordinary public web pages, cited as sources for hand-curated facts (not scraped nightly) | Quarterly, by hand |
 | **Wikipedia** | `companies.json` profile/valuation citations (stable summary pages which themselves cite primary reporting) | CC BY-SA; used as citation links only, no content republished | With curation |
 | **Hiive** (secondary-market pricing) | *Not ingested.* | Hiive's Terms of Use prohibit automated access, systematic retrieval, and republication. `signals.json` marks `secondary_market.status = "unavailable_tos"` rather than violating those terms. The field is reserved for licensed or expressly permitted data | — |
@@ -49,6 +50,20 @@ timestamps of both inputs.
   curation, or schema drift. On refusal the pipeline exits 1, logs each
   failure to stderr and `logs/run_<date>.log`, and the **last-good feed stays
   published** (the git-committed feed is the last-good copy).
+- **Status cross-check** (`crosscheck.py`, added after the SpaceX incident —
+  the seed said `private` for a month after SPCX listed): every nightly run
+  verifies curated `ipo_status` against independent evidence. A company
+  marked private/rumored/s1_filed whose name or curated alias resolves to an
+  actively trading listed equity fails validation; a listed company whose
+  ticker no longer quotes fails; an S-1 in our own `pipeline.json` matching a
+  company still marked private/rumored fails. Matching is conservative
+  (normalized equality / full-phrase containment over name + `aliases`);
+  `crosscheck_skip: true` opts out a known collision, visibly. Nothing is
+  auto-corrected — a human updates the seed with a source, then the feed
+  publishes. `--skip-crosscheck` exists for offline dev only.
+  `scripts/audit_status.py` runs the same checks plus a deeper EDGAR
+  company-name probe (catches S-1s older than the pipeline's 14-day window)
+  on demand.
 - **Freshness manifest**: `feed_meta.json` carries per-file `as_of` + sha256.
 - **Dry-run**: `python -m prelude_data.pipeline --dry-run` builds and
   validates into `state/staging/` without touching `feed/` or git.

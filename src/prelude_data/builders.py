@@ -45,6 +45,8 @@ def build_companies() -> dict:
                 "ipo_status": c["ipo_status"],  # private|rumored|s1_filed|priced|listed
                 "ipo_status_source_url": c.get("ipo_status_source_url"),
                 "listed_ticker": c.get("listed_ticker"),
+                "aliases": c.get("aliases", []),
+                "crosscheck_skip": c.get("crosscheck_skip", False),
                 "valuation": {
                     "amount_usd_billions": c["valuation"]["amount_usd_billions"],
                     "basis": c["valuation"]["basis"],  # priced_round|secondary_sale|tender_offer|media_report|public_market

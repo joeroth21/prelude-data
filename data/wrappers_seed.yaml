@@ -41,8 +41,9 @@ wrappers:
       source_url: https://ark-funds.com/funds/arkvx
       as_of: "2026-07-14"
     private_exposure_notes: >-
-      Venture portfolio including SpaceX, OpenAI, Anthropic, Stripe and
-      other late-stage private companies; see live holdings block.
+      Venture portfolio including OpenAI, Anthropic, Stripe and other
+      late-stage private companies; its SpaceX position became publicly
+      traded stock at the June 2026 SPCX listing. See live holdings block.
 
   - id: dxyz
     name: Destiny Tech100
@@ -98,7 +99,8 @@ wrappers:
       as_of: "2026-07-14"
     private_exposure_notes: >-
       SPV exposure to SpaceX was 44.65% of the fund as of 2026-03-31 per the
-      issuer's published Top 10 Holdings.
+      issuer's published Top 10 Holdings — disclosed pre-IPO; SpaceX has
+      traded as SPCX since 2026-06-12.
     holdings_curated:
       as_of: "2026-03-31"
       source: ERShares published Top 10 Holdings (PDF)

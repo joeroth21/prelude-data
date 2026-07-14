@@ -44,17 +44,26 @@ companies:
 
   - id: spacex
     name: SpaceX
+    aliases: ["Space Exploration Technologies", "Space Exploration Technologies Corp"]
     sector: Aerospace & Defense
     profile: >-
       Launch provider and operator of the Starlink satellite internet
-      constellation. A Starlink spin-off IPO has been publicly discussed by
-      leadership but never scheduled.
+      constellation. Filed its S-1 on 2026-05-20 and listed on Nasdaq as
+      SPCX on 2026-06-12 at $135.00 per share.
     profile_source_url: https://en.wikipedia.org/wiki/SpaceX
-    ipo_status: private
-    valuation: {amount_usd_billions: 400, basis: secondary_sale, round_label: Employee tender, as_of: 2025-07-08, source_url: https://en.wikipedia.org/wiki/SpaceX}
+    ipo_status: listed
+    listed_ticker: SPCX
+    ipo_status_source_url: https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm
+    valuation:
+      amount_usd_billions: 1767
+      basis: public_market
+      round_label: "IPO priced at $135.00/share (13,090,853,965 shares post-offering)"
+      as_of: 2026-06-12
+      source_url: https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm
 
   - id: xai
     name: xAI
+    aliases: ["XAI Holdings"]
     sector: Artificial Intelligence
     profile: >-
       Elon Musk's AI company, developer of the Grok models; merged with X
@@ -211,11 +220,19 @@ companies:
     name: Cerebras Systems
     sector: AI Semiconductors
     profile: >-
-      Wafer-scale AI compute company. Filed an S-1 in 2024, withdrew it in
-      2025 after raising private capital instead.
+      Wafer-scale AI compute company. Filed an S-1 in 2024, stepped back and
+      raised privately in 2025, refiled 2026-04-17, and listed on Nasdaq as
+      CBRS on 2026-05-14 at $185.00 per share.
     profile_source_url: https://en.wikipedia.org/wiki/Cerebras
-    ipo_status: private
-    valuation: {amount_usd_billions: 8.1, basis: priced_round, round_label: Series G, as_of: 2025-09-30, source_url: https://en.wikipedia.org/wiki/Cerebras}
+    ipo_status: listed
+    listed_ticker: CBRS
+    ipo_status_source_url: https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm
+    valuation:
+      amount_usd_billions: 40.6
+      basis: public_market
+      round_label: "IPO priced at $185.00/share (~219.6M shares post-offering per prospectus ownership table)"
+      as_of: 2026-05-14
+      source_url: https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm
 
   - id: neuralink
     name: Neuralink
@@ -333,6 +350,7 @@ companies:
 
   - id: anysphere
     name: Anysphere (Cursor)
+    aliases: ["Anysphere"]
     sector: Developer Tools
     profile: >-
       Maker of the Cursor AI code editor; among the fastest companies to
@@ -503,6 +521,7 @@ companies:
 
   - id: kraken
     name: Kraken
+    aliases: ["Payward"]
     sector: Crypto
     profile: >-
       US crypto exchange; a public listing has been repeatedly reported as
@@ -514,6 +533,7 @@ companies:
 
   - id: ripple
     name: Ripple
+    aliases: ["Ripple Labs"]
     sector: Crypto
     profile: >-
       Enterprise blockchain payments company associated with the XRP ledger.
@@ -612,6 +632,7 @@ companies:
 
   - id: gopuff
     name: Gopuff
+    aliases: ["GoBrands"]
     sector: Consumer Delivery
     profile: >-
       Instant-needs delivery platform.

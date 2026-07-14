@@ -16,7 +16,7 @@ import datetime as dt
 import logging
 import sys
 
-from . import builders, config, publish, validate
+from . import builders, config, crosscheck, publish, validate
 
 log = logging.getLogger("prelude_data")
 
@@ -48,6 +48,11 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="prelude-data")
     parser.add_argument("--dry-run", action="store_true", help="build + validate, do not touch feed/ or git")
     parser.add_argument("--no-push", action="store_true", help="write feed/ but skip git commit/push")
+    parser.add_argument(
+        "--skip-crosscheck",
+        action="store_true",
+        help="skip the networked status cross-check (offline dev only — nightly runs it)",
+    )
     args = parser.parse_args(argv)
 
     setup_logging()
@@ -60,12 +65,21 @@ def main(argv: list[str] | None = None) -> int:
         return 2
 
     errors = validate.validate_feed(docs)
+    if not args.skip_crosscheck:
+        log.info("cross-checking curated statuses against market + our own pipeline ...")
+        errors.extend(
+            crosscheck.crosscheck_companies(
+                docs["companies.json"]["companies"], docs["pipeline.json"]["filings"]
+            )
+        )
+    else:
+        log.warning("cross-check SKIPPED (--skip-crosscheck)")
     if errors:
         log.error("VALIDATION REFUSED THE FEED — %d problem(s); last-good feed stays published:", len(errors))
         for e in errors:
             log.error("  - %s", e)
         return 1
-    log.info("validation passed for all %d products", len(docs))
+    log.info("validation + cross-check passed for all %d products", len(docs))
 
     if args.dry_run:
         staged = publish.write_feed(docs, feed_dir=config.STAGING_DIR / "v1")

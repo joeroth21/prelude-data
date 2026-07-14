@@ -28,6 +28,13 @@ ARK_HOLDINGS_URLS = {
 # Yahoo Finance unofficial chart endpoint (read-only, low volume; see README).
 YAHOO_CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
 
+# Yahoo Finance unofficial symbol search — used ONLY by the status cross-check
+# stage to detect companies marked private that resolve to a trading equity.
+YAHOO_SEARCH_URL = "https://query1.finance.yahoo.com/v1/finance/search?q={query}&quotesCount=6&newsCount=0"
+
+# A price observation within this window counts as "actively trading".
+CROSSCHECK_ACTIVE_DAYS = 7
+
 # Freshness thresholds used by the validation gate.
 MAX_PRICE_AGE_DAYS = 7          # exchange-traded quotes (weekend/holiday slack)
 MAX_NAV_AGE_DAYS = 400          # quarterly reporters + curation slack
