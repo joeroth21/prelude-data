@@ -1,0 +1,19 @@
+[project]
+name = "prelude-data"
+version = "0.1.0"
+description = "Data pipeline powering PRELUDE - private-markets intelligence. Compiles publicly available factual data for educational display."
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

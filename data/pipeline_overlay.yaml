@@ -1,0 +1,15 @@
+# Hand-curated overlay for the IPO pipeline — facts EDGAR can't provide.
+# Keyed by CIK; merged onto matching filings at build time. Every entry
+# must carry source_url and as_of. Edit by hand, cite everything.
+#
+# Schema per issuer:
+#   - cik: 1234567                       # integer CIK, no leading zeros
+#     expected_pricing_window: "2026-Q3" # or "2026-08-04/2026-08-08"
+#     ticker: XYZ
+#     exchange: NYSE | Nasdaq
+#     retail_brokers: [Robinhood, SoFi]  # confirmed retail allocation only
+#     notes: free-text factual note
+#     source_url: https://...            # where these facts were reported
+#     as_of: "2026-07-14"
+
+issuers: []

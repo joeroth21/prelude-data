@@ -1,0 +1,629 @@
+# PRELUDE curated company universe.
+#
+# Hand-maintained. Every valuation carries: amount, basis, as_of (when the
+# valuation event was reported), and source_url. `basis` values:
+#   priced_round    — a closed primary financing at this valuation
+#   secondary_sale  — employee/investor share sale at this valuation
+#   tender_offer    — company-organized tender at this valuation
+#   media_report    — widely reported figure not tied to one closed event
+#   public_market   — IPO/listing valuation (for listed status entries)
+# Figures reflect the latest publicly reported valuation known at
+# curated_as_of; several older last-known rounds are years old — that is the
+# honest state of private-market disclosure, and as_of says so.
+#
+# ipo_status: private | rumored | s1_filed | priced | listed
+
+curated_as_of: 2026-07-14
+notes: >-
+  Curated universe of late-stage private companies (plus a handful of 2025
+  listings kept for status continuity). Factual profiles only; educational
+  display. Source URLs point to stable public summaries which themselves
+  cite primary reporting.
+
+companies:
+  - id: openai
+    name: OpenAI
+    sector: Artificial Intelligence
+    profile: >-
+      Developer of the GPT model family and ChatGPT. Capped-profit structure
+      under a nonprofit parent, restructured 2025 into a public benefit
+      corporation with Microsoft as largest minority investor.
+    profile_source_url: https://en.wikipedia.org/wiki/OpenAI
+    ipo_status: private
+    valuation: {amount_usd_billions: 500, basis: secondary_sale, round_label: Employee share sale, as_of: 2025-10-01, source_url: https://en.wikipedia.org/wiki/OpenAI}
+
+  - id: anthropic
+    name: Anthropic
+    sector: Artificial Intelligence
+    profile: >-
+      AI safety and research company behind the Claude model family. Founded
+      2021 by former OpenAI researchers; backed by Google, Amazon, and others.
+    profile_source_url: https://en.wikipedia.org/wiki/Anthropic
+    ipo_status: private
+    valuation: {amount_usd_billions: 183, basis: priced_round, round_label: Series F, as_of: 2025-09-02, source_url: https://en.wikipedia.org/wiki/Anthropic}
+
+  - id: spacex
+    name: SpaceX
+    sector: Aerospace & Defense
+    profile: >-
+      Launch provider and operator of the Starlink satellite internet
+      constellation. A Starlink spin-off IPO has been publicly discussed by
+      leadership but never scheduled.
+    profile_source_url: https://en.wikipedia.org/wiki/SpaceX
+    ipo_status: private
+    valuation: {amount_usd_billions: 400, basis: secondary_sale, round_label: Employee tender, as_of: 2025-07-08, source_url: https://en.wikipedia.org/wiki/SpaceX}
+
+  - id: xai
+    name: xAI
+    sector: Artificial Intelligence
+    profile: >-
+      Elon Musk's AI company, developer of the Grok models; merged with X
+      Corp in 2025. Operates the Colossus training cluster in Memphis.
+    profile_source_url: https://en.wikipedia.org/wiki/XAI_(company)
+    ipo_status: private
+    valuation: {amount_usd_billions: 200, basis: media_report, round_label: Reported financing, as_of: 2025-12-01, source_url: https://en.wikipedia.org/wiki/XAI_(company)}
+
+  - id: stripe
+    name: Stripe
+    sector: Fintech
+    profile: >-
+      Payments infrastructure for internet businesses. Dublin/San Francisco
+      dual-headquartered; among the longest-standing IPO candidates.
+    profile_source_url: https://en.wikipedia.org/wiki/Stripe,_Inc.
+    ipo_status: private
+    valuation: {amount_usd_billions: 91.5, basis: tender_offer, round_label: Employee tender, as_of: 2025-02-27, source_url: https://en.wikipedia.org/wiki/Stripe,_Inc.}
+
+  - id: databricks
+    name: Databricks
+    sector: Data & AI Platform
+    profile: >-
+      Data lakehouse and AI platform company. Repeatedly cited by its CEO as
+      a future public company without a committed timeline.
+    profile_source_url: https://en.wikipedia.org/wiki/Databricks
+    ipo_status: rumored
+    ipo_status_source_url: https://en.wikipedia.org/wiki/Databricks
+    valuation: {amount_usd_billions: 100, basis: priced_round, round_label: Series K, as_of: 2025-09-08, source_url: https://en.wikipedia.org/wiki/Databricks}
+
+  - id: bytedance
+    name: ByteDance
+    sector: Consumer Internet
+    profile: >-
+      Parent of TikTok and Douyin. The largest private technology company by
+      revenue; periodic employee buybacks set its reference valuation.
+    profile_source_url: https://en.wikipedia.org/wiki/ByteDance
+    ipo_status: private
+    valuation: {amount_usd_billions: 300, basis: tender_offer, round_label: Employee buyback, as_of: 2024-12-01, source_url: https://en.wikipedia.org/wiki/ByteDance}
+
+  - id: shein
+    name: Shein
+    sector: E-commerce
+    profile: >-
+      Fast-fashion marketplace. Has pursued a listing across multiple venues
+      (US, London, Hong Kong) amid regulatory scrutiny; valuation reported
+      well below its 2023 round in subsequent coverage.
+    profile_source_url: https://en.wikipedia.org/wiki/Shein
+    ipo_status: rumored
+    ipo_status_source_url: https://en.wikipedia.org/wiki/Shein
+    valuation: {amount_usd_billions: 66, basis: priced_round, round_label: Series G, as_of: 2023-05-17, source_url: https://en.wikipedia.org/wiki/Shein}
+
+  - id: epic-games
+    name: Epic Games
+    sector: Gaming
+    profile: >-
+      Maker of Fortnite and Unreal Engine. Backed by Tencent, Sony, and
+      KIRKBI; Disney took a stake in 2024.
+    profile_source_url: https://en.wikipedia.org/wiki/Epic_Games
+    ipo_status: private
+    valuation: {amount_usd_billions: 22.5, basis: priced_round, round_label: 2022 financing, as_of: 2022-04-11, source_url: https://en.wikipedia.org/wiki/Epic_Games}
+
+  - id: canva
+    name: Canva
+    sector: Design Software
+    profile: >-
+      Visual communication and design platform, Sydney-based, cash-flow
+      positive with recurring employee liquidity programs.
+    profile_source_url: https://en.wikipedia.org/wiki/Canva
+    ipo_status: private
+    valuation: {amount_usd_billions: 42, basis: secondary_sale, round_label: Employee share sale, as_of: 2025-10-01, source_url: https://en.wikipedia.org/wiki/Canva}
+
+  - id: revolut
+    name: Revolut
+    sector: Fintech
+    profile: >-
+      London-based global neobank with 50m+ customers; holds a UK banking
+      licence (restricted) since 2024. US listing intent widely reported.
+    profile_source_url: https://en.wikipedia.org/wiki/Revolut
+    ipo_status: rumored
+    ipo_status_source_url: https://en.wikipedia.org/wiki/Revolut
+    valuation: {amount_usd_billions: 75, basis: secondary_sale, round_label: Employee share sale, as_of: 2025-11-01, source_url: https://en.wikipedia.org/wiki/Revolut}
+
+  - id: figure-ai
+    name: Figure AI
+    sector: Robotics
+    profile: >-
+      Humanoid robotics company developing the Figure robot line for
+      commercial and industrial deployment.
+    profile_source_url: https://en.wikipedia.org/wiki/Figure_AI
+    ipo_status: private
+    valuation: {amount_usd_billions: 39, basis: priced_round, round_label: Series C, as_of: 2025-09-16, source_url: https://en.wikipedia.org/wiki/Figure_AI}
+
+  - id: scale-ai
+    name: Scale AI
+    sector: Artificial Intelligence
+    profile: >-
+      Data labeling and evaluation infrastructure for AI. Meta acquired a 49%
+      stake in June 2025; founder Alexandr Wang departed to Meta.
+    profile_source_url: https://en.wikipedia.org/wiki/Scale_AI
+    ipo_status: private
+    valuation: {amount_usd_billions: 29, basis: priced_round, round_label: Meta strategic investment, as_of: 2025-06-13, source_url: https://en.wikipedia.org/wiki/Scale_AI}
+
+  - id: perplexity
+    name: Perplexity
+    sector: Artificial Intelligence
+    profile: >-
+      AI-powered answer engine and search product; rapid 2024-2025 fundraising
+      cadence across multiple rounds.
+    profile_source_url: https://en.wikipedia.org/wiki/Perplexity_AI
+    ipo_status: private
+    valuation: {amount_usd_billions: 20, basis: priced_round, round_label: 2025 financing, as_of: 2025-09-10, source_url: https://en.wikipedia.org/wiki/Perplexity_AI}
+
+  - id: safe-superintelligence
+    name: Safe Superintelligence
+    sector: Artificial Intelligence
+    profile: >-
+      Research lab founded 2024 by Ilya Sutskever with the stated single goal
+      of building safe superintelligence; no commercial product.
+    profile_source_url: https://en.wikipedia.org/wiki/Safe_Superintelligence
+    ipo_status: private
+    valuation: {amount_usd_billions: 32, basis: priced_round, round_label: 2025 financing, as_of: 2025-04-12, source_url: https://en.wikipedia.org/wiki/Safe_Superintelligence}
+
+  - id: mistral-ai
+    name: Mistral AI
+    sector: Artificial Intelligence
+    profile: >-
+      Paris-based open-weight model developer; Europe's most valuable AI
+      startup, with ASML as lead strategic investor since 2025.
+    profile_source_url: https://en.wikipedia.org/wiki/Mistral_AI
+    ipo_status: private
+    valuation: {amount_usd_billions: 13.7, basis: priced_round, round_label: Series C, as_of: 2025-09-09, source_url: https://en.wikipedia.org/wiki/Mistral_AI}
+
+  - id: cohere
+    name: Cohere
+    sector: Artificial Intelligence
+    profile: >-
+      Toronto-based enterprise AI company focused on secure, private model
+      deployment for business and government.
+    profile_source_url: https://en.wikipedia.org/wiki/Cohere
+    ipo_status: private
+    valuation: {amount_usd_billions: 6.8, basis: priced_round, round_label: 2025 financing, as_of: 2025-08-14, source_url: https://en.wikipedia.org/wiki/Cohere}
+
+  - id: groq
+    name: Groq
+    sector: AI Semiconductors
+    profile: >-
+      Inference-focused chip company (LPU architecture) selling fast
+      inference via GroqCloud.
+    profile_source_url: https://en.wikipedia.org/wiki/Groq
+    ipo_status: private
+    valuation: {amount_usd_billions: 6.9, basis: priced_round, round_label: 2025 financing, as_of: 2025-09-17, source_url: https://en.wikipedia.org/wiki/Groq}
+
+  - id: cerebras
+    name: Cerebras Systems
+    sector: AI Semiconductors
+    profile: >-
+      Wafer-scale AI compute company. Filed an S-1 in 2024, withdrew it in
+      2025 after raising private capital instead.
+    profile_source_url: https://en.wikipedia.org/wiki/Cerebras
+    ipo_status: private
+    valuation: {amount_usd_billions: 8.1, basis: priced_round, round_label: Series G, as_of: 2025-09-30, source_url: https://en.wikipedia.org/wiki/Cerebras}
+
+  - id: neuralink
+    name: Neuralink
+    sector: Neurotechnology
+    profile: >-
+      Brain-computer interface company running human clinical trials of its
+      implant since 2024.
+    profile_source_url: https://en.wikipedia.org/wiki/Neuralink
+    ipo_status: private
+    valuation: {amount_usd_billions: 9, basis: priced_round, round_label: Series E, as_of: 2025-06-02, source_url: https://en.wikipedia.org/wiki/Neuralink}
+
+  - id: the-boring-company
+    name: The Boring Company
+    sector: Infrastructure
+    profile: >-
+      Tunneling and underground transit company; operates the Las Vegas
+      Convention Center Loop.
+    profile_source_url: https://en.wikipedia.org/wiki/The_Boring_Company
+    ipo_status: private
+    valuation: {amount_usd_billions: 5.7, basis: priced_round, round_label: Series C, as_of: 2022-04-20, source_url: https://en.wikipedia.org/wiki/The_Boring_Company}
+
+  - id: rippling
+    name: Rippling
+    sector: HR & Finance Software
+    profile: >-
+      Workforce management platform spanning HR, IT, and finance.
+    profile_source_url: https://en.wikipedia.org/wiki/Rippling
+    ipo_status: private
+    valuation: {amount_usd_billions: 16.8, basis: priced_round, round_label: Series G, as_of: 2025-05-16, source_url: https://en.wikipedia.org/wiki/Rippling}
+
+  - id: deel
+    name: Deel
+    sector: HR Software
+    profile: >-
+      Global payroll and employer-of-record platform.
+    profile_source_url: https://en.wikipedia.org/wiki/Deel
+    ipo_status: private
+    valuation: {amount_usd_billions: 12.6, basis: priced_round, round_label: 2025 financing, as_of: 2025-08-19, source_url: https://en.wikipedia.org/wiki/Deel}
+
+  - id: gusto
+    name: Gusto
+    sector: HR Software
+    profile: >-
+      Payroll and benefits platform for small businesses.
+    profile_source_url: https://en.wikipedia.org/wiki/Gusto,_Inc.
+    ipo_status: private
+    valuation: {amount_usd_billions: 9.5, basis: priced_round, round_label: Series E extension, as_of: 2021-08-10, source_url: https://en.wikipedia.org/wiki/Gusto,_Inc.}
+
+  - id: plaid
+    name: Plaid
+    sector: Fintech
+    profile: >-
+      Bank-account connectivity APIs for fintech apps; 2025 secondary reset
+      its reference valuation below the 2021 round.
+    profile_source_url: https://en.wikipedia.org/wiki/Plaid_Inc.
+    ipo_status: private
+    valuation: {amount_usd_billions: 6.1, basis: secondary_sale, round_label: Employee share sale, as_of: 2025-04-03, source_url: https://en.wikipedia.org/wiki/Plaid_Inc.}
+
+  - id: brex
+    name: Brex
+    sector: Fintech
+    profile: >-
+      Corporate cards and spend management for startups and enterprises.
+    profile_source_url: https://en.wikipedia.org/wiki/Brex
+    ipo_status: private
+    valuation: {amount_usd_billions: 12.3, basis: priced_round, round_label: Series D-2, as_of: 2022-01-11, source_url: https://en.wikipedia.org/wiki/Brex}
+
+  - id: ramp
+    name: Ramp
+    sector: Fintech
+    profile: >-
+      Spend management and corporate card platform; one of the fastest
+      valuation ramps of the 2024-2025 private market.
+    profile_source_url: https://en.wikipedia.org/wiki/Ramp_(company)
+    ipo_status: private
+    valuation: {amount_usd_billions: 22.5, basis: secondary_sale, round_label: Employee share sale, as_of: 2025-09-04, source_url: https://en.wikipedia.org/wiki/Ramp_(company)}
+
+  - id: airtable
+    name: Airtable
+    sector: Productivity Software
+    profile: >-
+      No-code app-building and database platform.
+    profile_source_url: https://en.wikipedia.org/wiki/Airtable
+    ipo_status: private
+    valuation: {amount_usd_billions: 11.7, basis: priced_round, round_label: Series F, as_of: 2021-12-13, source_url: https://en.wikipedia.org/wiki/Airtable}
+
+  - id: notion
+    name: Notion
+    sector: Productivity Software
+    profile: >-
+      Connected workspace for docs, wikis, and projects.
+    profile_source_url: https://en.wikipedia.org/wiki/Notion_(productivity_software)
+    ipo_status: private
+    valuation: {amount_usd_billions: 10, basis: priced_round, round_label: Series C, as_of: 2021-10-08, source_url: https://en.wikipedia.org/wiki/Notion_(productivity_software)}
+
+  - id: grammarly
+    name: Grammarly
+    sector: Productivity Software
+    profile: >-
+      AI writing assistant; acquired Coda in 2024 and Superhuman in 2025.
+    profile_source_url: https://en.wikipedia.org/wiki/Grammarly
+    ipo_status: private
+    valuation: {amount_usd_billions: 13, basis: priced_round, round_label: 2021 financing, as_of: 2021-11-17, source_url: https://en.wikipedia.org/wiki/Grammarly}
+
+  - id: discord
+    name: Discord
+    sector: Consumer Internet
+    profile: >-
+      Voice/video/text community platform; IPO preparation reported by
+      multiple outlets in 2025.
+    profile_source_url: https://en.wikipedia.org/wiki/Discord
+    ipo_status: rumored
+    ipo_status_source_url: https://en.wikipedia.org/wiki/Discord
+    valuation: {amount_usd_billions: 15, basis: priced_round, round_label: Series H, as_of: 2021-09-15, source_url: https://en.wikipedia.org/wiki/Discord}
+
+  - id: anysphere
+    name: Anysphere (Cursor)
+    sector: Developer Tools
+    profile: >-
+      Maker of the Cursor AI code editor; among the fastest companies to
+      $1B+ annualized revenue.
+    profile_source_url: https://en.wikipedia.org/wiki/Cursor_(code_editor)
+    ipo_status: private
+    valuation: {amount_usd_billions: 29.3, basis: priced_round, round_label: Series D, as_of: 2025-11-13, source_url: https://en.wikipedia.org/wiki/Cursor_(code_editor)}
+
+  - id: glean
+    name: Glean
+    sector: Enterprise AI
+    profile: >-
+      Enterprise search and work AI assistant across company knowledge.
+    profile_source_url: https://en.wikipedia.org/wiki/Glean_Technologies
+    ipo_status: private
+    valuation: {amount_usd_billions: 7.2, basis: priced_round, round_label: Series F, as_of: 2025-06-10, source_url: https://en.wikipedia.org/wiki/Glean_Technologies
+    }
+
+  - id: harvey
+    name: Harvey
+    sector: Legal AI
+    profile: >-
+      AI platform for law firms and professional services.
+    profile_source_url: https://en.wikipedia.org/wiki/Harvey_(software)
+    ipo_status: private
+    valuation: {amount_usd_billions: 5, basis: priced_round, round_label: Series E, as_of: 2025-06-23, source_url: https://en.wikipedia.org/wiki/Harvey_(software)}
+
+  - id: elevenlabs
+    name: ElevenLabs
+    sector: Artificial Intelligence
+    profile: >-
+      AI voice synthesis and audio platform.
+    profile_source_url: https://en.wikipedia.org/wiki/ElevenLabs
+    ipo_status: private
+    valuation: {amount_usd_billions: 6.6, basis: media_report, round_label: Reported tender, as_of: 2025-11-01, source_url: https://en.wikipedia.org/wiki/ElevenLabs}
+
+  - id: snyk
+    name: Snyk
+    sector: Cybersecurity
+    profile: >-
+      Developer-first security platform for code and dependencies.
+    profile_source_url: https://en.wikipedia.org/wiki/Snyk
+    ipo_status: private
+    valuation: {amount_usd_billions: 7.4, basis: priced_round, round_label: Series G, as_of: 2022-12-12, source_url: https://en.wikipedia.org/wiki/Snyk}
+
+  - id: vercel
+    name: Vercel
+    sector: Developer Tools
+    profile: >-
+      Frontend cloud platform and steward of the Next.js framework.
+    profile_source_url: https://en.wikipedia.org/wiki/Vercel
+    ipo_status: private
+    valuation: {amount_usd_billions: 9.3, basis: priced_round, round_label: Series F, as_of: 2025-09-24, source_url: https://en.wikipedia.org/wiki/Vercel}
+
+  - id: hugging-face
+    name: Hugging Face
+    sector: Artificial Intelligence
+    profile: >-
+      Open model hub and ML tooling community.
+    profile_source_url: https://en.wikipedia.org/wiki/Hugging_Face
+    ipo_status: private
+    valuation: {amount_usd_billions: 4.5, basis: priced_round, round_label: Series D, as_of: 2023-08-24, source_url: https://en.wikipedia.org/wiki/Hugging_Face}
+
+  - id: together-ai
+    name: Together AI
+    sector: AI Infrastructure
+    profile: >-
+      Cloud platform for open-source model training and inference.
+    profile_source_url: https://www.together.ai/blog
+    ipo_status: private
+    valuation: {amount_usd_billions: 3.3, basis: priced_round, round_label: Series B, as_of: 2025-02-20, source_url: https://www.together.ai/blog}
+
+  - id: lambda
+    name: Lambda
+    sector: AI Infrastructure
+    profile: >-
+      GPU cloud for AI training and inference workloads.
+    profile_source_url: https://lambda.ai/blog
+    ipo_status: private
+    valuation: {amount_usd_billions: 2.5, basis: priced_round, round_label: Series D, as_of: 2025-02-19, source_url: https://lambda.ai/blog}
+
+  - id: crusoe
+    name: Crusoe
+    sector: AI Infrastructure
+    profile: >-
+      AI data-center developer (Stargate Abilene anchor builder), originally
+      a flared-gas compute company.
+    profile_source_url: https://crusoe.ai/newsroom
+    ipo_status: private
+    valuation: {amount_usd_billions: 10, basis: media_report, round_label: Reported 2025 financing, as_of: 2025-11-01, source_url: https://crusoe.ai/newsroom}
+
+  - id: vast-data
+    name: VAST Data
+    sector: Data Infrastructure
+    profile: >-
+      AI-era data platform (storage, database, compute fabric).
+    profile_source_url: https://en.wikipedia.org/wiki/VAST_Data
+    ipo_status: private
+    valuation: {amount_usd_billions: 9.1, basis: priced_round, round_label: Series E, as_of: 2023-12-05, source_url: https://en.wikipedia.org/wiki/VAST_Data}
+
+  - id: shield-ai
+    name: Shield AI
+    sector: Defense Technology
+    profile: >-
+      Autonomy software (Hivemind) and V-BAT aircraft for defense.
+    profile_source_url: https://en.wikipedia.org/wiki/Shield_AI
+    ipo_status: private
+    valuation: {amount_usd_billions: 5.3, basis: priced_round, round_label: Series F-1, as_of: 2025-03-06, source_url: https://en.wikipedia.org/wiki/Shield_AI}
+
+  - id: anduril
+    name: Anduril Industries
+    sector: Defense Technology
+    profile: >-
+      Defense products company (Lattice OS, autonomous systems); a founder
+      has repeatedly described an eventual IPO as the plan.
+    profile_source_url: https://en.wikipedia.org/wiki/Anduril_Industries
+    ipo_status: rumored
+    ipo_status_source_url: https://en.wikipedia.org/wiki/Anduril_Industries
+    valuation: {amount_usd_billions: 30.5, basis: priced_round, round_label: Series G, as_of: 2025-06-05, source_url: https://en.wikipedia.org/wiki/Anduril_Industries}
+
+  - id: flexport
+    name: Flexport
+    sector: Logistics
+    profile: >-
+      Digital freight forwarding and supply-chain platform.
+    profile_source_url: https://en.wikipedia.org/wiki/Flexport
+    ipo_status: private
+    valuation: {amount_usd_billions: 8, basis: priced_round, round_label: Series E, as_of: 2022-02-07, source_url: https://en.wikipedia.org/wiki/Flexport}
+
+  - id: sierra
+    name: Sierra
+    sector: Enterprise AI
+    profile: >-
+      Conversational AI agents for customer experience, co-founded by Bret
+      Taylor.
+    profile_source_url: https://sierra.ai/blog
+    ipo_status: private
+    valuation: {amount_usd_billions: 10, basis: priced_round, round_label: 2025 financing, as_of: 2025-10-09, source_url: https://sierra.ai/blog}
+
+  - id: thinking-machines-lab
+    name: Thinking Machines Lab
+    sector: Artificial Intelligence
+    profile: >-
+      AI research company founded 2025 by Mira Murati; raised a record seed
+      round before shipping product.
+    profile_source_url: https://en.wikipedia.org/wiki/Thinking_Machines_Lab
+    ipo_status: private
+    valuation: {amount_usd_billions: 12, basis: priced_round, round_label: Seed, as_of: 2025-07-15, source_url: https://en.wikipedia.org/wiki/Thinking_Machines_Lab}
+
+  - id: polymarket
+    name: Polymarket
+    sector: Prediction Markets
+    profile: >-
+      Crypto-settled prediction market; ICE (NYSE parent) announced a
+      strategic investment in 2025 alongside its US re-entry.
+    profile_source_url: https://en.wikipedia.org/wiki/Polymarket
+    ipo_status: private
+    valuation: {amount_usd_billions: 8, basis: priced_round, round_label: ICE strategic investment, as_of: 2025-10-07, source_url: https://en.wikipedia.org/wiki/Polymarket}
+
+  - id: kalshi
+    name: Kalshi
+    sector: Prediction Markets
+    profile: >-
+      CFTC-regulated event-contract exchange.
+    profile_source_url: https://en.wikipedia.org/wiki/Kalshi
+    ipo_status: private
+    valuation: {amount_usd_billions: 5, basis: priced_round, round_label: Series D, as_of: 2025-10-10, source_url: https://en.wikipedia.org/wiki/Kalshi}
+
+  - id: kraken
+    name: Kraken
+    sector: Crypto
+    profile: >-
+      US crypto exchange; a public listing has been repeatedly reported as
+      under consideration.
+    profile_source_url: https://en.wikipedia.org/wiki/Kraken_(company)
+    ipo_status: rumored
+    ipo_status_source_url: https://en.wikipedia.org/wiki/Kraken_(company)
+    valuation: {amount_usd_billions: 15, basis: media_report, round_label: Reported 2025 financing, as_of: 2025-07-25, source_url: https://en.wikipedia.org/wiki/Kraken_(company)}
+
+  - id: ripple
+    name: Ripple
+    sector: Crypto
+    profile: >-
+      Enterprise blockchain payments company associated with the XRP ledger.
+    profile_source_url: https://en.wikipedia.org/wiki/Ripple_Labs
+    ipo_status: private
+    valuation: {amount_usd_billions: 40, basis: media_report, round_label: Reported tender, as_of: 2025-11-05, source_url: https://en.wikipedia.org/wiki/Ripple_Labs}
+
+  - id: chainguard
+    name: Chainguard
+    sector: Cybersecurity
+    profile: >-
+      Secure software supply chain (hardened container images).
+    profile_source_url: https://en.wikipedia.org/wiki/Chainguard
+    ipo_status: private
+    valuation: {amount_usd_billions: 3.5, basis: priced_round, round_label: Series D, as_of: 2025-04-23, source_url: https://en.wikipedia.org/wiki/Chainguard}
+
+  - id: fanatics
+    name: Fanatics
+    sector: Sports Commerce
+    profile: >-
+      Licensed sports merchandise, collectibles, and betting platform.
+    profile_source_url: https://en.wikipedia.org/wiki/Fanatics,_Inc.
+    ipo_status: private
+    valuation: {amount_usd_billions: 31, basis: priced_round, round_label: 2022 financing, as_of: 2022-12-06, source_url: https://en.wikipedia.org/wiki/Fanatics,_Inc.}
+
+  - id: waymo
+    name: Waymo
+    sector: Autonomous Vehicles
+    profile: >-
+      Alphabet's autonomous ride-hailing subsidiary with external investors;
+      operates driverless services in multiple US metros.
+    profile_source_url: https://en.wikipedia.org/wiki/Waymo
+    ipo_status: private
+    valuation: {amount_usd_billions: 45, basis: priced_round, round_label: External round (Alphabet subsidiary), as_of: 2024-10-25, source_url: https://en.wikipedia.org/wiki/Waymo}
+
+  - id: klarna
+    name: Klarna
+    sector: Fintech
+    profile: >-
+      Swedish buy-now-pay-later and banking company; listed on NYSE in
+      September 2025.
+    profile_source_url: https://en.wikipedia.org/wiki/Klarna
+    ipo_status: listed
+    listed_ticker: KLAR
+    ipo_status_source_url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=klarna&type=F-1&dateb=&owner=include&count=10
+    valuation: {amount_usd_billions: 15.1, basis: public_market, round_label: IPO pricing, as_of: 2025-09-10, source_url: https://en.wikipedia.org/wiki/Klarna}
+
+  - id: coreweave
+    name: CoreWeave
+    sector: AI Infrastructure
+    profile: >-
+      GPU cloud provider; listed on Nasdaq in March 2025.
+    profile_source_url: https://en.wikipedia.org/wiki/CoreWeave
+    ipo_status: listed
+    listed_ticker: CRWV
+    valuation: {amount_usd_billions: 23, basis: public_market, round_label: IPO pricing, as_of: 2025-03-28, source_url: https://en.wikipedia.org/wiki/CoreWeave}
+
+  - id: figma
+    name: Figma
+    sector: Design Software
+    profile: >-
+      Collaborative design platform; listed on NYSE in July 2025.
+    profile_source_url: https://en.wikipedia.org/wiki/Figma
+    ipo_status: listed
+    listed_ticker: FIG
+    valuation: {amount_usd_billions: 19.3, basis: public_market, round_label: IPO pricing, as_of: 2025-07-31, source_url: https://en.wikipedia.org/wiki/Figma}
+
+  - id: circle
+    name: Circle
+    sector: Crypto / Fintech
+    profile: >-
+      Issuer of the USDC stablecoin; listed on NYSE in June 2025.
+    profile_source_url: https://en.wikipedia.org/wiki/Circle_(company)
+    ipo_status: listed
+    listed_ticker: CRCL
+    valuation: {amount_usd_billions: 6.9, basis: public_market, round_label: IPO pricing, as_of: 2025-06-05, source_url: https://en.wikipedia.org/wiki/Circle_(company)}
+
+  - id: chime
+    name: Chime
+    sector: Fintech
+    profile: >-
+      US consumer neobank; listed on Nasdaq in June 2025.
+    profile_source_url: https://en.wikipedia.org/wiki/Chime_(company)
+    ipo_status: listed
+    listed_ticker: CHYM
+    valuation: {amount_usd_billions: 11.6, basis: public_market, round_label: IPO pricing, as_of: 2025-06-12, source_url: https://en.wikipedia.org/wiki/Chime_(company)}
+
+  - id: tenstorrent
+    name: Tenstorrent
+    sector: AI Semiconductors
+    profile: >-
+      RISC-V and AI accelerator company led by Jim Keller.
+    profile_source_url: https://en.wikipedia.org/wiki/Tenstorrent
+    ipo_status: private
+    valuation: {amount_usd_billions: 2.6, basis: priced_round, round_label: Series D, as_of: 2024-12-02, source_url: https://en.wikipedia.org/wiki/Tenstorrent}
+
+  - id: gopuff
+    name: Gopuff
+    sector: Consumer Delivery
+    profile: >-
+      Instant-needs delivery platform.
+    profile_source_url: https://en.wikipedia.org/wiki/Gopuff
+    ipo_status: private
+    valuation: {amount_usd_billions: 15, basis: priced_round, round_label: 2021 financing, as_of: 2021-07-30, source_url: https://en.wikipedia.org/wiki/Gopuff}
+
+  - id: automation-anywhere
+    name: Automation Anywhere
+    sector: Enterprise Software
+    profile: >-
+      Robotic process automation platform.
+    profile_source_url: https://en.wikipedia.org/wiki/Automation_Anywhere
+    ipo_status: private
+    valuation: {amount_usd_billions: 6.8, basis: priced_round, round_label: Series B, as_of: 2019-11-21, source_url: https://en.wikipedia.org/wiki/Automation_Anywhere}

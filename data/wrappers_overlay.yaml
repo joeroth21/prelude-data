@@ -1,0 +1,24 @@
+# Hand-updated changing values for wrappers — currently NAV marks that are
+# published in SEC filings but not machine-readable. Every entry carries the
+# exact filing it came from. Update cadence: check quarterly (these funds
+# report NAV quarterly); the validation gate refuses NAVs older than 400 days.
+
+navs:
+  - id: dxyz
+    nav_per_share: 24.56
+    currency: USD
+    as_of: "2026-03-31"
+    source: >-
+      Destiny Tech100 prospectus supplement (424B3) filed 2026-05-12:
+      "our net asset value as of March 31, 2026, is $24.56 per share".
+    source_url: https://www.sec.gov/Archives/edgar/data/1843974/000157587226000288/dxyz100_424b3.htm
+
+  - id: ssss
+    nav_per_share: 14.24
+    currency: USD
+    as_of: "2026-03-31"
+    source: >-
+      SuRo Capital Form 10-Q for the quarter ended 2026-03-31 (filed
+      2026-05-06), condensed consolidated statements of assets and
+      liabilities: net asset value per share $14.24.
+    source_url: https://www.sec.gov/Archives/edgar/data/1509470/000149315226021430/form10-q.htm

@@ -1,0 +1,164 @@
+# Retail-accessible vehicles with private-company exposure. Static facts —
+# structure, fees, liquidity terms — live here with sources. Changing values
+# (NAV marks) live in wrappers_overlay.yaml. Live values (market price,
+# ARK holdings) are fetched at run time.
+#
+# nav_mode: quote_is_nav  — fund transacts at NAV; NAV taken from its quote
+# nav_expected: false     — issuer publishes NAV, but not machine-readably;
+#                           premium_to_nav is marked unavailable rather than
+#                           computed from a stale guess.
+
+notes: >-
+  Factual descriptions of investment vehicle structures and terms compiled
+  from issuer disclosures. Educational display only; nothing here is a
+  recommendation. Fee and liquidity facts are hand-curated from the cited
+  sources and re-verified on the curation cadence in the README.
+
+wrappers:
+  - id: arkvx
+    name: ARK Venture Fund
+    structure: closed_end_interval_fund
+    ticker: null
+    exchange: null
+    quote_symbol: ARKVX
+    nav_mode: quote_is_nav
+    issuer_url: https://ark-funds.com/funds/arkvx
+    holdings_mode: ark_csv
+    ark_fund: ARKVX
+    fees:
+      expense_ratio_pct: 2.90
+      description: >-
+        Total annual expense ratio per issuer materials; verify current
+        figure in the prospectus at the source URL.
+      source_url: https://ark-funds.com/funds/arkvx
+      as_of: "2026-07-14"
+    liquidity:
+      terms: >-
+        Interval fund: no exchange listing; quarterly repurchase offers of
+        approximately 5% of outstanding shares at NAV. Purchases available
+        through participating brokerages at NAV daily; redemptions only via
+        the quarterly windows.
+      source_url: https://ark-funds.com/funds/arkvx
+      as_of: "2026-07-14"
+    private_exposure_notes: >-
+      Venture portfolio including SpaceX, OpenAI, Anthropic, Stripe and
+      other late-stage private companies; see live holdings block.
+
+  - id: dxyz
+    name: Destiny Tech100
+    structure: listed_closed_end_fund
+    ticker: DXYZ
+    exchange: NYSE
+    quote_symbol: DXYZ
+    issuer_url: https://destiny.xyz/tech100
+    fees:
+      expense_ratio_pct: 2.5
+      description: >-
+        Management fee per registration statement; see the fund's N-2
+        filings on EDGAR for the current fee table.
+      source_url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001843974&type=N-2&dateb=&owner=include&count=10
+      as_of: "2026-07-14"
+    liquidity:
+      terms: >-
+        Exchange-listed closed-end fund: shares trade intraday on NYSE at
+        market price, which can differ substantially from NAV in either
+        direction. No redemption right at NAV.
+      source_url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001843974&type=N-2&dateb=&owner=include&count=10
+      as_of: "2026-07-14"
+    private_exposure_notes: >-
+      Portfolio of roughly two dozen late-stage private companies; SpaceX
+      and OpenAI have been its largest disclosed positions. Holdings and NAV
+      are disclosed in SEC filings (N-PORT, 424B3 supplements).
+
+  - id: xovr
+    name: ERShares Private-Public Crossover ETF
+    structure: exchange_traded_fund
+    ticker: XOVR
+    exchange: Nasdaq
+    quote_symbol: XOVR
+    nav_expected: false
+    nav_note: >-
+      The issuer publishes NAV and premium/discount information on its site
+      and in filings, but not in a machine-readable feed this pipeline can
+      cite; premium_to_nav is therefore marked unavailable rather than
+      computed against a stale figure. ETF creation/redemption arbitrage
+      typically keeps market price near NAV.
+    issuer_url: https://entrepreneurshares.com/xovr-etf/
+    fees:
+      expense_ratio_pct: 0.75
+      description: Ongoing management fee stated by the issuer (0.75% annually).
+      source_url: https://entrepreneurshares.com/xovr-etf/
+      as_of: "2026-07-14"
+    liquidity:
+      terms: >-
+        ETF: trades intraday on Nasdaq with standard T+1 settlement. Private
+        exposure is held via an SPV inside the fund; the fund itself remains
+        exchange-liquid.
+      source_url: https://entrepreneurshares.com/xovr-etf/
+      as_of: "2026-07-14"
+    private_exposure_notes: >-
+      SPV exposure to SpaceX was 44.65% of the fund as of 2026-03-31 per the
+      issuer's published Top 10 Holdings.
+    holdings_curated:
+      as_of: "2026-03-31"
+      source: ERShares published Top 10 Holdings (PDF)
+      source_url: https://entrepreneurshares.com/wp-content/uploads/2026/04/Top-10-Holdings-03.31.26.pdf
+      top_holdings:
+        - {name: "SPV exposure to SpaceX, LLC", ticker: null, weight_pct: 44.65, as_of: "2026-03-31"}
+        - {name: "NVIDIA Corp", ticker: NVDA, weight_pct: 4.22, as_of: "2026-03-31"}
+        - {name: "Meta Platforms Inc", ticker: META, weight_pct: 3.48, as_of: "2026-03-31"}
+        - {name: "Ubiquiti Inc", ticker: UI, weight_pct: 2.91, as_of: "2026-03-31"}
+        - {name: "Arista Networks Inc", ticker: ANET, weight_pct: 2.70, as_of: "2026-03-31"}
+
+  - id: ssss
+    name: SuRo Capital
+    structure: listed_business_development_company
+    ticker: SSSS
+    exchange: Nasdaq
+    quote_symbol: SSSS
+    issuer_url: https://suro.com/
+    fees:
+      expense_ratio_pct: null
+      description: >-
+        Internally managed BDC: no external management fee; fund-level
+        operating expenses are reported in its SEC filings (see 10-K/10-Q).
+      source_url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509470&type=10-K&dateb=&owner=include&count=10
+      as_of: "2026-07-14"
+    liquidity:
+      terms: >-
+        Exchange-listed BDC: shares trade intraday on Nasdaq at market
+        price, which can differ substantially from NAV. No redemption right
+        at NAV.
+      source_url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509470&type=10-K&dateb=&owner=include&count=10
+      as_of: "2026-07-14"
+    private_exposure_notes: >-
+      Venture-stage portfolio; OpenAI (via SPVs), CoreWeave-adjacent and
+      other late-stage names have featured among its largest positions per
+      quarterly filings.
+
+  - id: fundrise-innovation
+    name: Fundrise Innovation Fund
+    structure: closed_end_interval_fund
+    ticker: null
+    exchange: null
+    nav_expected: false
+    nav_note: >-
+      Share price (NAV) is published to platform account holders; there is
+      no public machine-readable NAV feed to cite, so NAV and
+      premium_to_nav are marked unavailable here.
+    issuer_url: https://fundrise.com/innovation
+    fees:
+      expense_ratio_pct: 1.85
+      description: Flat annual management fee stated by the issuer (1.85%).
+      source_url: https://fundrise.com/innovation
+      as_of: "2026-07-14"
+    liquidity:
+      terms: >-
+        Non-listed fund offered through the Fundrise platform: purchases at
+        NAV; liquidity via periodic repurchase offers under the fund's
+        repurchase program, not guaranteed. See offering circular.
+      source_url: https://fundrise.com/innovation
+      as_of: "2026-07-14"
+    private_exposure_notes: >-
+      Disclosed portfolio has included OpenAI, Anthropic, Anduril,
+      Databricks and Canva per the issuer's public fund page.
