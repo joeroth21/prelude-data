@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-14T15:43:44+00:00",
-  "as_of": "2026-07-14T15:43:44+00:00",
+  "generated_at": "2026-07-14T23:22:30+00:00",
+  "as_of": "2026-07-14T23:22:30+00:00",
   "notes": "Factual descriptions of investment vehicle structures and terms compiled from issuer disclosures. Educational display only; nothing here is a recommendation. Fee and liquidity facts are hand-curated from the cited sources and re-verified on the curation cadence in the README.",
   "wrappers": [
     {
@@ -22,14 +22,14 @@
         "source_url": "https://ark-funds.com/funds/arkvx",
         "as_of": "2026-07-14"
       },
-      "private_exposure_notes": "Venture portfolio including SpaceX, OpenAI, Anthropic, Stripe and other late-stage private companies; see live holdings block.",
+      "private_exposure_notes": "Venture portfolio including OpenAI, Anthropic, Stripe and other late-stage private companies; its SpaceX position became publicly traded stock at the June 2026 SPCX listing. See live holdings block.",
       "nav_expected": true,
       "nav_note": null,
       "market_price": null,
       "nav_per_share": {
-        "value": 56.01,
+        "value": 56.03,
         "currency": "USD",
-        "as_of": "2026-07-14T12:05:07+00:00",
+        "as_of": "2026-07-14T22:45:08+00:00",
         "source": "Fund transacts at NAV; NAV via Yahoo Finance quote",
         "source_url": "https://finance.yahoo.com/quote/ARKVX"
       },
@@ -155,9 +155,9 @@
       "nav_expected": true,
       "nav_note": null,
       "market_price": {
-        "value": 25.925,
+        "value": 25.95,
         "currency": "USD",
-        "as_of": "2026-07-14T15:43:22+00:00",
+        "as_of": "2026-07-14T20:03:50+00:00",
         "source": "Yahoo Finance quote (unofficial endpoint)",
         "source_url": "https://finance.yahoo.com/quote/DXYZ"
       },
@@ -168,10 +168,10 @@
         "source": "Destiny Tech100 prospectus supplement (424B3) filed 2026-05-12: \"our net asset value as of March 31, 2026, is $24.56 per share\".",
         "source_url": "https://www.sec.gov/Archives/edgar/data/1843974/000157587226000288/dxyz100_424b3.htm"
       },
-      "premium_to_nav_pct": 5.56,
-      "premium_to_nav_calculation": "premium_to_nav_pct = (market_price 25.925 - nav_per_share 24.56) / 24.56 * 100 = 5.56%",
+      "premium_to_nav_pct": 5.66,
+      "premium_to_nav_calculation": "premium_to_nav_pct = (market_price 25.95 - nav_per_share 24.56) / 24.56 * 100 = 5.66%",
       "premium_to_nav_inputs_as_of": {
-        "market_price": "2026-07-14T15:43:22+00:00",
+        "market_price": "2026-07-14T20:03:50+00:00",
         "nav_per_share": "2026-03-31"
       },
       "holdings": null
@@ -194,13 +194,13 @@
         "source_url": "https://entrepreneurshares.com/xovr-etf/",
         "as_of": "2026-07-14"
       },
-      "private_exposure_notes": "SPV exposure to SpaceX was 44.65% of the fund as of 2026-03-31 per the issuer's published Top 10 Holdings.",
+      "private_exposure_notes": "SPV exposure to SpaceX was 44.65% of the fund as of 2026-03-31 per the issuer's published Top 10 Holdings — disclosed pre-IPO; SpaceX has traded as SPCX since 2026-06-12.",
       "nav_expected": false,
       "nav_note": "The issuer publishes NAV and premium/discount information on its site and in filings, but not in a machine-readable feed this pipeline can cite; premium_to_nav is therefore marked unavailable rather than computed against a stale figure. ETF creation/redemption arbitrage typically keeps market price near NAV.",
       "market_price": {
-        "value": 20.395,
+        "value": 20.33,
         "currency": "USD",
-        "as_of": "2026-07-14T15:41:28+00:00",
+        "as_of": "2026-07-14T20:00:00+00:00",
         "source": "Yahoo Finance quote (unofficial endpoint)",
         "source_url": "https://finance.yahoo.com/quote/XOVR"
       },
