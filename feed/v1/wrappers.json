@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-14T15:43:44+00:00",
+  "as_of": "2026-07-14T15:43:44+00:00",
+  "notes": "Factual descriptions of investment vehicle structures and terms compiled from issuer disclosures. Educational display only; nothing here is a recommendation. Fee and liquidity facts are hand-curated from the cited sources and re-verified on the curation cadence in the README.",
+  "wrappers": [
+    {
+      "id": "arkvx",
+      "name": "ARK Venture Fund",
+      "structure": "closed_end_interval_fund",
+      "ticker": null,
+      "exchange": null,
+      "issuer_url": "https://ark-funds.com/funds/arkvx",
+      "fees": {
+        "expense_ratio_pct": 2.9,
+        "description": "Total annual expense ratio per issuer materials; verify current figure in the prospectus at the source URL.",
+        "source_url": "https://ark-funds.com/funds/arkvx",
+        "as_of": "2026-07-14"
+      },
+      "liquidity": {
+        "terms": "Interval fund: no exchange listing; quarterly repurchase offers of approximately 5% of outstanding shares at NAV. Purchases available through participating brokerages at NAV daily; redemptions only via the quarterly windows.",
+        "source_url": "https://ark-funds.com/funds/arkvx",
+        "as_of": "2026-07-14"
+      },
+      "private_exposure_notes": "Venture portfolio including SpaceX, OpenAI, Anthropic, Stripe and other late-stage private companies; see live holdings block.",
+      "nav_expected": true,
+      "nav_note": null,
+      "market_price": null,
+      "nav_per_share": {
+        "value": 56.01,
+        "currency": "USD",
+        "as_of": "2026-07-14T12:05:07+00:00",
+        "source": "Fund transacts at NAV; NAV via Yahoo Finance quote",
+        "source_url": "https://finance.yahoo.com/quote/ARKVX"
+      },
+      "premium_to_nav_pct": null,
+      "premium_to_nav_calculation": null,
+      "holdings": {
+        "as_of": "2026-06-30",
+        "source": "ARK Invest published holdings CSV",
+        "source_url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_VENTURE_FUND_ARKVX_HOLDINGS.csv",
+        "top_holdings": [
+          {
+            "name": "SpaceX",
+            "ticker": "SPCX",
+            "weight_pct": 13.78,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "OpenAI",
+            "ticker": null,
+            "weight_pct": 6.33,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Anthropic, Inc.",
+            "ticker": null,
+            "weight_pct": 4.59,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Stripe, Inc.",
+            "ticker": null,
+            "weight_pct": 4.37,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Tenstorrent Holdings Inc.",
+            "ticker": null,
+            "weight_pct": 3.49,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Ayar Labs",
+            "ticker": null,
+            "weight_pct": 3.18,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Kalshi Inc.",
+            "ticker": null,
+            "weight_pct": 2.94,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Replit, Inc.",
+            "ticker": null,
+            "weight_pct": 2.61,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Absci",
+            "ticker": "ABSI",
+            "weight_pct": 2.32,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Figure AI Inc.",
+            "ticker": null,
+            "weight_pct": 2.23,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Lila Sciences, Inc.",
+            "ticker": null,
+            "weight_pct": 2.03,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Cellares inc.",
+            "ticker": null,
+            "weight_pct": 1.92,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Zipline International Inc.",
+            "ticker": null,
+            "weight_pct": 1.87,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "10x Genomics, Inc.",
+            "ticker": "TXG",
+            "weight_pct": 1.86,
+            "as_of": "2026-06-30"
+          },
+          {
+            "name": "Beam Therapeutics",
+            "ticker": "BEAM",
+            "weight_pct": 1.8,
+            "as_of": "2026-06-30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dxyz",
+      "name": "Destiny Tech100",
+      "structure": "listed_closed_end_fund",
+      "ticker": "DXYZ",
+      "exchange": "NYSE",
+      "issuer_url": "https://destiny.xyz/tech100",
+      "fees": {
+        "expense_ratio_pct": 2.5,
+        "description": "Management fee per registration statement; see the fund's N-2 filings on EDGAR for the current fee table.",
+        "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001843974&type=N-2&dateb=&owner=include&count=10",
+        "as_of": "2026-07-14"
+      },
+      "liquidity": {
+        "terms": "Exchange-listed closed-end fund: shares trade intraday on NYSE at market price, which can differ substantially from NAV in either direction. No redemption right at NAV.",
+        "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001843974&type=N-2&dateb=&owner=include&count=10",
+        "as_of": "2026-07-14"
+      },
+      "private_exposure_notes": "Portfolio of roughly two dozen late-stage private companies; SpaceX and OpenAI have been its largest disclosed positions. Holdings and NAV are disclosed in SEC filings (N-PORT, 424B3 supplements).",
+      "nav_expected": true,
+      "nav_note": null,
+      "market_price": {
+        "value": 25.925,
+        "currency": "USD",
+        "as_of": "2026-07-14T15:43:22+00:00",
+        "source": "Yahoo Finance quote (unofficial endpoint)",
+        "source_url": "https://finance.yahoo.com/quote/DXYZ"
+      },
+      "nav_per_share": {
+        "value": 24.56,
+        "currency": "USD",
+        "as_of": "2026-03-31",
+        "source": "Destiny Tech100 prospectus supplement (424B3) filed 2026-05-12: \"our net asset value as of March 31, 2026, is $24.56 per share\".",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1843974/000157587226000288/dxyz100_424b3.htm"
+      },
+      "premium_to_nav_pct": 5.56,
+      "premium_to_nav_calculation": "premium_to_nav_pct = (market_price 25.925 - nav_per_share 24.56) / 24.56 * 100 = 5.56%",
+      "premium_to_nav_inputs_as_of": {
+        "market_price": "2026-07-14T15:43:22+00:00",
+        "nav_per_share": "2026-03-31"
+      },
+      "holdings": null
+    },
+    {
+      "id": "xovr",
+      "name": "ERShares Private-Public Crossover ETF",
+      "structure": "exchange_traded_fund",
+      "ticker": "XOVR",
+      "exchange": "Nasdaq",
+      "issuer_url": "https://entrepreneurshares.com/xovr-etf/",
+      "fees": {
+        "expense_ratio_pct": 0.75,
+        "description": "Ongoing management fee stated by the issuer (0.75% annually).",
+        "source_url": "https://entrepreneurshares.com/xovr-etf/",
+        "as_of": "2026-07-14"
+      },
+      "liquidity": {
+        "terms": "ETF: trades intraday on Nasdaq with standard T+1 settlement. Private exposure is held via an SPV inside the fund; the fund itself remains exchange-liquid.",
+        "source_url": "https://entrepreneurshares.com/xovr-etf/",
+        "as_of": "2026-07-14"
+      },
+      "private_exposure_notes": "SPV exposure to SpaceX was 44.65% of the fund as of 2026-03-31 per the issuer's published Top 10 Holdings.",
+      "nav_expected": false,
+      "nav_note": "The issuer publishes NAV and premium/discount information on its site and in filings, but not in a machine-readable feed this pipeline can cite; premium_to_nav is therefore marked unavailable rather than computed against a stale figure. ETF creation/redemption arbitrage typically keeps market price near NAV.",
+      "market_price": {
+        "value": 20.395,
+        "currency": "USD",
+        "as_of": "2026-07-14T15:41:28+00:00",
+        "source": "Yahoo Finance quote (unofficial endpoint)",
+        "source_url": "https://finance.yahoo.com/quote/XOVR"
+      },
+      "nav_per_share": null,
+      "premium_to_nav_pct": null,
+      "premium_to_nav_calculation": null,
+      "holdings": {
+        "as_of": "2026-03-31",
+        "source": "ERShares published Top 10 Holdings (PDF)",
+        "source_url": "https://entrepreneurshares.com/wp-content/uploads/2026/04/Top-10-Holdings-03.31.26.pdf",
+        "top_holdings": [
+          {
+            "name": "SPV exposure to SpaceX, LLC",
+            "ticker": null,
+            "weight_pct": 44.65,
+            "as_of": "2026-03-31"
+          },
+          {
+            "name": "NVIDIA Corp",
+            "ticker": "NVDA",
+            "weight_pct": 4.22,
+            "as_of": "2026-03-31"
+          },
+          {
+            "name": "Meta Platforms Inc",
+            "ticker": "META",
+            "weight_pct": 3.48,
+            "as_of": "2026-03-31"
+          },
+          {
+            "name": "Ubiquiti Inc",
+            "ticker": "UI",
+            "weight_pct": 2.91,
+            "as_of": "2026-03-31"
+          },
+          {
+            "name": "Arista Networks Inc",
+            "ticker": "ANET",
+            "weight_pct": 2.7,
+            "as_of": "2026-03-31"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ssss",
+      "name": "SuRo Capital",
+      "structure": "listed_business_development_company",
+      "ticker": "SSSS",
+      "exchange": "Nasdaq",
+      "issuer_url": "https://suro.com/",
+      "fees": {
+        "expense_ratio_pct": null,
+        "description": "Internally managed BDC: no external management fee; fund-level operating expenses are reported in its SEC filings (see 10-K/10-Q).",
+        "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509470&type=10-K&dateb=&owner=include&count=10",
+        "as_of": "2026-07-14"
+      },
+      "liquidity": {
+        "terms": "Exchange-listed BDC: shares trade intraday on Nasdaq at market price, which can differ substantially from NAV. No redemption right at NAV.",
+        "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509470&type=10-K&dateb=&owner=include&count=10",
+        "as_of": "2026-07-14"
+      },
+      "private_exposure_notes": "Venture-stage portfolio; OpenAI (via SPVs), CoreWeave-adjacent and other late-stage names have featured among its largest positions per quarterly filings.",
+      "nav_expected": true,
+      "nav_note": null,
+      "market_price": {
+        "value": 10.91,
+        "currency": "USD",
+        "as_of": "2026-07-13T13:30:00+00:00",
+        "source": "Yahoo Finance quote (unofficial endpoint)",
+        "source_url": "https://finance.yahoo.com/quote/SSSS"
+      },
+      "nav_per_share": {
+        "value": 14.24,
+        "currency": "USD",
+        "as_of": "2026-03-31",
+        "source": "SuRo Capital Form 10-Q for the quarter ended 2026-03-31 (filed 2026-05-06), condensed consolidated statements of assets and liabilities: net asset value per share $14.24.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1509470/000149315226021430/form10-q.htm"
+      },
+      "premium_to_nav_pct": -23.38,
+      "premium_to_nav_calculation": "premium_to_nav_pct = (market_price 10.91 - nav_per_share 14.24) / 14.24 * 100 = -23.38%",
+      "premium_to_nav_inputs_as_of": {
+        "market_price": "2026-07-13T13:30:00+00:00",
+        "nav_per_share": "2026-03-31"
+      },
+      "holdings": null
+    },
+    {
+      "id": "fundrise-innovation",
+      "name": "Fundrise Innovation Fund",
+      "structure": "closed_end_interval_fund",
+      "ticker": null,
+      "exchange": null,
+      "issuer_url": "https://fundrise.com/innovation",
+      "fees": {
+        "expense_ratio_pct": 1.85,
+        "description": "Flat annual management fee stated by the issuer (1.85%).",
+        "source_url": "https://fundrise.com/innovation",
+        "as_of": "2026-07-14"
+      },
+      "liquidity": {
+        "terms": "Non-listed fund offered through the Fundrise platform: purchases at NAV; liquidity via periodic repurchase offers under the fund's repurchase program, not guaranteed. See offering circular.",
+        "source_url": "https://fundrise.com/innovation",
+        "as_of": "2026-07-14"
+      },
+      "private_exposure_notes": "Disclosed portfolio has included OpenAI, Anthropic, Anduril, Databricks and Canva per the issuer's public fund page.",
+      "nav_expected": false,
+      "nav_note": "Share price (NAV) is published to platform account holders; there is no public machine-readable NAV feed to cite, so NAV and premium_to_nav are marked unavailable here.",
+      "market_price": null,
+      "nav_per_share": null,
+      "premium_to_nav_pct": null,
+      "premium_to_nav_calculation": null,
+      "holdings": null
+    }
+  ]
+}

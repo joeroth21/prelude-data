@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "pipeline_version": "0.1.0",
+  "generated_at": "2026-07-14T15:43:44+00:00",
+  "compliance": "Publicly available factual data compiled for educational display. No recommendations, ratings, or trade signals.",
+  "files": {
+    "companies.json": {
+      "as_of": "2026-07-14",
+      "generated_at": "2026-07-14T15:43:29+00:00",
+      "sha256": "d7f81873983d101c6b83b4037324f5bb068f0dc909232dcf5c180d3f511e0859",
+      "bytes": 40246,
+      "record_count": 62
+    },
+    "pipeline.json": {
+      "as_of": "2026-07-14T15:43:39+00:00",
+      "generated_at": "2026-07-14T15:43:39+00:00",
+      "sha256": "959e00cdc503a77c6430a6bfa48d25ab435fbe92a3efeaf1bebdbfce67c381c8",
+      "bytes": 33668,
+      "record_count": 96
+    },
+    "wrappers.json": {
+      "as_of": "2026-07-14T15:43:44+00:00",
+      "generated_at": "2026-07-14T15:43:44+00:00",
+      "sha256": "b7b5e9ee0d4690c2337a6c7150985c3b3d1d3042dcbdd2b81aa0f100a1ba5532",
+      "bytes": 12938,
+      "record_count": 5
+    },
+    "signals.json": {
+      "as_of": "2026-07-14",
+      "generated_at": "2026-07-14T15:43:44+00:00",
+      "sha256": "53ff55576f3ea610ab4608f453be5791ea04c46a1481ec83340c2b56badaa1cb",
+      "bytes": 40890,
+      "record_count": 62
+    }
+  }
+}

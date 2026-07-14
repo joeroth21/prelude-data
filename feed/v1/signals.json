@@ -1,0 +1,1123 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-14T15:43:44+00:00",
+  "as_of": "2026-07-14",
+  "signals": [
+    {
+      "company_id": "openai",
+      "company_name": "OpenAI",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/OpenAI",
+          "as_of": "2025-10-01"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "anthropic",
+      "company_name": "Anthropic",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Anthropic",
+          "as_of": "2025-09-02"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "spacex",
+      "company_name": "SpaceX",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/SpaceX",
+          "as_of": "2025-07-08"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "xai",
+      "company_name": "xAI",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/XAI_(company)",
+          "as_of": "2025-12-01"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "stripe",
+      "company_name": "Stripe",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Stripe",
+          "as_of": "2025-02-27"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "databricks",
+      "company_name": "Databricks",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Databricks",
+          "as_of": "2025-09-08"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "bytedance",
+      "company_name": "ByteDance",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/ByteDance",
+          "as_of": "2024-12-01"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "shein",
+      "company_name": "Shein",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Shein",
+          "as_of": "2023-05-17"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "epic-games",
+      "company_name": "Epic Games",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Epic_Games",
+          "as_of": "2022-04-11"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "canva",
+      "company_name": "Canva",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Canva",
+          "as_of": "2025-10-01"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "revolut",
+      "company_name": "Revolut",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Revolut",
+          "as_of": "2025-11-01"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "figure-ai",
+      "company_name": "Figure AI",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Figure_AI",
+          "as_of": "2025-09-16"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "scale-ai",
+      "company_name": "Scale AI",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Scale_AI",
+          "as_of": "2025-06-13"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "perplexity",
+      "company_name": "Perplexity",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+          "as_of": "2025-09-10"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "safe-superintelligence",
+      "company_name": "Safe Superintelligence",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence",
+          "as_of": "2025-04-12"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "mistral-ai",
+      "company_name": "Mistral AI",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Mistral_AI",
+          "as_of": "2025-09-09"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "cohere",
+      "company_name": "Cohere",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Cohere",
+          "as_of": "2025-08-14"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "groq",
+      "company_name": "Groq",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Groq",
+          "as_of": "2025-09-17"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "cerebras",
+      "company_name": "Cerebras Systems",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Cerebras",
+          "as_of": "2025-09-30"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "neuralink",
+      "company_name": "Neuralink",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Neuralink",
+          "as_of": "2025-06-02"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "the-boring-company",
+      "company_name": "The Boring Company",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/The_Boring_Company",
+          "as_of": "2022-04-20"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "rippling",
+      "company_name": "Rippling",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Rippling",
+          "as_of": "2025-05-16"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "deel",
+      "company_name": "Deel",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Deel",
+          "as_of": "2025-08-19"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "gusto",
+      "company_name": "Gusto",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Gusto",
+          "as_of": "2021-08-10"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "plaid",
+      "company_name": "Plaid",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Plaid_Inc.",
+          "as_of": "2025-04-03"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "brex",
+      "company_name": "Brex",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Brex",
+          "as_of": "2022-01-11"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "ramp",
+      "company_name": "Ramp",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Ramp_(company)",
+          "as_of": "2025-09-04"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "airtable",
+      "company_name": "Airtable",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Airtable",
+          "as_of": "2021-12-13"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "notion",
+      "company_name": "Notion",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+          "as_of": "2021-10-08"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "grammarly",
+      "company_name": "Grammarly",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Grammarly",
+          "as_of": "2021-11-17"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "discord",
+      "company_name": "Discord",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Discord",
+          "as_of": "2021-09-15"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "anysphere",
+      "company_name": "Anysphere (Cursor)",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Cursor_(code_editor)",
+          "as_of": "2025-11-13"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "glean",
+      "company_name": "Glean",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Glean_Technologies",
+          "as_of": "2025-06-10"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "harvey",
+      "company_name": "Harvey",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Harvey_(software)",
+          "as_of": "2025-06-23"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "elevenlabs",
+      "company_name": "ElevenLabs",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/ElevenLabs",
+          "as_of": "2025-11-01"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "snyk",
+      "company_name": "Snyk",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Snyk",
+          "as_of": "2022-12-12"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "vercel",
+      "company_name": "Vercel",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Vercel",
+          "as_of": "2025-09-24"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "hugging-face",
+      "company_name": "Hugging Face",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Hugging_Face",
+          "as_of": "2023-08-24"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "together-ai",
+      "company_name": "Together AI",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://www.together.ai/blog",
+          "as_of": "2025-02-20"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "lambda",
+      "company_name": "Lambda",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://lambda.ai/blog",
+          "as_of": "2025-02-19"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "crusoe",
+      "company_name": "Crusoe",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://crusoe.ai/newsroom",
+          "as_of": "2025-11-01"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "vast-data",
+      "company_name": "VAST Data",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/VAST_Data",
+          "as_of": "2023-12-05"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "shield-ai",
+      "company_name": "Shield AI",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Shield_AI",
+          "as_of": "2025-03-06"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "anduril",
+      "company_name": "Anduril Industries",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Anduril_Industries",
+          "as_of": "2025-06-05"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "flexport",
+      "company_name": "Flexport",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Flexport",
+          "as_of": "2022-02-07"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "sierra",
+      "company_name": "Sierra",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://sierra.ai/blog",
+          "as_of": "2025-10-09"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "thinking-machines-lab",
+      "company_name": "Thinking Machines Lab",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab",
+          "as_of": "2025-07-15"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "polymarket",
+      "company_name": "Polymarket",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Polymarket",
+          "as_of": "2025-10-07"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "kalshi",
+      "company_name": "Kalshi",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Kalshi",
+          "as_of": "2025-10-10"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "kraken",
+      "company_name": "Kraken",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Kraken_(company)",
+          "as_of": "2025-07-25"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "ripple",
+      "company_name": "Ripple",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Ripple_Labs",
+          "as_of": "2025-11-05"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "chainguard",
+      "company_name": "Chainguard",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Chainguard",
+          "as_of": "2025-04-23"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "fanatics",
+      "company_name": "Fanatics",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Fanatics",
+          "as_of": "2022-12-06"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "waymo",
+      "company_name": "Waymo",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Waymo",
+          "as_of": "2024-10-25"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "klarna",
+      "company_name": "Klarna",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Klarna",
+          "as_of": "2025-09-10"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "coreweave",
+      "company_name": "CoreWeave",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/CoreWeave",
+          "as_of": "2025-03-28"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "figma",
+      "company_name": "Figma",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Figma",
+          "as_of": "2025-07-31"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "circle",
+      "company_name": "Circle",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Circle_(company)",
+          "as_of": "2025-06-05"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "chime",
+      "company_name": "Chime",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Chime_(company)",
+          "as_of": "2025-06-12"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "tenstorrent",
+      "company_name": "Tenstorrent",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Tenstorrent",
+          "as_of": "2024-12-02"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "gopuff",
+      "company_name": "Gopuff",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Gopuff",
+          "as_of": "2021-07-30"
+        }
+      ],
+      "as_of": "2026-07-14"
+    },
+    {
+      "company_id": "automation-anywhere",
+      "company_name": "Automation Anywhere",
+      "secondary_market": {
+        "status": "unavailable_tos",
+        "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
+        "price_level": null,
+        "as_of": "2026-07-14T15:43:44+00:00"
+      },
+      "recent_news": [
+        {
+          "kind": "funding_round_report",
+          "url": "https://en.wikipedia.org/wiki/Automation_Anywhere",
+          "as_of": "2019-11-21"
+        }
+      ],
+      "as_of": "2026-07-14"
+    }
+  ]
+}

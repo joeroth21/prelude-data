@@ -1,0 +1,890 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-14T15:43:39+00:00",
+  "as_of": "2026-07-14T15:43:39+00:00",
+  "source": {
+    "name": "SEC EDGAR daily form indexes",
+    "url": "https://www.sec.gov/Archives/edgar/daily-index/",
+    "days_covered": [
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02",
+      "2026-07-06",
+      "2026-07-07",
+      "2026-07-08",
+      "2026-07-09",
+      "2026-07-10",
+      "2026-07-13"
+    ]
+  },
+  "form_types": [
+    "S-1",
+    "S-1/A"
+  ],
+  "filings": [
+    {
+      "form_type": "S-1/A",
+      "issuer": "USBC, Inc.",
+      "cik": "1074828",
+      "filing_date": "2026-07-13",
+      "accession_number": "0001074828-26-000052",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1074828/000107482826000052/0001074828-26-000052-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Syntiant Corp.",
+      "cik": "1718728",
+      "filing_date": "2026-07-13",
+      "accession_number": "0001193125-26-302144",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1718728/000119312526302144/0001193125-26-302144-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Starton Holdings, Inc.",
+      "cik": "2049977",
+      "filing_date": "2026-07-13",
+      "accession_number": "0001213900-26-077653",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2049977/000121390026077653/0001213900-26-077653-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Nuburu, Inc.",
+      "cik": "1814215",
+      "filing_date": "2026-07-13",
+      "accession_number": "0001193125-26-301451",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1814215/000119312526301451/0001193125-26-301451-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Nexentis Technologies Inc.",
+      "cik": "1789192",
+      "filing_date": "2026-07-13",
+      "accession_number": "0001493152-26-033026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1789192/000149315226033026/0001493152-26-033026-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Material Resource Acquisition Corp.",
+      "cik": "2136360",
+      "filing_date": "2026-07-13",
+      "accession_number": "0002136360-26-000003",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2136360/000213636026000003/0002136360-26-000003-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Ionic Digital Inc.",
+      "cik": "2007691",
+      "filing_date": "2026-07-13",
+      "accession_number": "0001185185-26-002919",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2007691/000118518526002919/0001185185-26-002919-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "CTT PHARMACEUTICAL HOLDINGS, INC.",
+      "cik": "1035422",
+      "filing_date": "2026-07-13",
+      "accession_number": "0001171520-26-000172",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1035422/000117152026000172/0001171520-26-000172-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Avalon GloboCare Corp.",
+      "cik": "1630212",
+      "filing_date": "2026-07-13",
+      "accession_number": "0001213900-26-077307",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026077307/0001213900-26-077307-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Advasa Holdings, Inc.",
+      "cik": "2084227",
+      "filing_date": "2026-07-13",
+      "accession_number": "0001493152-26-032985",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2084227/000149315226032985/0001493152-26-032985-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "iPower Inc.",
+      "cik": "1830072",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001683168-26-005462",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1830072/000168316826005462/0001683168-26-005462-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "UNIVERSAL SAFETY PRODUCTS, INC.",
+      "cik": "102109",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001104659-26-082673",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/102109/000110465926082673/0001104659-26-082673-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Tailored Brands, Inc. / DE",
+      "cik": "2045151",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001213900-26-077111",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2045151/000121390026077111/0001213900-26-077111-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Scribe Therapeutics, Inc.",
+      "cik": "1853921",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001193125-26-300994",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1853921/000119312526300994/0001193125-26-300994-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "SMITH MICRO SOFTWARE, INC.",
+      "cik": "948708",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001437749-26-023324",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/948708/000143774926023324/0001437749-26-023324-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Pelican Acquisition II Corp",
+      "cik": "2122392",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001829126-26-007507",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2122392/000182912626007507/0001829126-26-007507-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Neuro Spectrum Insights, Inc.",
+      "cik": "2034588",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001213900-26-077259",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2034588/000121390026077259/0001213900-26-077259-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Market Technology Acquisition Corp",
+      "cik": "2133136",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001213900-26-076891",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2133136/000121390026076891/0001213900-26-076891-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Laser Photonics Corp",
+      "cik": "1807887",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001493152-26-032879",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1807887/000149315226032879/0001493152-26-032879-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Holtec Nuclear Corp",
+      "cik": "2104277",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001193125-26-301023",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2104277/000119312526301023/0001193125-26-301023-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Healthcare Triangle, Inc.",
+      "cik": "1839285",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001213900-26-077268",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839285/000121390026077268/0001213900-26-077268-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Decoy Therapeutics Inc.",
+      "cik": "1615219",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001193125-26-300954",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1615219/000119312526300954/0001193125-26-300954-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Corvex, Inc.",
+      "cik": "1734750",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001213900-26-077253",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1734750/000121390026077253/0001213900-26-077253-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Bravalo Corp",
+      "cik": "2112460",
+      "filing_date": "2026-07-10",
+      "accession_number": "0002112460-26-000013",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2112460/000211246026000013/0002112460-26-000013-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Avalanche Treasury Corp",
+      "cik": "2092446",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001104659-26-082644",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2092446/000110465926082644/0001104659-26-082644-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Apnimed, Inc.",
+      "cik": "1745648",
+      "filing_date": "2026-07-10",
+      "accession_number": "0001193125-26-300909",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1745648/000119312526300909/0001193125-26-300909-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Zapata Quantum, Inc.",
+      "cik": "1843714",
+      "filing_date": "2026-07-09",
+      "accession_number": "0001683168-26-005402",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1843714/000168316826005402/0001683168-26-005402-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Southern Cross Acquisition II Corp.",
+      "cik": "2133239",
+      "filing_date": "2026-07-09",
+      "accession_number": "0001929980-26-000317",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2133239/000192998026000317/0001929980-26-000317-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "OceanLight Acquisition Corp",
+      "cik": "2137679",
+      "filing_date": "2026-07-09",
+      "accession_number": "0001829126-26-007426",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2137679/000182912626007426/0001829126-26-007426-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Mitesco, Inc.",
+      "cik": "802257",
+      "filing_date": "2026-07-09",
+      "accession_number": "0001185185-26-002867",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/802257/000118518526002867/0001185185-26-002867-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "MOBIX LABS, INC",
+      "cik": "1855467",
+      "filing_date": "2026-07-09",
+      "accession_number": "0001493152-26-032710",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1855467/000149315226032710/0001493152-26-032710-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Leef Brands Inc.",
+      "cik": "1711141",
+      "filing_date": "2026-07-09",
+      "accession_number": "0001493152-26-032565",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1711141/000149315226032565/0001493152-26-032565-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Jones Ventures INTL Acquisition1 Corp",
+      "cik": "2129056",
+      "filing_date": "2026-07-09",
+      "accession_number": "0001213900-26-076752",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2129056/000121390026076752/0001213900-26-076752-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Jaovi Inc.",
+      "cik": "2144182",
+      "filing_date": "2026-07-09",
+      "accession_number": "0001683168-26-005398",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2144182/000168316826005398/0001683168-26-005398-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "GridAI Technologies Corp.",
+      "cik": "1604191",
+      "filing_date": "2026-07-09",
+      "accession_number": "0001104659-26-082306",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1604191/000110465926082306/0001104659-26-082306-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "BOA Acquisition Corp. II",
+      "cik": "2080216",
+      "filing_date": "2026-07-09",
+      "accession_number": "0001193125-26-299584",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2080216/000119312526299584/0001193125-26-299584-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "AEON Biopharma, Inc.",
+      "cik": "1837607",
+      "filing_date": "2026-07-09",
+      "accession_number": "0001104659-26-082167",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1837607/000110465926082167/0001104659-26-082167-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Texas Precious Metals Trust",
+      "cik": "2087989",
+      "filing_date": "2026-07-08",
+      "accession_number": "0001437749-26-023037",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2087989/000143774926023037/0001437749-26-023037-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Texas Precious Metals Trust",
+      "cik": "2087989",
+      "filing_date": "2026-07-08",
+      "accession_number": "0001437749-26-023040",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2087989/000143774926023040/0001437749-26-023040-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Samos Energy Acquisition Corp",
+      "cik": "2125567",
+      "filing_date": "2026-07-08",
+      "accession_number": "0001213900-26-076151",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2125567/000121390026076151/0001213900-26-076151-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Research Alliance Corp IV",
+      "cik": "2137777",
+      "filing_date": "2026-07-08",
+      "accession_number": "0001193125-26-298633",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2137777/000119312526298633/0001193125-26-298633-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "OneMedNet Corp",
+      "cik": "1849380",
+      "filing_date": "2026-07-08",
+      "accession_number": "0001493152-26-032512",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1849380/000149315226032512/0001493152-26-032512-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Evolution Metals & Technologies Corp.",
+      "cik": "1866226",
+      "filing_date": "2026-07-08",
+      "accession_number": "0001213900-26-076202",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1866226/000121390026076202/0001213900-26-076202-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Catalyst Acquisition Corp.",
+      "cik": "2104391",
+      "filing_date": "2026-07-08",
+      "accession_number": "0001213900-26-076132",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2104391/000121390026076132/0001213900-26-076132-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "AfterNext Acquisition I Corp.",
+      "cik": "2087035",
+      "filing_date": "2026-07-08",
+      "accession_number": "0001493152-26-032427",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2087035/000149315226032427/0001493152-26-032427-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "AEON Biopharma, Inc.",
+      "cik": "1837607",
+      "filing_date": "2026-07-08",
+      "accession_number": "0001104659-26-081860",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1837607/000110465926081860/0001104659-26-081860-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "VisionWave Holdings, Inc.",
+      "cik": "2038439",
+      "filing_date": "2026-07-07",
+      "accession_number": "0001731122-26-000921",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2038439/000173112226000921/0001731122-26-000921-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Standard Nuclear, Inc.",
+      "cik": "2086716",
+      "filing_date": "2026-07-07",
+      "accession_number": "0001213900-26-075742",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2086716/000121390026075742/0001213900-26-075742-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Professional Diversity Network, Inc.",
+      "cik": "1546296",
+      "filing_date": "2026-07-07",
+      "accession_number": "0001437749-26-022940",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1546296/000143774926022940/0001437749-26-022940-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Luvulis Corp",
+      "cik": "2123169",
+      "filing_date": "2026-07-07",
+      "accession_number": "0002123169-26-000008",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2123169/000212316926000008/0002123169-26-000008-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Ambitious Entertainment, Inc.",
+      "cik": "1900851",
+      "filing_date": "2026-07-07",
+      "accession_number": "0001493152-26-032371",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1900851/000149315226032371/0001493152-26-032371-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "iSpecimen Inc.",
+      "cik": "1558569",
+      "filing_date": "2026-07-06",
+      "accession_number": "0001213900-26-075593",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1558569/000121390026075593/0001213900-26-075593-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "USBC, Inc.",
+      "cik": "1074828",
+      "filing_date": "2026-07-06",
+      "accession_number": "0001074828-26-000044",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1074828/000107482826000044/0001074828-26-000044-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Syntiant Corp.",
+      "cik": "1718728",
+      "filing_date": "2026-07-06",
+      "accession_number": "0001193125-26-296426",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1718728/000119312526296426/0001193125-26-296426-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Jones Ventures INTL Acquisition1 Corp",
+      "cik": "2129056",
+      "filing_date": "2026-07-06",
+      "accession_number": "0001213900-26-075567",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2129056/000121390026075567/0001213900-26-075567-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Gloo Holdings, Inc.",
+      "cik": "2069785",
+      "filing_date": "2026-07-06",
+      "accession_number": "0001193125-26-295575",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2069785/000119312526295575/0001193125-26-295575-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Csquare, Inc.",
+      "cik": "2105398",
+      "filing_date": "2026-07-06",
+      "accession_number": "0001104659-26-080556",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2105398/000110465926080556/0001104659-26-080556-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Catheter Precision, Inc.",
+      "cik": "1716621",
+      "filing_date": "2026-07-06",
+      "accession_number": "0001437749-26-022592",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1716621/000143774926022592/0001437749-26-022592-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "TRIC Global, Inc.",
+      "cik": "2124122",
+      "filing_date": "2026-07-02",
+      "accession_number": "0002124122-26-000012",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2124122/000212412226000012/0002124122-26-000012-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Scribe Therapeutics, Inc.",
+      "cik": "1853921",
+      "filing_date": "2026-07-02",
+      "accession_number": "0001193125-26-294804",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1853921/000119312526294804/0001193125-26-294804-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Peraso Inc.",
+      "cik": "890394",
+      "filing_date": "2026-07-02",
+      "accession_number": "0001213900-26-075105",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026075105/0001213900-26-075105-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Mercator Acquisition Corp.",
+      "cik": "2106436",
+      "filing_date": "2026-07-02",
+      "accession_number": "0001213900-26-074947",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2106436/000121390026074947/0001213900-26-074947-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Laris Growth Acquisition Corp.",
+      "cik": "2140589",
+      "filing_date": "2026-07-02",
+      "accession_number": "0001213900-26-075107",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2140589/000121390026075107/0001213900-26-075107-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Jersey Mike's Subs Inc.",
+      "cik": "2127043",
+      "filing_date": "2026-07-02",
+      "accession_number": "0001193125-26-293830",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2127043/000119312526293830/0001193125-26-293830-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Gold Mountain Acquisition Corp.",
+      "cik": "2105318",
+      "filing_date": "2026-07-02",
+      "accession_number": "0001493152-26-031978",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2105318/000149315226031978/0001493152-26-031978-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Dear Industrial Gas Inc",
+      "cik": "2134914",
+      "filing_date": "2026-07-02",
+      "accession_number": "0002134914-26-000001",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2134914/000213491426000001/0002134914-26-000001-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Cycurion, Inc.",
+      "cik": "1868419",
+      "filing_date": "2026-07-02",
+      "accession_number": "0001493152-26-031976",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1868419/000149315226031976/0001493152-26-031976-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Cyber Enviro-Tech, Inc.",
+      "cik": "1935092",
+      "filing_date": "2026-07-02",
+      "accession_number": "0001079973-26-000891",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1935092/000107997326000891/0001079973-26-000891-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Boost Run Inc.",
+      "cik": "2090646",
+      "filing_date": "2026-07-02",
+      "accession_number": "0001493152-26-031923",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2090646/000149315226031923/0001493152-26-031923-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Bitwise NEAR ETF",
+      "cik": "2067111",
+      "filing_date": "2026-07-02",
+      "accession_number": "0001193125-26-293745",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2067111/000119312526293745/0001193125-26-293745-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "B&R Technology Merger Corp.",
+      "cik": "2131350",
+      "filing_date": "2026-07-02",
+      "accession_number": "0001193125-26-294964",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2131350/000119312526294964/0001193125-26-294964-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "VenHub Global, Inc.",
+      "cik": "1972234",
+      "filing_date": "2026-07-01",
+      "accession_number": "0001213900-26-074328",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1972234/000121390026074328/0001213900-26-074328-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "VARSAL TECH, INC.",
+      "cik": "2109801",
+      "filing_date": "2026-07-01",
+      "accession_number": "0001493152-26-031369",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2109801/000149315226031369/0001493152-26-031369-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Three Lions Acquisition Corp.",
+      "cik": "2128462",
+      "filing_date": "2026-07-01",
+      "accession_number": "0001193125-26-290930",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2128462/000119312526290930/0001193125-26-290930-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Stewards, Inc.",
+      "cik": "1795851",
+      "filing_date": "2026-07-01",
+      "accession_number": "0001663577-26-000199",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1795851/000166357726000199/0001663577-26-000199-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "QumulusAI, Inc.",
+      "cik": "2084026",
+      "filing_date": "2026-07-01",
+      "accession_number": "0001437749-26-022277",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2084026/000143774926022277/0001437749-26-022277-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "OneMedNet Corp",
+      "cik": "1849380",
+      "filing_date": "2026-07-01",
+      "accession_number": "0001493152-26-031598",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1849380/000149315226031598/0001493152-26-031598-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Freedom Metals Acquisition Corp.",
+      "cik": "2129659",
+      "filing_date": "2026-07-01",
+      "accession_number": "0001213900-26-074033",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2129659/000121390026074033/0001213900-26-074033-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Encore Medical, Inc.",
+      "cik": "1838003",
+      "filing_date": "2026-07-01",
+      "accession_number": "0001104659-26-079489",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1838003/000110465926079489/0001104659-26-079489-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Asia AI Group Inc",
+      "cik": "2141084",
+      "filing_date": "2026-07-01",
+      "accession_number": "0002141084-26-000001",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2141084/000214108426000001/0002141084-26-000001-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "AETHLON MEDICAL INC",
+      "cik": "882291",
+      "filing_date": "2026-07-01",
+      "accession_number": "0001683168-26-005203",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/882291/000168316826005203/0001683168-26-005203-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "AETHLON MEDICAL INC",
+      "cik": "882291",
+      "filing_date": "2026-07-01",
+      "accession_number": "0001683168-26-005219",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/882291/000168316826005219/0001683168-26-005219-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "ACTELIS NETWORKS INC",
+      "cik": "1141284",
+      "filing_date": "2026-07-01",
+      "accession_number": "0001213900-26-074416",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1141284/000121390026074416/0001213900-26-074416-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Viking Acquisition Corp. II",
+      "cik": "2139246",
+      "filing_date": "2026-06-30",
+      "accession_number": "0001213900-26-073322",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2139246/000121390026073322/0001213900-26-073322-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "SunPower Inc.",
+      "cik": "1838987",
+      "filing_date": "2026-06-30",
+      "accession_number": "0001213900-26-073268",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1838987/000121390026073268/0001213900-26-073268-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Sensei Harbor Corp.",
+      "cik": "2112634",
+      "filing_date": "2026-06-30",
+      "accession_number": "0001683168-26-005186",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2112634/000168316826005186/0001683168-26-005186-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Matternet, Inc.",
+      "cik": "2075109",
+      "filing_date": "2026-06-30",
+      "accession_number": "0001213900-26-073335",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2075109/000121390026073335/0001213900-26-073335-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Idaho Copper Corp",
+      "cik": "1263364",
+      "filing_date": "2026-06-30",
+      "accession_number": "0001493152-26-031165",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1263364/000149315226031165/0001493152-26-031165-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Game Your Game Inc.",
+      "cik": "2111846",
+      "filing_date": "2026-06-30",
+      "accession_number": "0001213900-26-073841",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2111846/000121390026073841/0001213900-26-073841-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Flash Sports & Media Holdings, Inc.",
+      "cik": "1706524",
+      "filing_date": "2026-06-30",
+      "accession_number": "0001213900-26-073793",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1706524/000121390026073793/0001213900-26-073793-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Factorial Energy Inc.",
+      "cik": "2049662",
+      "filing_date": "2026-06-30",
+      "accession_number": "0001104659-26-079324",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2049662/000110465926079324/0001104659-26-079324-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Bravalo Corp",
+      "cik": "2112460",
+      "filing_date": "2026-06-30",
+      "accession_number": "0002112460-26-000011",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2112460/000211246026000011/0002112460-26-000011-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "ARC Group Securities Acquisition I",
+      "cik": "2094712",
+      "filing_date": "2026-06-30",
+      "accession_number": "0001493152-26-031152",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2094712/000149315226031152/0001493152-26-031152-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "AMASS BRANDS",
+      "cik": "1851491",
+      "filing_date": "2026-06-30",
+      "accession_number": "0001575872-26-000454",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1851491/000157587226000454/0001575872-26-000454-index.htm",
+      "fund_keyword_match": false
+    },
+    {
+      "form_type": "S-1/A",
+      "issuer": "Canary Litecoin ETF",
+      "cik": "2039461",
+      "filing_date": "2025-09-15",
+      "accession_number": "0001999371-25-013279",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2039461/000199937125013279/0001999371-25-013279-index.htm",
+      "fund_keyword_match": true
+    },
+    {
+      "form_type": "S-1",
+      "issuer": "Canary Litecoin ETF",
+      "cik": "2039461",
+      "filing_date": "2024-10-15",
+      "accession_number": "0001999371-24-013330",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2039461/000199937124013330/0001999371-24-013330-index.htm",
+      "fund_keyword_match": true
+    }
+  ]
+}
