@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-15T00:17:01+00:00",
+  "generated_at": "2026-07-15T00:58:56+00:00",
   "as_of": "2026-07-14",
   "notes": "Curated universe of late-stage private companies (plus a handful of 2025 listings kept for status continuity). Factual profiles only; educational display. Source URLs point to stable public summaries which themselves cite primary reporting.",
   "companies": [
@@ -381,9 +381,9 @@
       "aliases": [],
       "crosscheck_skip": false,
       "valuation": {
-        "amount_usd_billions": 40.6,
+        "amount_usd_billions": 39.8,
         "basis": "public_market",
-        "round_label": "IPO priced at $185.00/share (~219.6M shares post-offering per prospectus ownership table)",
+        "round_label": "IPO priced at $185.00/share (215,110,345 shares post-offering: 185,110,345 Class B + 30,000,000 Class A offered, per prospectus)",
         "as_of": "2026-05-14",
         "source_url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
       },
