@@ -1,7 +1,72 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-15T00:17:16+00:00",
-  "as_of": "2026-07-15T00:17:16+00:00",
+  "generated_at": "2026-07-15T01:27:15+00:00",
+  "as_of": "2026-07-15T01:27:15+00:00",
   "editorial_note": "Human-reviewed editorial summaries of publicly available facts. Educational information, not investment advice.",
-  "briefs": []
+  "briefs": [
+    {
+      "id": "2026-07-14-status-spacex",
+      "date": "2026-07-14",
+      "title": "SpaceX Lists on Nasdaq at $135.00 — and Rides Back to It",
+      "kind": "status_change",
+      "tickers": [
+        "SPCX"
+      ],
+      "body": "On June 12, 2026, Space Exploration Technologies Corp. — SpaceX — began trading on the Nasdaq Stock Market under the ticker SPCX, after pricing its initial public offering at $135.00 per share. The final prospectus puts common shares outstanding after the offering at 13,090,853,965 across two classes, which values the company at approximately $1.77 trillion at the offer price. The offering included newly issued Class A shares sold by the company itself.\n\nControl remains concentrated. The prospectus states that Elon Musk, founder and chief executive, holds approximately 82.4% of the voting power of the common stock following the offering — 82.3% if the underwriters exercise their option in full. Each Class A share carries one vote; the company's launch business and the Starlink satellite internet constellation remain its headline operations.\n\nThe first month of trading has already been a round trip. SPCX has printed a high of $225.64 and a low of $135.93 in its short public history, and stood at $136.08 on July 14, 2026 — 0.8% above the offer price. Funds that carried pre-IPO SpaceX stakes now mark those positions against an exchange price rather than a private-round estimate.",
+      "why_it_matters": "Why it matters: the most-watched name in private markets is now a public ticker, and every wrapper that held SpaceX privately reprices in real time instead of quarterly.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+        "https://en.wikipedia.org/wiki/SpaceX",
+        "https://finance.yahoo.com/quote/SPCX"
+      ]
+    },
+    {
+      "id": "2026-07-14-status-cerebras",
+      "date": "2026-07-14",
+      "title": "Cerebras Completes the Round Trip: Shelved 2024 IPO Becomes a $39.8B Listing",
+      "kind": "status_change",
+      "tickers": [
+        "CBRS"
+      ],
+      "body": "Cerebras Systems, the wafer-scale AI compute company, listed on the Nasdaq Global Select Market as CBRS on May 14, 2026, pricing its initial public offering at $185.00 per share. The company offered 30,000,000 shares of Class A common stock. Against the prospectus share basis — 185,110,345 Class B shares outstanding plus the newly offered Class A — the offer price implies a valuation of approximately $39.8 billion.\n\nThe listing ends a two-act filing history. Cerebras first filed an S-1 in September 2024, stepped back and raised private capital in 2025, then refiled on April 17, 2026 and priced within a month. The prospectus shows why the second act landed: revenue grew to $510.0 million in 2025, up 76% year over year, and the company swung to net income of $237.8 million in 2025 from a net loss of $481.6 million in 2024.\n\nVoting control follows a familiar dual-class design. Each Class A share carries one vote; each Class B share carries 20 votes and converts to Class A at any time. The charter also authorizes a third share class — Class N — which had no shares outstanding at the prospectus basis date. Two months in, CBRS stood at $203.81 on July 14, 2026 — about 10% above the offer — after trading as high as $386.34 and as low as $160.81.",
+      "why_it_matters": "Why it matters: Cerebras is a completed example of a shelved S-1 returning to market — withdrawn, refinanced privately, refiled, and priced — with the filings documenting every step.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm",
+        "https://en.wikipedia.org/wiki/Cerebras",
+        "https://finance.yahoo.com/quote/CBRS"
+      ]
+    },
+    {
+      "id": "2026-07-14-spotlight-xovr",
+      "date": "2026-07-14",
+      "title": "The ETF That Is Nearly Half SpaceX",
+      "kind": "wrapper_spotlight",
+      "tickers": [
+        "XOVR",
+        "SPCX"
+      ],
+      "body": "The ERShares Private-Public Crossover ETF (XOVR) holds mostly public equities alongside one very large private-market position: SPV exposure to SpaceX, LLC, disclosed at 44.65% of the fund as of March 31, 2026 in the issuer's published holdings. The next largest positions on the same disclosure are public stocks at a fraction of that weight — NVIDIA at 4.22% and Meta Platforms at 3.48%. The issuer states an ongoing management fee of 0.75% annually.\n\nThe disclosure predates a structural change in what that stake is. SpaceX priced its IPO at $135.00 per share and began trading as SPCX on June 12, 2026, per its final prospectus. A position that entered the fund as private-market exposure held through a special-purpose vehicle now references an exchange-traded stock, and the fund's largest holding prices continuously rather than by periodic marks.\n\nXOVR itself trades intraday on Nasdaq with standard T+1 settlement, at $20.33 per share as of July 14, 2026. The issuer publishes NAV and premium/discount data on its site, but not in a machine-readable feed; PRELUDE therefore shows the fund's premium to NAV as unavailable rather than computing one against a stale figure. Holdings are dynamic and change between disclosures.",
+      "why_it_matters": "Why it matters: among the exchange-traded wrappers PRELUDE tracks, XOVR carries the heaviest single-name SpaceX weight — and since SPCX listed, that exposure reprices in real time.",
+      "sources": [
+        "https://entrepreneurshares.com/wp-content/uploads/2026/04/Top-10-Holdings-03.31.26.pdf",
+        "https://entrepreneurshares.com/xovr-etf/",
+        "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+        "https://finance.yahoo.com/quote/XOVR"
+      ]
+    },
+    {
+      "id": "2026-07-14-spotlight-ssss",
+      "date": "2026-07-14",
+      "title": "SuRo Capital: NAV Rose 76% in a Quarter; the Price Sits 23% Below It",
+      "kind": "wrapper_spotlight",
+      "tickers": [],
+      "body": "SuRo Capital closed at $10.91 per share on July 13, 2026. Its most recent reported net asset value, from the Form 10-Q for the quarter ended March 31, 2026, is $14.24 per share. The arithmetic is stark: (10.91 − 14.24) ÷ 14.24 works out to a market price 23.38% below stated NAV — a dollar of reported assets trading for about 77 cents.\n\nThe same filing shows how fast the reported figure moved. NAV per share stood at $8.09 at December 31, 2025 and $14.24 three months later, with net assets rising from $205.3 million to $361.6 million over the quarter, driven by net unrealized appreciation in the portfolio. SuRo is an internally managed, exchange-listed business development company; its venture-stage portfolio is marked quarterly through SEC filings.\n\nStructure explains the mechanics of the gap. A BDC's shares trade intraday on Nasdaq at whatever the market pays, and there is no redemption right at NAV — the only exit is selling on the exchange. The two numbers in the comparison also carry different dates: the price is current, while the NAV mark is from March 31 and will next update with the June-quarter filing.",
+      "why_it_matters": "Why it matters: stated NAV and market price are different measurements taken at different times, and SuRo currently shows the widest gap between them on PRELUDE's wrappers board.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1509470/000149315226021430/form10-q.htm",
+        "https://www.surocap.com/",
+        "https://finance.yahoo.com/quote/SSSS"
+      ]
+    }
+  ]
 }
