@@ -8,6 +8,7 @@ fetchers and carry the timestamp the source reported.
 from __future__ import annotations
 
 import datetime as dt
+import json
 import logging
 from pathlib import Path
 
@@ -213,6 +214,28 @@ def build_wrappers() -> dict:
         "as_of": utcnow_iso(),
         "notes": seed.get("notes"),
         "wrappers": wrappers,
+    }
+
+
+# ---------------------------------------------------------------------------
+# briefs.json — editorial (published separately via briefs_cli; the nightly
+# passes the existing document through so the manifest and validation cover it)
+# ---------------------------------------------------------------------------
+
+def build_briefs_passthrough() -> dict:
+    path = config.FEED_DIR / "briefs.json"
+    if path.exists():
+        with open(path, encoding="utf-8") as fh:
+            return json.load(fh)
+    return {
+        "schema_version": 1,
+        "generated_at": utcnow_iso(),
+        "as_of": utcnow_iso(),
+        "editorial_note": (
+            "Human-reviewed editorial summaries of publicly available facts. "
+            "Educational information, not investment advice."
+        ),
+        "briefs": [],
     }
 
 

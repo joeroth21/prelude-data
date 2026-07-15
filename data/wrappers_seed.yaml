@@ -118,7 +118,7 @@ wrappers:
     ticker: SSSS
     exchange: Nasdaq
     quote_symbol: SSSS
-    issuer_url: https://suro.com/
+    issuer_url: https://www.surocap.com/
     fees:
       expense_ratio_pct: null
       description: >-

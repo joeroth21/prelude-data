@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import datetime as dt
 
-from . import config
+from . import briefs_lint, config
 
 
 def _parse_when(value: str) -> dt.datetime | None:
@@ -143,11 +143,35 @@ def validate_signals(doc: dict, now: dt.datetime) -> list[str]:
     return errors
 
 
+def validate_briefs(doc: dict, now: dt.datetime) -> list[str]:
+    """Editorial content: human-reviewed upstream, machine-checked here too."""
+    errors = []
+    seen: set[str] = set()
+    for b in doc.get("briefs", []):
+        bid = b.get("id", "<no id>")
+        if bid in seen:
+            errors.append(f"briefs[{bid}]: duplicate id")
+        seen.add(bid)
+        for field in ("date", "title", "body", "why_it_matters"):
+            if not b.get(field):
+                errors.append(f"briefs[{bid}]: missing {field}")
+        if len(b.get("sources", [])) < briefs_lint.MIN_SOURCES:
+            errors.append(f"briefs[{bid}]: fewer than {briefs_lint.MIN_SOURCES} sources")
+        errors.extend(
+            f"briefs[{bid}]: {e}"
+            for e in briefs_lint.check_forbidden_language(
+                f"{b.get('title', '')} {b.get('body', '')} {b.get('why_it_matters', '')}"
+            )
+        )
+    return errors
+
+
 VALIDATORS = {
     "companies.json": validate_companies,
     "pipeline.json": validate_pipeline,
     "wrappers.json": validate_wrappers,
     "signals.json": validate_signals,
+    "briefs.json": validate_briefs,
 }
 
 

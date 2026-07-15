@@ -91,6 +91,35 @@ schtasks /Create /TN "PreludeData Nightly" /SC DAILY /ST 02:30 ^
   /TR "powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Dev\prelude-data\scripts\run_nightly.ps1"
 ```
 
+## The Brief (editorial stage)
+
+Twice weekly (Task Scheduler `PreludeBriefs Mon` / `PreludeBriefs Thu`, 07:00),
+the pipeline gathers material and drafts 4-5 short news pieces for the app's
+`briefs.json`:
+
+1. **Gather** (`briefs_gather.py`): diffs the feed against the last cycle's
+   baseline (new S-1s, status changes, premium/discount swings, valuation
+   marks; plus standing extremes — deep discounts, heavy single-name
+   concentration), then fetches 2-4 corroborating documents per topic from
+   already-trusted sources (EDGAR, issuer pages, the feed's own citations) at
+   the usual ≤1 req/sec.
+2. **Draft** (`briefs_draft.py`): local Ollama (`llama3.1:8b`), zero external
+   API. Every draft is linted (`briefs_lint.py`) and regenerated on failure:
+   no recommendation language (same class of list the app enforces), no 10+
+   word verbatim passages from sources, max one quotation under 15 words,
+   150-300 word body, ≥2 sources. Drafts land in `briefs_drafts/YYYY-MM-DD/`
+   as markdown with `reviewed: false`, and a marker file lands on the Desktop.
+3. **Review gate — the human step, non-negotiable**: edit each draft, flip
+   `reviewed: true`. `python -m prelude_data.briefs_cli publish` REFUSES the
+   cycle if any draft is unreviewed, re-lints the edited text, assembles
+   `briefs.json` (id, date, title, body, why_it_matters, sources, tickers),
+   validates, and pushes. **Publishing is always manual** — the scheduled
+   jobs only gather and draft.
+
+The nightly pipeline passes the published `briefs.json` through its own
+validation gate (schema, ≥2 sources per piece, forbidden-language scan), so
+editorial content is held to the same bar as data.
+
 ## Editing the overlays
 
 - `data/pipeline_overlay.yaml` — facts EDGAR can't give (expected pricing

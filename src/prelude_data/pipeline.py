@@ -41,6 +41,7 @@ def build_all() -> dict[str, dict]:
     docs["wrappers.json"] = builders.build_wrappers()
     log.info("building signals.json ...")
     docs["signals.json"] = builders.build_signals()
+    docs["briefs.json"] = builders.build_briefs_passthrough()
     return docs
 
 
