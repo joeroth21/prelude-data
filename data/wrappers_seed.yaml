@@ -119,19 +119,23 @@ wrappers:
         - {name: "Arista Networks Inc", ticker: ANET, weight_pct: 2.70, as_of: "2026-03-31"}
 
   - id: ssss
-    name: SuRo Capital
+    # 2026-07-01: SuRo Capital renamed Neostellar Capital Corp., ticker SSSS -> NSLR
+    # (8-K: https://www.sec.gov/Archives/edgar/data/1509470/000149315226015439/form8-k.htm).
+    # id kept stable for overlay/app references.
+    name: Neostellar Capital (formerly SuRo Capital)
     structure: listed_business_development_company
-    ticker: SSSS
+    ticker: NSLR
     exchange: Nasdaq
-    quote_symbol: SSSS
+    quote_symbol: NSLR
     issuer_url: https://www.surocap.com/
     fees:
       expense_ratio_pct: null
       description: >-
-        Internally managed BDC: no external management fee; fund-level
-        operating expenses are reported in its SEC filings (see 10-K/10-Q).
-      source_url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509470&type=10-K&dateb=&owner=include&count=10
-      as_of: "2026-07-14"
+        Transitioning from an internally managed BDC to an externally managed
+        structure (joint venture with Magnetar as investment adviser) per its
+        July 2026 8-K; fee terms are reported in its SEC filings (10-K/10-Q).
+      source_url: https://www.sec.gov/Archives/edgar/data/1509470/000149315226015439/form8-k.htm
+      as_of: "2026-07-15"
     liquidity:
       terms: >-
         Exchange-listed BDC: shares trade intraday on Nasdaq at market
