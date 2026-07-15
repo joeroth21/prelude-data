@@ -43,11 +43,37 @@ def validate_companies(doc: dict, now: dt.datetime) -> list[str]:
             f"companies: curation is {curation_age:.0f} days old "
             f"(> {config.MAX_CURATION_AGE_DAYS}) — re-review companies_seed.yaml"
         )
+    venues = doc.get("access_venues", [])
+    if len(venues) < 3:
+        errors.append(f"companies: only {len(venues)} access venues (< 3)")
+    venue_ids = set()
+    for v in venues:
+        vid = v.get("id", "<no id>")
+        venue_ids.add(vid)
+        for field in ("name", "kind", "description", "eligibility", "url"):
+            if not v.get(field):
+                errors.append(f"access_venues[{vid}]: missing {field}")
+
     for c in companies:
         cid = c.get("id", "<no id>")
-        for field in ("name", "sector", "profile", "ipo_status", "profile_source_url"):
+        for field in ("name", "summary", "sector", "profile", "ipo_status", "profile_source_url"):
             if not c.get(field):
                 errors.append(f"companies[{cid}]: missing {field}")
+        routes = c.get("access_routes")
+        if routes is None:
+            errors.append(f"companies[{cid}]: missing access_routes")
+        else:
+            listed = c.get("lifecycle") == "listed"
+            if listed and not any(r.get("kind") == "public_listing" for r in routes):
+                errors.append(f"companies[{cid}]: listed but no public_listing access route")
+            for r in routes:
+                if r.get("kind") == "venue_page":
+                    if listed:
+                        errors.append(f"companies[{cid}]: graduated company has a venue_page route")
+                    if r.get("venue_id") not in venue_ids:
+                        errors.append(f"companies[{cid}]: access route references unknown venue {r.get('venue_id')!r}")
+                    if not r.get("url"):
+                        errors.append(f"companies[{cid}]: venue_page route missing url")
         val = c.get("valuation") or {}
         if val.get("amount_usd_billions") is None:
             errors.append(f"companies[{cid}]: missing valuation.amount_usd_billions")

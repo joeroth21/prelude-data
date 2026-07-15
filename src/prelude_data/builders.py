@@ -69,9 +69,40 @@ def graduation_outcome(ipo_price_usd: float, ticker: str) -> dict | None:
     }
 
 
+def derive_access_routes(company_seed: dict, overlay_links: list[dict]) -> list[dict]:
+    """Access routes for one company — facts about where it trades.
+
+    Graduated companies get exactly one route: the public listing. Private
+    companies get any hand-verified venue pages from the access overlay
+    (often none — the app falls back to the global venue directory).
+    """
+    if company_seed["ipo_status"] == "listed":
+        ticker = company_seed.get("listed_ticker")
+        return [
+            {
+                "kind": "public_listing",
+                "ticker": ticker,
+                "exchange": company_seed.get("listing_exchange"),
+                "url": f"https://finance.yahoo.com/quote/{ticker}" if ticker else None,
+            }
+        ]
+    return [
+        {
+            "kind": "venue_page",
+            "venue_id": link["venue_id"],
+            "url": link["url"],
+            "as_of": str(link["as_of"]),
+        }
+        for link in overlay_links
+        if link["company_id"] == company_seed["id"]
+    ]
+
+
 def build_companies(today: dt.date | None = None) -> dict:
     today = today or dt.date.today()
     seed = load_yaml(config.DATA_DIR / "companies_seed.yaml")
+    venues = load_yaml(config.DATA_DIR / "access_venues.yaml")["venues"]
+    access_links = load_yaml(config.DATA_DIR / "access_overlay.yaml").get("links", [])
     companies = []
     for c in seed["companies"]:
         lifecycle = LIFECYCLE_FROM_STATUS[c["ipo_status"]]
@@ -87,8 +118,10 @@ def build_companies(today: dt.date | None = None) -> dict:
         entry = {
             "id": c["id"],
             "name": c["name"],
+            "summary": c["summary"],
             "sector": c["sector"],
             "profile": c["profile"],
+            "access_routes": derive_access_routes(c, access_links),
             "profile_source_url": c["profile_source_url"],
             "ipo_status": c["ipo_status"],  # private|rumored|s1_filed|priced|listed
             "lifecycle": lifecycle,
@@ -121,6 +154,7 @@ def build_companies(today: dt.date | None = None) -> dict:
         "generated_at": utcnow_iso(),
         "as_of": str(seed["curated_as_of"]),
         "notes": seed.get("notes"),
+        "access_venues": venues,
         "companies": companies,
     }
 

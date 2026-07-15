@@ -18,9 +18,11 @@ def company(**over):
         "sector": "AI",
         "profile": "Does things.",
         "profile_source_url": "https://example.com/acme",
+        "summary": "Acme does a thing.",
         "ipo_status": "private",
         "lifecycle": "private",
         "graduated": False,
+        "access_routes": [],
         "valuation": {
             "amount_usd_billions": 10,
             "basis": "priced_round",
@@ -34,8 +36,18 @@ def company(**over):
     return base
 
 
+VENUES = [
+    {"id": "equityzen", "name": "EquityZen", "kind": "secondary_marketplace",
+     "description": "d", "eligibility": "e", "url": "https://equityzen.com"},
+    {"id": "forge", "name": "Forge", "kind": "secondary_marketplace",
+     "description": "d", "eligibility": "e", "url": "https://forgeglobal.com"},
+    {"id": "hiive", "name": "Hiive", "kind": "secondary_marketplace",
+     "description": "d", "eligibility": "e", "url": "https://www.hiive.com"},
+]
+
+
 def companies_doc(companies, as_of="2026-07-01"):
-    return {"companies": companies, "as_of": as_of}
+    return {"companies": companies, "as_of": as_of, "access_venues": VENUES}
 
 
 class TestCompanies:
@@ -66,6 +78,41 @@ class TestCompanies:
     def test_missing_profile_fails(self):
         errors = validate_companies(companies_doc([company(profile="")] * 45), NOW)
         assert any("missing profile" in e for e in errors)
+
+    def test_missing_summary_fails(self):
+        errors = validate_companies(companies_doc([company(summary="")] * 45), NOW)
+        assert any("missing summary" in e for e in errors)
+
+    def test_listed_requires_public_listing_route(self):
+        listed = company(
+            ipo_status="listed", lifecycle="listed", graduated=True,
+            listed_ticker="ACME", listing_date="2026-01-01", graduation_outcome=None,
+            access_routes=[],
+        )
+        errors = validate_companies(companies_doc([listed] * 45), NOW)
+        assert any("no public_listing access route" in e for e in errors)
+
+    def test_graduated_with_venue_page_fails(self):
+        listed = company(
+            ipo_status="listed", lifecycle="listed", graduated=True,
+            listed_ticker="ACME", listing_date="2026-01-01", graduation_outcome=None,
+            access_routes=[
+                {"kind": "public_listing", "ticker": "ACME", "exchange": "NYSE", "url": "https://x"},
+                {"kind": "venue_page", "venue_id": "equityzen", "url": "https://x"},
+            ],
+        )
+        errors = validate_companies(companies_doc([listed] * 45), NOW)
+        assert any("graduated company has a venue_page route" in e for e in errors)
+
+    def test_unknown_venue_reference_fails(self):
+        bad = company(access_routes=[{"kind": "venue_page", "venue_id": "nope", "url": "https://x"}])
+        errors = validate_companies(companies_doc([bad] * 45), NOW)
+        assert any("unknown venue" in e for e in errors)
+
+    def test_too_few_venues_fails(self):
+        doc = companies_doc([company(id=f"c{i}") for i in range(45)])
+        doc["access_venues"] = VENUES[:2]
+        assert any("access venues" in e for e in validate_companies(doc, NOW))
 
 
 DAYS = [f"2026-{m:02d}-{d:02d}" for m in range(1, 7) for d in range(1, 21)]  # 120 pseudo-days

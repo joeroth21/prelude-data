@@ -1,0 +1,59 @@
+# Global venue directory — factual descriptions of where private-company
+# exposure legitimately changes hands, plus IPO-allocation brokers.
+# LANGUAGE RULE: descriptions and eligibility notes state facts about the
+# venue; they never direct the reader to acquire anything.
+
+venues:
+  - id: forge
+    name: Forge Global
+    kind: secondary_marketplace
+    description: >-
+      Public secondary marketplace where shares of private companies change
+      hands between existing holders and eligible participants.
+    eligibility: Generally limited to accredited investors; minimums apply.
+    url: https://forgeglobal.com
+
+  - id: equityzen
+    name: EquityZen
+    kind: secondary_marketplace
+    description: >-
+      Secondary marketplace offering exposure to private companies through
+      pooled fund vehicles built on shares from existing holders.
+    eligibility: Generally limited to accredited investors; minimums apply.
+    url: https://equityzen.com
+
+  - id: hiive
+    name: Hiive
+    kind: secondary_marketplace
+    description: >-
+      Direct secondary marketplace listing bids and asks on private-company
+      shares between holders and eligible participants.
+    eligibility: Generally limited to accredited and institutional participants.
+    url: https://www.hiive.com
+
+  - id: robinhood
+    name: Robinhood (IPO Access)
+    kind: ipo_allocation_broker
+    description: >-
+      Retail brokerage whose IPO Access program allocates shares of
+      participating IPOs to eligible customers at the offering price.
+    eligibility: US brokerage customers; allocations depend on the issuer and demand.
+    url: https://robinhood.com
+
+  - id: sofi
+    name: SoFi
+    kind: ipo_allocation_broker
+    description: >-
+      Retail brokerage that distributes allocations of participating IPOs
+      to eligible members at the offering price.
+    eligibility: US brokerage members; availability varies by offering.
+    url: https://www.sofi.com/invest/ipo-investing/
+
+  - id: fidelity
+    name: Fidelity
+    kind: ipo_allocation_broker
+    description: >-
+      Brokerage that makes allocations of participating new issues
+      available to customers meeting asset or activity criteria.
+    eligibility: Qualifying brokerage customers; issuer participation varies.
+    url: https://www.fidelity.com/trading/ipos

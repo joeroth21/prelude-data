@@ -23,6 +23,7 @@ notes: >-
 companies:
   - id: openai
     name: OpenAI
+    summary: "OpenAI develops the GPT family of AI models and ChatGPT."
     sector: Artificial Intelligence
     profile: >-
       Developer of the GPT model family and ChatGPT. Capped-profit structure
@@ -34,6 +35,7 @@ companies:
 
   - id: anthropic
     name: Anthropic
+    summary: "Anthropic builds the Claude family of AI models with a safety-focused research program."
     sector: Artificial Intelligence
     profile: >-
       AI safety and research company behind the Claude model family. Founded
@@ -44,6 +46,7 @@ companies:
 
   - id: spacex
     name: SpaceX
+    summary: "SpaceX builds and launches rockets and operates the Starlink satellite internet network."
     aliases: ["Space Exploration Technologies", "Space Exploration Technologies Corp"]
     sector: Aerospace & Defense
     profile: >-
@@ -54,6 +57,7 @@ companies:
     ipo_status: listed
     listed_ticker: SPCX
     listing_date: 2026-06-12
+    listing_exchange: Nasdaq
     ipo_price_usd: 135.00
     ipo_status_source_url: https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm
     valuation:
@@ -65,6 +69,7 @@ companies:
 
   - id: xai
     name: xAI
+    summary: "xAI develops the Grok AI models and operates large training clusters."
     aliases: ["XAI Holdings"]
     sector: Artificial Intelligence
     profile: >-
@@ -76,6 +81,7 @@ companies:
 
   - id: stripe
     name: Stripe
+    summary: "Stripe provides payment processing infrastructure for online businesses."
     sector: Fintech
     profile: >-
       Payments infrastructure for internet businesses. Dublin/San Francisco
@@ -86,6 +92,7 @@ companies:
 
   - id: databricks
     name: Databricks
+    summary: "Databricks builds a data and AI platform for enterprises."
     sector: Data & AI Platform
     profile: >-
       Data lakehouse and AI platform company. Repeatedly cited by its CEO as
@@ -97,6 +104,7 @@ companies:
 
   - id: bytedance
     name: ByteDance
+    summary: "ByteDance operates TikTok, Douyin, and other consumer internet apps."
     sector: Consumer Internet
     profile: >-
       Parent of TikTok and Douyin. The largest private technology company by
@@ -107,6 +115,7 @@ companies:
 
   - id: shein
     name: Shein
+    summary: "Shein sells fast fashion online direct to consumers worldwide."
     sector: E-commerce
     profile: >-
       Fast-fashion marketplace. Has pursued a listing across multiple venues
@@ -119,6 +128,7 @@ companies:
 
   - id: epic-games
     name: Epic Games
+    summary: "Epic Games makes Fortnite and the Unreal Engine game tools."
     sector: Gaming
     profile: >-
       Maker of Fortnite and Unreal Engine. Backed by Tencent, Sony, and
@@ -129,6 +139,7 @@ companies:
 
   - id: canva
     name: Canva
+    summary: "Canva offers browser-based graphic design tools for non-designers."
     sector: Design Software
     profile: >-
       Visual communication and design platform, Sydney-based, cash-flow
@@ -139,6 +150,7 @@ companies:
 
   - id: revolut
     name: Revolut
+    summary: "Revolut runs a digital banking and payments app."
     sector: Fintech
     profile: >-
       London-based global neobank with 50m+ customers; holds a UK banking
@@ -150,6 +162,7 @@ companies:
 
   - id: figure-ai
     name: Figure AI
+    summary: "Figure AI develops humanoid robots for industrial work."
     sector: Robotics
     profile: >-
       Humanoid robotics company developing the Figure robot line for
@@ -160,6 +173,7 @@ companies:
 
   - id: scale-ai
     name: Scale AI
+    summary: "Scale AI supplies data labeling and evaluation services for AI training."
     sector: Artificial Intelligence
     profile: >-
       Data labeling and evaluation infrastructure for AI. Meta acquired a 49%
@@ -170,6 +184,7 @@ companies:
 
   - id: perplexity
     name: Perplexity
+    summary: "Perplexity operates an AI-powered answer engine for web search."
     sector: Artificial Intelligence
     profile: >-
       AI-powered answer engine and search product; rapid 2024-2025 fundraising
@@ -180,6 +195,7 @@ companies:
 
   - id: safe-superintelligence
     name: Safe Superintelligence
+    summary: "Safe Superintelligence is an AI research lab with no commercial product."
     sector: Artificial Intelligence
     profile: >-
       Research lab founded 2024 by Ilya Sutskever with the stated single goal
@@ -190,6 +206,7 @@ companies:
 
   - id: mistral-ai
     name: Mistral AI
+    summary: "Mistral AI develops open-weight AI language models."
     sector: Artificial Intelligence
     profile: >-
       Paris-based open-weight model developer; Europe's most valuable AI
@@ -200,6 +217,7 @@ companies:
 
   - id: cohere
     name: Cohere
+    summary: "Cohere builds AI language models for enterprise deployment."
     sector: Artificial Intelligence
     profile: >-
       Toronto-based enterprise AI company focused on secure, private model
@@ -210,6 +228,7 @@ companies:
 
   - id: groq
     name: Groq
+    summary: "Groq designs chips and cloud services for fast AI inference."
     sector: AI Semiconductors
     profile: >-
       Inference-focused chip company (LPU architecture) selling fast
@@ -220,6 +239,7 @@ companies:
 
   - id: cerebras
     name: Cerebras Systems
+    summary: "Cerebras Systems builds wafer-scale processors for AI computing."
     sector: AI Semiconductors
     profile: >-
       Wafer-scale AI compute company. Filed an S-1 in 2024, stepped back and
@@ -229,6 +249,7 @@ companies:
     ipo_status: listed
     listed_ticker: CBRS
     listing_date: 2026-05-14
+    listing_exchange: Nasdaq
     ipo_price_usd: 185.00
     ipo_status_source_url: https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm
     valuation:
@@ -240,6 +261,7 @@ companies:
 
   - id: neuralink
     name: Neuralink
+    summary: "Neuralink develops implantable brain-computer interfaces."
     sector: Neurotechnology
     profile: >-
       Brain-computer interface company running human clinical trials of its
@@ -250,6 +272,7 @@ companies:
 
   - id: the-boring-company
     name: The Boring Company
+    summary: "The Boring Company digs tunnels for underground transportation."
     sector: Infrastructure
     profile: >-
       Tunneling and underground transit company; operates the Las Vegas
@@ -260,6 +283,7 @@ companies:
 
   - id: rippling
     name: Rippling
+    summary: "Rippling combines payroll, HR, IT, and finance software in one platform."
     sector: HR & Finance Software
     profile: >-
       Workforce management platform spanning HR, IT, and finance.
@@ -269,6 +293,7 @@ companies:
 
   - id: deel
     name: Deel
+    summary: "Deel handles international payroll and employment compliance."
     sector: HR Software
     profile: >-
       Global payroll and employer-of-record platform.
@@ -278,6 +303,7 @@ companies:
 
   - id: gusto
     name: Gusto
+    summary: "Gusto provides payroll and benefits software for small businesses."
     sector: HR Software
     profile: >-
       Payroll and benefits platform for small businesses.
@@ -287,6 +313,7 @@ companies:
 
   - id: plaid
     name: Plaid
+    summary: "Plaid connects bank accounts to financial apps through APIs."
     sector: Fintech
     profile: >-
       Bank-account connectivity APIs for fintech apps; 2025 secondary reset
@@ -297,6 +324,7 @@ companies:
 
   - id: brex
     name: Brex
+    summary: "Brex issues corporate cards and spend management software."
     sector: Fintech
     profile: >-
       Corporate cards and spend management for startups and enterprises.
@@ -306,6 +334,7 @@ companies:
 
   - id: ramp
     name: Ramp
+    summary: "Ramp automates corporate spending, cards, and expense management."
     sector: Fintech
     profile: >-
       Spend management and corporate card platform; one of the fastest
@@ -316,6 +345,7 @@ companies:
 
   - id: airtable
     name: Airtable
+    summary: "Airtable is a no-code database and app-building tool."
     sector: Productivity Software
     profile: >-
       No-code app-building and database platform.
@@ -325,6 +355,7 @@ companies:
 
   - id: notion
     name: Notion
+    summary: "Notion is a workspace app combining documents, wikis, and project tracking."
     sector: Productivity Software
     profile: >-
       Connected workspace for docs, wikis, and projects.
@@ -334,6 +365,7 @@ companies:
 
   - id: grammarly
     name: Grammarly
+    summary: "Grammarly makes AI writing-assistance software."
     sector: Productivity Software
     profile: >-
       AI writing assistant; acquired Coda in 2024 and Superhuman in 2025.
@@ -343,6 +375,7 @@ companies:
 
   - id: discord
     name: Discord
+    summary: "Discord runs voice, video, and text chat communities."
     sector: Consumer Internet
     profile: >-
       Voice/video/text community platform; IPO preparation reported by
@@ -354,6 +387,7 @@ companies:
 
   - id: anysphere
     name: Anysphere (Cursor)
+    summary: "Anysphere makes Cursor, an AI-assisted code editor."
     aliases: ["Anysphere"]
     sector: Developer Tools
     profile: >-
@@ -365,6 +399,7 @@ companies:
 
   - id: glean
     name: Glean
+    summary: "Glean provides AI search across a company's internal knowledge."
     sector: Enterprise AI
     profile: >-
       Enterprise search and work AI assistant across company knowledge.
@@ -375,6 +410,7 @@ companies:
 
   - id: harvey
     name: Harvey
+    summary: "Harvey builds AI tools for law firms and professional services."
     sector: Legal AI
     profile: >-
       AI platform for law firms and professional services.
@@ -384,6 +420,7 @@ companies:
 
   - id: elevenlabs
     name: ElevenLabs
+    summary: "ElevenLabs makes AI voice synthesis and audio tools."
     sector: Artificial Intelligence
     profile: >-
       AI voice synthesis and audio platform.
@@ -393,6 +430,7 @@ companies:
 
   - id: snyk
     name: Snyk
+    summary: "Snyk scans code and dependencies for security flaws."
     sector: Cybersecurity
     profile: >-
       Developer-first security platform for code and dependencies.
@@ -402,6 +440,7 @@ companies:
 
   - id: vercel
     name: Vercel
+    summary: "Vercel hosts web frontends and maintains the Next.js framework."
     sector: Developer Tools
     profile: >-
       Frontend cloud platform and steward of the Next.js framework.
@@ -411,6 +450,7 @@ companies:
 
   - id: hugging-face
     name: Hugging Face
+    summary: "Hugging Face hosts open AI models and machine-learning tools."
     sector: Artificial Intelligence
     profile: >-
       Open model hub and ML tooling community.
@@ -420,6 +460,7 @@ companies:
 
   - id: together-ai
     name: Together AI
+    summary: "Together AI runs cloud infrastructure for open-source AI models."
     sector: AI Infrastructure
     profile: >-
       Cloud platform for open-source model training and inference.
@@ -429,6 +470,7 @@ companies:
 
   - id: lambda
     name: Lambda
+    summary: "Lambda rents GPU computing for AI training and inference."
     sector: AI Infrastructure
     profile: >-
       GPU cloud for AI training and inference workloads.
@@ -438,6 +480,7 @@ companies:
 
   - id: crusoe
     name: Crusoe
+    summary: "Crusoe builds and operates data centers for AI computing."
     sector: AI Infrastructure
     profile: >-
       AI data-center developer (Stargate Abilene anchor builder), originally
@@ -448,6 +491,7 @@ companies:
 
   - id: vast-data
     name: VAST Data
+    summary: "VAST Data sells storage and data infrastructure for AI workloads."
     sector: Data Infrastructure
     profile: >-
       AI-era data platform (storage, database, compute fabric).
@@ -457,6 +501,7 @@ companies:
 
   - id: shield-ai
     name: Shield AI
+    summary: "Shield AI makes autonomy software and drones for defense."
     sector: Defense Technology
     profile: >-
       Autonomy software (Hivemind) and V-BAT aircraft for defense.
@@ -466,6 +511,7 @@ companies:
 
   - id: anduril
     name: Anduril Industries
+    summary: "Anduril Industries builds software-driven defense systems."
     sector: Defense Technology
     profile: >-
       Defense products company (Lattice OS, autonomous systems); a founder
@@ -477,6 +523,7 @@ companies:
 
   - id: flexport
     name: Flexport
+    summary: "Flexport manages ocean and air freight logistics digitally."
     sector: Logistics
     profile: >-
       Digital freight forwarding and supply-chain platform.
@@ -486,6 +533,7 @@ companies:
 
   - id: sierra
     name: Sierra
+    summary: "Sierra builds conversational AI agents for customer service."
     sector: Enterprise AI
     profile: >-
       Conversational AI agents for customer experience, co-founded by Bret
@@ -496,6 +544,7 @@ companies:
 
   - id: thinking-machines-lab
     name: Thinking Machines Lab
+    summary: "Thinking Machines Lab is an AI research company founded by Mira Murati."
     sector: Artificial Intelligence
     profile: >-
       AI research company founded 2025 by Mira Murati; raised a record seed
@@ -506,6 +555,7 @@ companies:
 
   - id: polymarket
     name: Polymarket
+    summary: "Polymarket runs a prediction market settled in crypto."
     sector: Prediction Markets
     profile: >-
       Crypto-settled prediction market; ICE (NYSE parent) announced a
@@ -516,6 +566,7 @@ companies:
 
   - id: kalshi
     name: Kalshi
+    summary: "Kalshi operates a regulated exchange for event contracts."
     sector: Prediction Markets
     profile: >-
       CFTC-regulated event-contract exchange.
@@ -525,6 +576,7 @@ companies:
 
   - id: kraken
     name: Kraken
+    summary: "Kraken operates a cryptocurrency exchange."
     aliases: ["Payward"]
     sector: Crypto
     profile: >-
@@ -537,6 +589,7 @@ companies:
 
   - id: ripple
     name: Ripple
+    summary: "Ripple sells blockchain payment infrastructure tied to the XRP ledger."
     aliases: ["Ripple Labs"]
     sector: Crypto
     profile: >-
@@ -547,6 +600,7 @@ companies:
 
   - id: chainguard
     name: Chainguard
+    summary: "Chainguard supplies hardened container images for software security."
     sector: Cybersecurity
     profile: >-
       Secure software supply chain (hardened container images).
@@ -556,6 +610,7 @@ companies:
 
   - id: fanatics
     name: Fanatics
+    summary: "Fanatics sells licensed sports merchandise and collectibles."
     sector: Sports Commerce
     profile: >-
       Licensed sports merchandise, collectibles, and betting platform.
@@ -565,6 +620,7 @@ companies:
 
   - id: waymo
     name: Waymo
+    summary: "Waymo operates driverless ride-hailing services."
     sector: Autonomous Vehicles
     profile: >-
       Alphabet's autonomous ride-hailing subsidiary with external investors;
@@ -575,6 +631,7 @@ companies:
 
   - id: klarna
     name: Klarna
+    summary: "Klarna offers pay-later consumer financing and banking services."
     sector: Fintech
     profile: >-
       Swedish buy-now-pay-later and banking company; listed on NYSE in
@@ -583,12 +640,14 @@ companies:
     ipo_status: listed
     listed_ticker: KLAR
     listing_date: 2025-09-10
+    listing_exchange: NYSE
     ipo_price_usd: 40.00
     ipo_status_source_url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=klarna&type=F-1&dateb=&owner=include&count=10
     valuation: {amount_usd_billions: 15.1, basis: public_market, round_label: IPO pricing, as_of: 2025-09-10, source_url: https://en.wikipedia.org/wiki/Klarna}
 
   - id: coreweave
     name: CoreWeave
+    summary: "CoreWeave rents GPU cloud computing for AI workloads."
     sector: AI Infrastructure
     profile: >-
       GPU cloud provider; listed on Nasdaq in March 2025.
@@ -596,11 +655,13 @@ companies:
     ipo_status: listed
     listed_ticker: CRWV
     listing_date: 2025-03-28
+    listing_exchange: Nasdaq
     ipo_price_usd: 40.00
     valuation: {amount_usd_billions: 23, basis: public_market, round_label: IPO pricing, as_of: 2025-03-28, source_url: https://en.wikipedia.org/wiki/CoreWeave}
 
   - id: figma
     name: Figma
+    summary: "Figma makes collaborative interface design software."
     sector: Design Software
     profile: >-
       Collaborative design platform; listed on NYSE in July 2025.
@@ -608,11 +669,13 @@ companies:
     ipo_status: listed
     listed_ticker: FIG
     listing_date: 2025-07-31
+    listing_exchange: NYSE
     ipo_price_usd: 33.00
     valuation: {amount_usd_billions: 19.3, basis: public_market, round_label: IPO pricing, as_of: 2025-07-31, source_url: https://en.wikipedia.org/wiki/Figma}
 
   - id: circle
     name: Circle
+    summary: "Circle issues the USDC stablecoin and related payment services."
     sector: Crypto / Fintech
     profile: >-
       Issuer of the USDC stablecoin; listed on NYSE in June 2025.
@@ -620,11 +683,13 @@ companies:
     ipo_status: listed
     listed_ticker: CRCL
     listing_date: 2025-06-05
+    listing_exchange: NYSE
     ipo_price_usd: 31.00
     valuation: {amount_usd_billions: 6.9, basis: public_market, round_label: IPO pricing, as_of: 2025-06-05, source_url: https://en.wikipedia.org/wiki/Circle_(company)}
 
   - id: chime
     name: Chime
+    summary: "Chime provides consumer banking services through a mobile app."
     sector: Fintech
     profile: >-
       US consumer neobank; listed on Nasdaq in June 2025.
@@ -632,11 +697,13 @@ companies:
     ipo_status: listed
     listed_ticker: CHYM
     listing_date: 2025-06-12
+    listing_exchange: Nasdaq
     ipo_price_usd: 27.00
     valuation: {amount_usd_billions: 11.6, basis: public_market, round_label: IPO pricing, as_of: 2025-06-12, source_url: https://en.wikipedia.org/wiki/Chime_(company)}
 
   - id: tenstorrent
     name: Tenstorrent
+    summary: "Tenstorrent designs RISC-V processors and AI accelerator chips."
     sector: AI Semiconductors
     profile: >-
       RISC-V and AI accelerator company led by Jim Keller.
@@ -646,6 +713,7 @@ companies:
 
   - id: gopuff
     name: Gopuff
+    summary: "Gopuff delivers convenience-store goods from local micro-warehouses."
     aliases: ["GoBrands"]
     sector: Consumer Delivery
     profile: >-
@@ -656,6 +724,7 @@ companies:
 
   - id: automation-anywhere
     name: Automation Anywhere
+    summary: "Automation Anywhere sells robotic process automation software."
     sector: Enterprise Software
     profile: >-
       Robotic process automation platform.

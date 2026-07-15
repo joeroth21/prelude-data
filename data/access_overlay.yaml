@@ -1,0 +1,23 @@
+# Per-company access links — ONLY entries with a hand-verified, live,
+# public venue page for that specific company. Verified via the liveness
+# checker on the date noted. Leave companies out rather than guessing;
+# the app falls back to the global venue directory.
+#
+# Graduated (listed) companies never appear here: their access route is
+# generated automatically as "trades publicly as [TICKER]".
+
+links:
+  - company_id: openai
+    venue_id: equityzen
+    url: https://equityzen.com/company/openai/
+    as_of: "2026-07-14"
+
+  - company_id: anthropic
+    venue_id: equityzen
+    url: https://equityzen.com/company/anthropic/
+    as_of: "2026-07-14"
+
+  - company_id: databricks
+    venue_id: equityzen
+    url: https://equityzen.com/company/databricks/
+    as_of: "2026-07-14"

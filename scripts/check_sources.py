@@ -20,7 +20,7 @@ from prelude_data import config, http_client  # noqa: E402
 def collect_urls(obj, found: set[str]) -> None:
     if isinstance(obj, dict):
         for k, v in obj.items():
-            if k.endswith("source_url") and isinstance(v, str):
+            if (k.endswith("source_url") or k == "url") and isinstance(v, str) and v.startswith("http"):
                 found.add(v)
             else:
                 collect_urls(v, found)
@@ -31,7 +31,7 @@ def collect_urls(obj, found: set[str]) -> None:
 
 def main() -> int:
     urls: set[str] = set()
-    for name in ("companies_seed.yaml", "wrappers_seed.yaml", "wrappers_overlay.yaml", "pipeline_overlay.yaml"):
+    for name in ("companies_seed.yaml", "wrappers_seed.yaml", "wrappers_overlay.yaml", "pipeline_overlay.yaml", "access_venues.yaml", "access_overlay.yaml"):
         with open(config.DATA_DIR / name, encoding="utf-8") as fh:
             collect_urls(yaml.safe_load(fh) or {}, urls)
 

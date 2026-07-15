@@ -70,3 +70,33 @@ class TestUniverseMatch:
         builders.match_universe(entries, companies)
         assert entries[0]["universe_company_id"] == "spacex"
         assert entries[1]["universe_company_id"] is None
+
+
+class TestAccessRoutes:
+    LINKS = [
+        {"company_id": "openai", "venue_id": "equityzen", "url": "https://equityzen.com/company/openai/", "as_of": "2026-07-14"},
+        {"company_id": "anthropic", "venue_id": "equityzen", "url": "https://x", "as_of": "2026-07-14"},
+    ]
+
+    def test_listed_company_gets_public_listing_only(self):
+        seed = {"id": "spacex", "ipo_status": "listed", "listed_ticker": "SPCX", "listing_exchange": "Nasdaq"}
+        routes = builders.derive_access_routes(seed, self.LINKS)
+        assert routes == [
+            {
+                "kind": "public_listing",
+                "ticker": "SPCX",
+                "exchange": "Nasdaq",
+                "url": "https://finance.yahoo.com/quote/SPCX",
+            }
+        ]
+
+    def test_private_company_gets_only_its_verified_links(self):
+        seed = {"id": "openai", "ipo_status": "private"}
+        routes = builders.derive_access_routes(seed, self.LINKS)
+        assert len(routes) == 1
+        assert routes[0]["kind"] == "venue_page"
+        assert routes[0]["venue_id"] == "equityzen"
+
+    def test_private_company_without_links_gets_empty_routes(self):
+        seed = {"id": "notion", "ipo_status": "private"}
+        assert builders.derive_access_routes(seed, self.LINKS) == []
