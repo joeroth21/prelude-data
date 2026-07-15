@@ -61,7 +61,7 @@ def build_meta(docs: dict[str, dict], rendered: dict[str, str]) -> dict:
 
 
 def _record_count(name: str, doc: dict) -> int | None:
-    for key in ("companies", "filings", "wrappers", "signals"):
+    for key in ("companies", "filings", "wrappers", "signals", "briefs"):
         if key in doc:
             return len(doc[key])
     return None
