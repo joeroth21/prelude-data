@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-15T04:14:51+00:00",
-  "as_of": "2026-07-14",
+  "generated_at": "2026-07-15T18:51:36+00:00",
+  "as_of": "2026-07-15",
   "notes": "Curated universe of late-stage private companies (plus a handful of 2025 listings kept for status continuity). Factual profiles only; educational display. Source URLs point to stable public summaries which themselves cite primary reporting.",
   "access_venues": [
     {
@@ -82,11 +82,11 @@
         "basis": "secondary_sale",
         "round_label": "Employee share sale",
         "as_of": "2025-10-01",
-        "mark_age_days": 286,
+        "mark_age_days": 287,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/OpenAI"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -117,11 +117,11 @@
         "basis": "priced_round",
         "round_label": "Series F",
         "as_of": "2025-09-02",
-        "mark_age_days": 315,
+        "mark_age_days": 316,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Anthropic"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -155,17 +155,17 @@
         "basis": "public_market",
         "round_label": "IPO priced at $135.00/share (13,090,853,965 shares post-offering)",
         "as_of": "2026-06-12",
-        "mark_age_days": 32,
+        "mark_age_days": 33,
         "stale": false,
         "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": {
         "ipo_price_usd": 135.0,
-        "current_price_usd": 136.08,
+        "current_price_usd": 134.79,
         "currency": "USD",
-        "price_as_of": "2026-07-14T20:00:01+00:00",
-        "change_from_ipo_pct": 0.8,
+        "price_as_of": "2026-07-15T18:51:15+00:00",
+        "change_from_ipo_pct": -0.16,
         "source_url": "https://finance.yahoo.com/quote/SPCX"
       }
     },
@@ -192,11 +192,11 @@
         "basis": "media_report",
         "round_label": "Reported financing",
         "as_of": "2025-12-01",
-        "mark_age_days": 225,
+        "mark_age_days": 226,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/XAI_(company)"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -220,11 +220,11 @@
         "basis": "tender_offer",
         "round_label": "Employee and shareholder tender",
         "as_of": "2026-02-01",
-        "mark_age_days": 163,
+        "mark_age_days": 164,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Stripe"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -255,11 +255,11 @@
         "basis": "priced_round",
         "round_label": "Series K",
         "as_of": "2025-09-08",
-        "mark_age_days": 309,
+        "mark_age_days": 310,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Databricks"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -283,11 +283,11 @@
         "basis": "tender_offer",
         "round_label": "Employee buyback",
         "as_of": "2024-12-01",
-        "mark_age_days": 590,
+        "mark_age_days": 591,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/ByteDance"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -311,11 +311,11 @@
         "basis": "media_report",
         "round_label": "Reported valuation",
         "as_of": "2025-02-01",
-        "mark_age_days": 528,
+        "mark_age_days": 529,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Shein"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -339,11 +339,11 @@
         "basis": "priced_round",
         "round_label": "2022 financing",
         "as_of": "2022-04-11",
-        "mark_age_days": 1555,
+        "mark_age_days": 1556,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Epic_Games"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -367,11 +367,11 @@
         "basis": "secondary_sale",
         "round_label": "Employee share sale",
         "as_of": "2025-10-01",
-        "mark_age_days": 286,
+        "mark_age_days": 287,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Canva"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -395,11 +395,11 @@
         "basis": "secondary_sale",
         "round_label": "Employee share sale",
         "as_of": "2025-11-01",
-        "mark_age_days": 255,
+        "mark_age_days": 256,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Revolut"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -423,11 +423,11 @@
         "basis": "priced_round",
         "round_label": "Series C",
         "as_of": "2025-09-16",
-        "mark_age_days": 301,
+        "mark_age_days": 302,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Figure_AI"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -451,11 +451,11 @@
         "basis": "priced_round",
         "round_label": "Meta strategic investment",
         "as_of": "2025-06-13",
-        "mark_age_days": 396,
+        "mark_age_days": 397,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Scale_AI"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -479,11 +479,11 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-09-10",
-        "mark_age_days": 307,
+        "mark_age_days": 308,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -507,11 +507,11 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-04-12",
-        "mark_age_days": 458,
+        "mark_age_days": 459,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Safe_Superintelligence"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -535,11 +535,11 @@
         "basis": "priced_round",
         "round_label": "Series C",
         "as_of": "2025-09-09",
-        "mark_age_days": 308,
+        "mark_age_days": 309,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Mistral_AI"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -563,11 +563,11 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-08-14",
-        "mark_age_days": 334,
+        "mark_age_days": 335,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Cohere"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -591,11 +591,11 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-09-17",
-        "mark_age_days": 300,
+        "mark_age_days": 301,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Groq"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -626,17 +626,17 @@
         "basis": "public_market",
         "round_label": "IPO priced at $185.00/share (215,110,345 shares post-offering: 185,110,345 Class B + 30,000,000 Class A offered, per prospectus)",
         "as_of": "2026-05-14",
-        "mark_age_days": 61,
+        "mark_age_days": 62,
         "stale": false,
         "source_url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": {
         "ipo_price_usd": 185.0,
-        "current_price_usd": 203.81,
+        "current_price_usd": 185.644,
         "currency": "USD",
-        "price_as_of": "2026-07-14T20:00:01+00:00",
-        "change_from_ipo_pct": 10.17,
+        "price_as_of": "2026-07-15T18:51:16+00:00",
+        "change_from_ipo_pct": 0.35,
         "source_url": "https://finance.yahoo.com/quote/CBRS"
       }
     },
@@ -661,11 +661,11 @@
         "basis": "priced_round",
         "round_label": "Series E",
         "as_of": "2025-06-02",
-        "mark_age_days": 407,
+        "mark_age_days": 408,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Neuralink"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -689,11 +689,11 @@
         "basis": "priced_round",
         "round_label": "Series C",
         "as_of": "2022-04-20",
-        "mark_age_days": 1546,
+        "mark_age_days": 1547,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/The_Boring_Company"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -717,11 +717,11 @@
         "basis": "priced_round",
         "round_label": "Series G",
         "as_of": "2025-05-16",
-        "mark_age_days": 424,
+        "mark_age_days": 425,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Rippling"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -745,11 +745,11 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-08-19",
-        "mark_age_days": 329,
+        "mark_age_days": 330,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Deel"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -773,11 +773,11 @@
         "basis": "tender_offer",
         "round_label": "Employee tender",
         "as_of": "2025-06-01",
-        "mark_age_days": 408,
+        "mark_age_days": 409,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Gusto"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -801,39 +801,11 @@
         "basis": "secondary_sale",
         "round_label": "Employee share sale",
         "as_of": "2026-02-01",
-        "mark_age_days": 163,
+        "mark_age_days": 164,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Plaid_Inc."
       },
-      "as_of": "2026-07-14",
-      "graduation_outcome": null
-    },
-    {
-      "id": "brex",
-      "name": "Brex",
-      "summary": "Brex issues corporate cards and spend management software.",
-      "sector": "Fintech",
-      "profile": "Corporate cards and spend management for startups and enterprises.",
-      "access_routes": [],
-      "profile_source_url": "https://en.wikipedia.org/wiki/Brex",
-      "ipo_status": "private",
-      "lifecycle": "private",
-      "graduated": false,
-      "listing_date": null,
-      "ipo_status_source_url": null,
-      "listed_ticker": null,
-      "aliases": [],
-      "crosscheck_skip": false,
-      "valuation": {
-        "amount_usd_billions": 12.3,
-        "basis": "priced_round",
-        "round_label": "Series D-2",
-        "as_of": "2022-01-11",
-        "mark_age_days": 1645,
-        "stale": true,
-        "source_url": "https://en.wikipedia.org/wiki/Brex"
-      },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -857,11 +829,11 @@
         "basis": "secondary_sale",
         "round_label": "Employee share sale",
         "as_of": "2025-09-04",
-        "mark_age_days": 313,
+        "mark_age_days": 314,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Ramp_(company)"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -885,11 +857,11 @@
         "basis": "priced_round",
         "round_label": "Series F",
         "as_of": "2021-12-13",
-        "mark_age_days": 1674,
+        "mark_age_days": 1675,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Airtable"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -913,11 +885,11 @@
         "basis": "priced_round",
         "round_label": "Series C",
         "as_of": "2021-10-08",
-        "mark_age_days": 1740,
+        "mark_age_days": 1741,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -934,18 +906,21 @@
       "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
-      "aliases": [],
+      "aliases": [
+        "Superhuman",
+        "Grammarly Inc"
+      ],
       "crosscheck_skip": false,
       "valuation": {
         "amount_usd_billions": 13,
         "basis": "priced_round",
         "round_label": "2021 financing",
         "as_of": "2021-11-17",
-        "mark_age_days": 1700,
+        "mark_age_days": 1701,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Grammarly"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -969,11 +944,11 @@
         "basis": "priced_round",
         "round_label": "Series H",
         "as_of": "2021-09-15",
-        "mark_age_days": 1763,
+        "mark_age_days": 1764,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Discord"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -999,11 +974,11 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2025-11-13",
-        "mark_age_days": 243,
+        "mark_age_days": 244,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Cursor_(code_editor)"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1027,11 +1002,11 @@
         "basis": "priced_round",
         "round_label": "Series F",
         "as_of": "2025-06-10",
-        "mark_age_days": 399,
+        "mark_age_days": 400,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Glean_Technologies"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1055,11 +1030,11 @@
         "basis": "priced_round",
         "round_label": "2026 financing (GIC/Sequoia)",
         "as_of": "2026-03-01",
-        "mark_age_days": 135,
+        "mark_age_days": 136,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Harvey_(software)"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1083,11 +1058,11 @@
         "basis": "media_report",
         "round_label": "Reported tender",
         "as_of": "2025-11-01",
-        "mark_age_days": 255,
+        "mark_age_days": 256,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/ElevenLabs"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1111,11 +1086,11 @@
         "basis": "priced_round",
         "round_label": "Series G",
         "as_of": "2022-12-12",
-        "mark_age_days": 1310,
+        "mark_age_days": 1311,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Snyk"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1139,11 +1114,11 @@
         "basis": "priced_round",
         "round_label": "Series F",
         "as_of": "2025-09-24",
-        "mark_age_days": 293,
+        "mark_age_days": 294,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Vercel"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1167,11 +1142,11 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2023-08-24",
-        "mark_age_days": 1055,
+        "mark_age_days": 1056,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Hugging_Face"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1195,11 +1170,11 @@
         "basis": "priced_round",
         "round_label": "Series B",
         "as_of": "2025-02-20",
-        "mark_age_days": 509,
+        "mark_age_days": 510,
         "stale": true,
         "source_url": "https://www.together.ai/blog"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1223,11 +1198,11 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2025-02-19",
-        "mark_age_days": 510,
+        "mark_age_days": 511,
         "stale": true,
         "source_url": "https://lambda.ai/blog"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1251,11 +1226,11 @@
         "basis": "media_report",
         "round_label": "Reported 2025 financing",
         "as_of": "2025-11-01",
-        "mark_age_days": 255,
+        "mark_age_days": 256,
         "stale": false,
         "source_url": "https://crusoe.ai/newsroom"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1279,11 +1254,11 @@
         "basis": "media_report",
         "round_label": "Reported valuation",
         "as_of": "2026-04-01",
-        "mark_age_days": 104,
+        "mark_age_days": 105,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/VAST_Data"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1307,11 +1282,11 @@
         "basis": "priced_round",
         "round_label": "Series F-1",
         "as_of": "2025-03-06",
-        "mark_age_days": 495,
+        "mark_age_days": 496,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Shield_AI"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1335,11 +1310,11 @@
         "basis": "priced_round",
         "round_label": "2026 financing (Thrive/a16z)",
         "as_of": "2026-05-01",
-        "mark_age_days": 74,
+        "mark_age_days": 75,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Anduril_Industries"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1363,11 +1338,11 @@
         "basis": "priced_round",
         "round_label": "Series E",
         "as_of": "2022-02-07",
-        "mark_age_days": 1618,
+        "mark_age_days": 1619,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Flexport"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1391,11 +1366,11 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-10-09",
-        "mark_age_days": 278,
+        "mark_age_days": 279,
         "stale": false,
         "source_url": "https://sierra.ai/blog"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1419,11 +1394,11 @@
         "basis": "priced_round",
         "round_label": "Seed",
         "as_of": "2025-07-15",
-        "mark_age_days": 364,
+        "mark_age_days": 365,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1447,11 +1422,11 @@
         "basis": "priced_round",
         "round_label": "ICE strategic investment",
         "as_of": "2025-10-07",
-        "mark_age_days": 280,
+        "mark_age_days": 281,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Polymarket"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1475,11 +1450,11 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2025-10-10",
-        "mark_age_days": 277,
+        "mark_age_days": 278,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Kalshi"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1505,11 +1480,11 @@
         "basis": "media_report",
         "round_label": "Reported 2025 financing",
         "as_of": "2025-07-25",
-        "mark_age_days": 354,
+        "mark_age_days": 355,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Kraken_(company)"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1535,11 +1510,11 @@
         "basis": "media_report",
         "round_label": "Reported tender",
         "as_of": "2025-11-05",
-        "mark_age_days": 251,
+        "mark_age_days": 252,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Ripple_Labs"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1563,11 +1538,11 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2025-04-23",
-        "mark_age_days": 447,
+        "mark_age_days": 448,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Chainguard"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1591,11 +1566,11 @@
         "basis": "priced_round",
         "round_label": "2022 financing",
         "as_of": "2022-12-06",
-        "mark_age_days": 1316,
+        "mark_age_days": 1317,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Fanatics"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1619,11 +1594,11 @@
         "basis": "priced_round",
         "round_label": "2026 round ($16B raised)",
         "as_of": "2026-02-01",
-        "mark_age_days": 163,
+        "mark_age_days": 164,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Waymo"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1654,17 +1629,17 @@
         "basis": "public_market",
         "round_label": "IPO pricing",
         "as_of": "2025-09-10",
-        "mark_age_days": 307,
+        "mark_age_days": 308,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Klarna"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": {
         "ipo_price_usd": 40.0,
-        "current_price_usd": 19.63,
+        "current_price_usd": 19.365,
         "currency": "USD",
-        "price_as_of": "2026-07-14T20:00:02+00:00",
-        "change_from_ipo_pct": -50.92,
+        "price_as_of": "2026-07-15T18:51:17+00:00",
+        "change_from_ipo_pct": -51.59,
         "source_url": "https://finance.yahoo.com/quote/KLAR"
       }
     },
@@ -1696,19 +1671,12 @@
         "basis": "public_market",
         "round_label": "IPO pricing",
         "as_of": "2025-03-28",
-        "mark_age_days": 473,
+        "mark_age_days": 474,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/CoreWeave"
       },
-      "as_of": "2026-07-14",
-      "graduation_outcome": {
-        "ipo_price_usd": 40.0,
-        "current_price_usd": 79.94,
-        "currency": "USD",
-        "price_as_of": "2026-07-14T20:00:01+00:00",
-        "change_from_ipo_pct": 99.85,
-        "source_url": "https://finance.yahoo.com/quote/CRWV"
-      }
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
     },
     {
       "id": "figma",
@@ -1738,19 +1706,12 @@
         "basis": "public_market",
         "round_label": "IPO pricing",
         "as_of": "2025-07-31",
-        "mark_age_days": 348,
+        "mark_age_days": 349,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Figma"
       },
-      "as_of": "2026-07-14",
-      "graduation_outcome": {
-        "ipo_price_usd": 33.0,
-        "current_price_usd": 23.86,
-        "currency": "USD",
-        "price_as_of": "2026-07-14T20:00:02+00:00",
-        "change_from_ipo_pct": -27.7,
-        "source_url": "https://finance.yahoo.com/quote/FIG"
-      }
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
     },
     {
       "id": "circle",
@@ -1780,17 +1741,17 @@
         "basis": "public_market",
         "round_label": "IPO pricing",
         "as_of": "2025-06-05",
-        "mark_age_days": 404,
+        "mark_age_days": 405,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Circle_(company)"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": {
         "ipo_price_usd": 31.0,
-        "current_price_usd": 63.22,
+        "current_price_usd": 65.45,
         "currency": "USD",
-        "price_as_of": "2026-07-14T20:00:02+00:00",
-        "change_from_ipo_pct": 103.94,
+        "price_as_of": "2026-07-15T18:51:10+00:00",
+        "change_from_ipo_pct": 111.13,
         "source_url": "https://finance.yahoo.com/quote/CRCL"
       }
     },
@@ -1822,17 +1783,17 @@
         "basis": "public_market",
         "round_label": "IPO pricing",
         "as_of": "2025-06-12",
-        "mark_age_days": 397,
+        "mark_age_days": 398,
         "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Chime_(company)"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": {
         "ipo_price_usd": 27.0,
-        "current_price_usd": 21.46,
+        "current_price_usd": 22.45,
         "currency": "USD",
-        "price_as_of": "2026-07-14T20:00:01+00:00",
-        "change_from_ipo_pct": -20.52,
+        "price_as_of": "2026-07-15T18:51:08+00:00",
+        "change_from_ipo_pct": -16.85,
         "source_url": "https://finance.yahoo.com/quote/CHYM"
       }
     },
@@ -1857,11 +1818,11 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2024-12-02",
-        "mark_age_days": 589,
+        "mark_age_days": 590,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Tenstorrent"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1887,11 +1848,11 @@
         "basis": "priced_round",
         "round_label": "2021 financing",
         "as_of": "2021-07-30",
-        "mark_age_days": 1810,
+        "mark_age_days": 1811,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Gopuff"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
     },
     {
@@ -1915,12 +1876,3221 @@
         "basis": "priced_round",
         "round_label": "Series B",
         "as_of": "2019-11-21",
-        "mark_age_days": 2427,
+        "mark_age_days": 2428,
         "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Automation_Anywhere"
       },
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "graduation_outcome": null
+    },
+    {
+      "id": "checkout-com",
+      "name": "Checkout.com",
+      "summary": "Checkout.com provides online payment processing infrastructure, acting as gateway, acquirer, and processor for e-commerce and technology businesses.",
+      "sector": "Fintech",
+      "profile": "Checkout.com is a London-headquartered payments company founded in 2009 that provides payment gateway, acquiring, and processing services to enterprise merchants across e-commerce, technology, and media. Once valued at $40 billion in 2022, it reset its internal valuation during the fintech downturn before marking it back up to $12 billion in a September 2025 employee share buyback.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Checkout.com",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Checkout Ltd"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 12.0,
+        "basis": "tender_offer",
+        "round_label": "Employee share buyback",
+        "as_of": "2025-09-26",
+        "mark_age_days": 292,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Checkout.com"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "airwallex",
+      "name": "Airwallex",
+      "summary": "Airwallex operates a global payments and financial platform offering business accounts, payment acceptance, corporate cards, and spend management.",
+      "sector": "Fintech",
+      "profile": "Airwallex, founded in Melbourne in 2015 and now co-headquartered in San Francisco and Singapore, provides cross-border payments and financial infrastructure via APIs and web applications, serving more than 676,000 businesses with 85+ licenses worldwide. In June 2026 it raised a $320 million Series H at an $11 billion valuation, up from $8 billion in its December 2025 Series G.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Airwallex",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Airwallex (Hong Kong) Limited"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 11.0,
+        "basis": "priced_round",
+        "round_label": "Series H",
+        "as_of": "2026-06-25",
+        "mark_age_days": 20,
+        "stale": false,
+        "source_url": "https://finance.yahoo.com/technology/ai/articles/airwallex-secures-320-million-series-103000405.html"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "monzo",
+      "name": "Monzo",
+      "summary": "Monzo is a British digital bank offering current accounts, savings, lending, and insurance products through its app.",
+      "sector": "Fintech",
+      "profile": "Monzo Bank Limited is a London-based app-first challenger bank with more than 15 million customers and over £25 billion in deposits as of May 2026. An October 2024 secondary share sale valued the company at $5.9 billion, and it is reported to be preparing a London IPO with Morgan Stanley advising, targeting a £6-7 billion valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Monzo",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://thenextweb.com/news/monzo-us-exit-europe-ipo",
+      "listed_ticker": null,
+      "aliases": [
+        "Monzo Bank Limited"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.9,
+        "basis": "secondary_sale",
+        "round_label": "Secondary share sale",
+        "as_of": "2024-10-11",
+        "mark_age_days": 642,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Monzo"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "n26",
+      "name": "N26",
+      "summary": "N26 is a German neobank providing app-based transaction accounts, debit cards, overdrafts, and investment products.",
+      "sector": "Fintech",
+      "profile": "N26 Bank SE is a Berlin-based digital bank founded in 2013 that offers current accounts, cards, and investment products across Europe. Its October 2021 Series E of $900 million, led by Third Point Ventures and Coatue, valued the bank at $9 billion, which remains its last disclosed priced valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/N26",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "N26 Bank SE"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 9.0,
+        "basis": "priced_round",
+        "round_label": "Series E",
+        "as_of": "2021-10-18",
+        "mark_age_days": 1731,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/N26"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "summary": "Mercury provides digital banking, corporate cards, and financial workflows for startups and small businesses.",
+      "sector": "Fintech",
+      "profile": "Mercury is a San Francisco-based fintech serving more than 300,000 companies with business banking, cards, and treasury products, and has been profitable for four consecutive years with $650 million in annualized revenue as of Q3 2025. In May 2026 it raised a $200 million Series D led by TCV at a $5.2 billion valuation and received conditional OCC approval to form Mercury Bank, N.A.",
+      "access_routes": [],
+      "profile_source_url": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Mercury Technologies Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.2,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2026-05-20",
+        "mark_age_days": 56,
+        "stale": false,
+        "source_url": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "fireblocks",
+      "name": "Fireblocks",
+      "summary": "Fireblocks provides digital-asset custody, settlement, and tokenization infrastructure for financial institutions.",
+      "sector": "Crypto",
+      "profile": "Fireblocks is a digital asset infrastructure company whose MPC-based platform secures custody, stablecoin payments, settlement, and tokenization for banks, exchanges, and payment providers including BNY Mellon and Worldpay. Its January 2022 Series E of $550 million, co-led by D1 Capital Partners and Spark Capital, valued it at $8 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://www.coindesk.com/business/2022/01/27/crypto-custody-firm-fireblocks-raises-550m-at-8b-valuation",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Fireblocks Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 8.0,
+        "basis": "priced_round",
+        "round_label": "Series E",
+        "as_of": "2022-01-27",
+        "mark_age_days": 1630,
+        "stale": true,
+        "source_url": "https://www.coindesk.com/business/2022/01/27/crypto-custody-firm-fireblocks-raises-550m-at-8b-valuation"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "consensys",
+      "name": "Consensys",
+      "summary": "Consensys builds Ethereum ecosystem software including the MetaMask wallet, Infura developer platform, and Linea network.",
+      "sector": "Crypto",
+      "profile": "Consensys Software Inc. is a blockchain software company founded by Ethereum co-founder Joseph Lubin, best known for the MetaMask self-custody wallet and the Infura developer infrastructure service. Its March 2022 Series D of $450 million, led by ParaFi Capital with Microsoft, SoftBank, and Temasek, valued it at $7 billion; a planned S-1 filing was postponed and an IPO is now targeted no earlier than fall 2026.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Consensys",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall",
+      "listed_ticker": null,
+      "aliases": [
+        "Consensys Software Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 7.0,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2022-03-15",
+        "mark_age_days": 1583,
+        "stale": true,
+        "source_url": "https://techcrunch.com/2022/03/15/metamask-parent-company-consensys-raises-series-d-at-7b-valuation/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "alchemy",
+      "name": "Alchemy",
+      "summary": "Alchemy provides blockchain node infrastructure and developer tools for building web3 applications.",
+      "sector": "Crypto",
+      "profile": "Alchemy is a San Francisco-based blockchain infrastructure platform founded in 2017 by Joe Lau and Nikil Viswanathan, powering on-chain applications for clients such as OpenSea and Adobe on a usage-based pricing model. Its February 2022 Series C1 of $200 million, led by Lightspeed and Silver Lake, valued the company at $10.2 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://techcrunch.com/2022/02/08/alchemy-which-aims-to-be-the-de-facto-platform-for-developers-to-build-on-web3-raises-another-200m-and-is-now-valued-at-10-2b/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Alchemy Insights Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 10.2,
+        "basis": "priced_round",
+        "round_label": "Series C1",
+        "as_of": "2022-02-08",
+        "mark_age_days": 1618,
+        "stale": true,
+        "source_url": "https://techcrunch.com/2022/02/08/alchemy-which-aims-to-be-the-de-facto-platform-for-developers-to-build-on-web3-raises-another-200m-and-is-now-valued-at-10-2b/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "zepz",
+      "name": "Zepz",
+      "summary": "Zepz operates the WorldRemit and Sendwave digital cross-border remittance brands serving customers in 150 countries.",
+      "sector": "Fintech",
+      "profile": "Zepz is the London-based group company behind money-transfer brands WorldRemit and Sendwave, serving more than 11 million users across roughly 150 countries and 5,000 payment corridors. Its August 2021 Series E of $292 million, with new investor Farallon Capital alongside LeapFrog, TCV, and Accel, valued the group at $5 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://www.worldremit.com/en/news/zepz-raises-292-million-in-new-funding",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Zepz Group",
+        "WorldRemit Limited"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.0,
+        "basis": "priced_round",
+        "round_label": "Series E",
+        "as_of": "2021-08-23",
+        "mark_age_days": 1787,
+        "stale": true,
+        "source_url": "https://news.bloomberglaw.com/private-equity/zepz-formerly-worldremit-raises-cash-at-5-billion-valuation"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "razorpay",
+      "name": "Razorpay",
+      "summary": "Razorpay provides payment gateway, payouts, and business banking services to Indian businesses.",
+      "sector": "Fintech",
+      "profile": "Razorpay is a Bangalore-based payments company that processes online payments, disbursals, and recurring billing for millions of Indian businesses, alongside neobanking and credit products. Its December 2021 Series F of $375 million, co-led by Lone Pine Capital, Alkeon, and TCV, valued it at $7.5 billion; after re-domiciling to India it confidentially filed a DRHP with SEBI in June 2026 for an IPO of roughly $600 million.",
+      "access_routes": [],
+      "profile_source_url": "https://techcrunch.com/2021/12/19/indian-fintech-giant-razorpay-valued-at-7-5-billion-in-375-million-funding/",
+      "ipo_status": "s1_filed",
+      "lifecycle": "s1_filed",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://thetechportal.com/2026/06/15/razorpay-submits-confidential-drhp-to-sebi-for-600-million-ipo-report/",
+      "listed_ticker": null,
+      "aliases": [
+        "Razorpay Software Private Limited"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 7.5,
+        "basis": "priced_round",
+        "round_label": "Series F",
+        "as_of": "2021-12-19",
+        "mark_age_days": 1669,
+        "stale": true,
+        "source_url": "https://techcrunch.com/2021/12/19/indian-fintech-giant-razorpay-valued-at-7-5-billion-in-375-million-funding/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "wealthsimple",
+      "name": "Wealthsimple",
+      "summary": "Wealthsimple is a Canadian financial services platform offering investing, trading, spending, and credit products.",
+      "sector": "Fintech",
+      "profile": "Wealthsimple Inc. is a Toronto-based fintech founded in 2014 that grew from a robo-adviser into a full financial platform serving over three million Canadians with C$100 billion in assets under administration. In October 2025 it announced a C$750 million Series F co-led by Dragoneer and GIC at a C$10 billion (approximately US$7.1 billion) post-money valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Wealthsimple",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Wealthsimple Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 7.1,
+        "basis": "priced_round",
+        "round_label": "Series F",
+        "as_of": "2025-10-27",
+        "mark_age_days": 261,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Wealthsimple"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "trade-republic",
+      "name": "Trade Republic",
+      "summary": "Trade Republic is a German online broker and bank offering commission-light trading, savings plans, and banking products.",
+      "sector": "Fintech",
+      "profile": "Trade Republic Bank GmbH is a Berlin-based neobroker and bank serving more than 10 million European customers who manage roughly €150 billion in assets, and has been profitable for three consecutive years. A December 2025 secondary share sale of €1.2 billion, led by Founders Fund with new investors including Wellington, Fidelity, and Khosla Ventures, valued the company at €12.5 billion ($14.7 billion).",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Trade_Republic",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Trade Republic Bank GmbH"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 14.7,
+        "basis": "secondary_sale",
+        "round_label": "Secondary share sale",
+        "as_of": "2025-12-17",
+        "mark_age_days": 210,
+        "stale": false,
+        "source_url": "https://tech.eu/2025/12/17/trade-republic-confirms-decacorn-status-following-secondary-share-sale/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "bilt-rewards",
+      "name": "Bilt Rewards",
+      "summary": "Bilt operates a loyalty and payments platform centered on rent and housing payments, with a co-branded credit card program.",
+      "sector": "Fintech",
+      "profile": "Bilt Rewards is a New York-based loyalty and payments company that lets members earn rewards on rent and neighborhood spending through its card program and merchant network, and is expanding into mortgages and condo/HOA payments. In July 2025 it raised $250 million led by General Catalyst and GID, with United Wholesale Mortgage investing $100 million, at a $10.75 billion valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Bilt_Rewards",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Bilt Technologies Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 10.75,
+        "basis": "priced_round",
+        "round_label": "Growth round",
+        "as_of": "2025-07-10",
+        "mark_age_days": 370,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Bilt_Rewards"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "sumup",
+      "name": "SumUp",
+      "summary": "SumUp provides card readers, point-of-sale payments, and business banking tools for small merchants.",
+      "sector": "Fintech",
+      "profile": "SumUp is a London-headquartered fintech founded in 2012 that supplies card terminals, online payments, and business accounts to roughly 4 million small merchants across 35 markets. Its June 2022 financing of €590 million ($624 million), led by Bain Capital Tech Opportunities, valued it at €8 billion ($8.5 billion), and it is reported to be weighing an IPO in London or New York at a $10-15 billion valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/SumUp",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://sifted.eu/articles/sumup-ipo",
+      "listed_ticker": null,
+      "aliases": [
+        "SumUp Payments Limited"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 8.5,
+        "basis": "priced_round",
+        "round_label": "Growth round (equity and debt)",
+        "as_of": "2022-06-23",
+        "mark_age_days": 1483,
+        "stale": true,
+        "source_url": "https://techcrunch.com/2022/06/23/sumup-raises-624m-at-8-5b-valuation-with-its-payments-and-business-tech-now-used-by-4m-smbs/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "helsing",
+      "name": "Helsing",
+      "summary": "Helsing develops artificial intelligence software, strike drones, and autonomous systems for European militaries.",
+      "sector": "Defense Technology",
+      "profile": "Helsing, founded in Munich in 2021, builds AI software for weapons systems and battlefield decision-making alongside its own military strike drones and underwater surveillance systems. In July 2026 it raised $1.8 billion in a Series E round — Europe's largest-ever defense startup financing — with backers including Lightspeed, Iconiq, and JPMorgan Chase, making it Germany's most valuable startup.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Helsing_(company)",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Helsing GmbH"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 18,
+        "basis": "priced_round",
+        "round_label": "Series E",
+        "as_of": "2026-07-13",
+        "mark_age_days": 2,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Helsing_(company)"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "blue-origin",
+      "name": "Blue Origin",
+      "summary": "Blue Origin builds reusable rockets, including the New Glenn orbital launcher and New Shepard suborbital vehicle, plus the Blue Moon lunar lander.",
+      "sector": "Space",
+      "profile": "Founded by Jeff Bezos in 2000 and headquartered in Kent, Washington, Blue Origin operates the New Shepard suborbital tourism vehicle, the New Glenn heavy-lift orbital rocket, and is developing the Blue Moon lunar lander for NASA's Artemis program. In July 2026 it launched its first-ever outside fundraising, seeking $10 billion at a $130 billion pre-money valuation with commitments from Coatue and Bezos himself.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Blue_Origin",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Blue Origin, LLC"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 130,
+        "basis": "media_report",
+        "round_label": "First external round (in progress)",
+        "as_of": "2026-07-08",
+        "mark_age_days": 7,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/07/08/blue-origin-reportedly-raising-10b-at-130b-valuation/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "applied-intuition",
+      "name": "Applied Intuition",
+      "summary": "Applied Intuition develops simulation, validation, and autonomy software for intelligent vehicles across automotive, industrial, and defense markets.",
+      "sector": "Defense Technology",
+      "profile": "Founded in 2017, Applied Intuition supplies the toolchain, Vehicle OS, and autonomy stacks used by 18 of the world's top 20 automakers, and has expanded into defense through its EpiSci acquisition and its Axion and Acuity products used across U.S. Department of Defense programs. Its June 2025 Series F and tender offer, co-led by BlackRock-managed funds and Kleiner Perkins, valued the company at $15 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Applied_Intuition",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Applied Intuition, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 15,
+        "basis": "priced_round",
+        "round_label": "Series F",
+        "as_of": "2025-06-17",
+        "mark_age_days": 393,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Applied_Intuition"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "saronic",
+      "name": "Saronic",
+      "summary": "Saronic builds autonomous surface vessels and AI-driven maritime autonomy systems for defense and commercial customers.",
+      "sector": "Defense Technology",
+      "profile": "Austin-based Saronic designs and mass-produces autonomous surface vessels for the U.S. Navy and allied forces, spanning small attritable craft to larger unmanned ships built at its Port Alpha shipyard initiative. In March 2026 it closed a $1.75 billion Series D led by Kleiner Perkins at a $9.25 billion valuation, more than doubling its $4 billion Series C valuation from February 2025.",
+      "access_routes": [],
+      "profile_source_url": "https://www.prnewswire.com/news-releases/saronic-closes-1-75b-series-d-at-9-25b-valuation-to-accelerate-a-new-era-of-maritime-autonomy-302729238.html",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Saronic Technologies, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 9.25,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2026-03-31",
+        "mark_age_days": 106,
+        "stale": false,
+        "source_url": "https://www.prnewswire.com/news-releases/saronic-closes-1-75b-series-d-at-9-25b-valuation-to-accelerate-a-new-era-of-maritime-autonomy-302729238.html"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "sierra-space",
+      "name": "Sierra Space",
+      "summary": "Sierra Space develops the Dream Chaser spaceplane, inflatable LIFE space station habitats, and national security space systems.",
+      "sector": "Space",
+      "profile": "Spun off from Sierra Nevada Corporation in 2021 and headquartered in Louisville, Colorado, Sierra Space builds the Dream Chaser cargo spaceplane under NASA's CRS-2 program, LIFE expandable habitats, and defense satellite systems. Its March 2026 $550 million Series C led by LuminArx Capital valued the company at $8 billion, and mid-2026 reporting indicates it is exploring an IPO.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Sierra_Space",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://www.theinformation.com/newsletters/dealmaker/sierra-space-axiom-plot-ipos-spacex-feeds-frenzy",
+      "listed_ticker": null,
+      "aliases": [
+        "Sierra Space Corporation"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 8,
+        "basis": "priced_round",
+        "round_label": "Series C",
+        "as_of": "2026-03-05",
+        "mark_age_days": 132,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Sierra_Space"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "iceye",
+      "name": "ICEYE",
+      "summary": "ICEYE operates the world's largest synthetic aperture radar satellite constellation, delivering all-weather Earth observation for defense, intelligence, and insurance customers.",
+      "sector": "Space",
+      "profile": "Founded in Espoo, Finland in 2014, ICEYE manufactures and operates SAR microsatellites that image the Earth through clouds and darkness, selling sovereign satellite missions and data to governments, defense agencies, and insurers. The company crossed EUR 250 million in revenue in 2025 and raised a Series F exceeding EUR 1 billion (primary plus secondary) led by General Atlantic in June 2026 at a valuation above EUR 10 billion (about USD 12 billion).",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/ICEYE",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "ICEYE Oy"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 12,
+        "basis": "priced_round",
+        "round_label": "Series F",
+        "as_of": "2026-06-09",
+        "mark_age_days": 36,
+        "stale": false,
+        "source_url": "https://www.iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "chaos-industries",
+      "name": "CHAOS Industries",
+      "summary": "CHAOS Industries develops coherent distributed radar and sensing systems, including the Vanquish radar, for counter-drone and air defense missions.",
+      "sector": "Defense Technology",
+      "profile": "Founded in 2022 and based in the Los Angeles area, CHAOS Industries builds coherent distributed sensor networks and effectors, such as its Vanquish radar, that detect and track drones, missiles, and aircraft for military customers. It has raised more than $1 billion since founding, including a $510 million round led by Valor Equity Partners in November 2025 at a $4.5 billion valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://labusinessjournal.com/featured/chaos-industries-reaches-nearly-5-billion-valuation/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "CHAOS Industries, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 4.5,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2025-11-13",
+        "mark_age_days": 244,
+        "stale": false,
+        "source_url": "https://labusinessjournal.com/featured/chaos-industries-reaches-nearly-5-billion-valuation/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "skydio",
+      "name": "Skydio",
+      "summary": "Skydio manufactures autonomous drones and fleet software for defense, public safety, and infrastructure inspection customers.",
+      "sector": "Defense Technology",
+      "profile": "Founded in 2014 and headquartered in San Mateo, California, Skydio is the largest U.S. drone manufacturer, shipping over 60,000 autonomous drones to every branch of the U.S. military, more than 1,200 public safety agencies, and enterprise customers. In April 2026 it raised a $110 million Series F from existing investors at a $4.4 billion valuation, alongside a $3.5 billion U.S. manufacturing expansion commitment.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Skydio",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Skydio, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 4.4,
+        "basis": "priced_round",
+        "round_label": "Series F",
+        "as_of": "2026-04-23",
+        "mark_age_days": 83,
+        "stale": false,
+        "source_url": "https://www.skydio.com/blog/skydio-series-f"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "impulse-space",
+      "name": "Impulse Space",
+      "summary": "Impulse Space builds orbital transfer vehicles that move satellites and payloads between orbits after launch.",
+      "sector": "Space",
+      "profile": "Founded in 2021 by Tom Mueller, SpaceX's first employee and former propulsion chief, Redondo Beach-based Impulse Space provides in-space transportation with its Mira maneuvering spacecraft and larger Helios kick stage, serving commercial and national security customers. In June 2026 it raised a $500 million Series D co-led by 137 Ventures and Banner VC at a $4.26 billion valuation, bringing total funding past $1 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Impulse_Space",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Impulse Space, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 4.26,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2026-06-02",
+        "mark_age_days": 43,
+        "stale": false,
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/impulse-space-raises-500-million-120504234.html"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "k2-space",
+      "name": "K2 Space",
+      "summary": "K2 Space designs and manufactures large, high-power satellite buses deployable across LEO, MEO, and GEO orbits.",
+      "sector": "Space",
+      "profile": "Founded in 2022 by former SpaceX engineers and based in Torrance, California, K2 Space builds \"Mega Class\" high-power satellites premised on the lift capacity of new heavy launch vehicles, with over $500 million in signed commercial and U.S. government contracts. In December 2025 it raised a $250 million Series C led by Redpoint at a $3 billion valuation ahead of the 2026 launch of its first production satellite, GRAVITAS.",
+      "access_routes": [],
+      "profile_source_url": "https://www.prnewswire.com/news-releases/k2-space-raises-250m-at-3b-valuation-to-roll-out-a-new-class-of-high-capability-satellites-302638936.html",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "K2 Space Corporation"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 3,
+        "basis": "priced_round",
+        "round_label": "Series C",
+        "as_of": "2025-12-11",
+        "mark_age_days": 216,
+        "stale": false,
+        "source_url": "https://www.prnewswire.com/news-releases/k2-space-raises-250m-at-3b-valuation-to-roll-out-a-new-class-of-high-capability-satellites-302638936.html"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "devoted-health",
+      "name": "Devoted Health",
+      "summary": "Devoted Health is a technology-driven health insurer selling Medicare Advantage plans and providing virtual and in-home care through its Devoted Medical arm.",
+      "sector": "Biotech & Health",
+      "profile": "Founded in 2017 by brothers Todd and Ed Park and headquartered in Waltham, Massachusetts, Devoted Health serves over 466,000 Medicare Advantage members across 29 states as of January 2026. It has raised roughly $2.6 billion from SoftBank Vision Fund 2, GIC, Andreessen Horowitz, ICONIQ Growth, and General Catalyst, including a $366 million Series F closed in early 2026 at an undisclosed valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://medcitynews.com/2021/10/devoted-health-raises-1-1b-sending-valuation-soaring-past-12b/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Devoted Health, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 12.6,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2021-10-08",
+        "mark_age_days": 1741,
+        "stale": true,
+        "source_url": "https://medcitynews.com/2021/10/devoted-health-raises-1-1b-sending-valuation-soaring-past-12b/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "ro",
+      "name": "Ro",
+      "summary": "Ro is a direct-to-consumer telehealth company that diagnoses patients and prescribes and delivers medications across weight loss, sexual health, hair loss, and fertility.",
+      "sector": "Biotech & Health",
+      "profile": "Founded in 2017 in New York City and originally launched as \"Roman,\" Ro reached a reported ~$598 million revenue run rate in 2024 and in January 2026 became a launch partner with Novo Nordisk for the oral Wegovy pill. It has acquired Modern Fertility, Workpath, and Kit, with investors including General Catalyst, FirstMark, ShawSpring Partners, and Altimeter. Its last priced valuation dates to a February 2022 inside round.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Ro_(company)",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Roman Health Ventures Inc.",
+        "Roman"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 7.0,
+        "basis": "priced_round",
+        "round_label": "Follow-on round",
+        "as_of": "2022-02-15",
+        "mark_age_days": 1611,
+        "stale": true,
+        "source_url": "https://techcrunch.com/2022/02/15/existing-investors-double-down-on-ro-at-boosted-7-billion-valuation/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "abridge",
+      "name": "Abridge",
+      "summary": "Abridge makes ambient AI clinical documentation software that listens to patient-clinician conversations and automatically generates structured medical notes in the EHR.",
+      "sector": "Biotech & Health",
+      "profile": "Founded in 2018 by cardiologist Shiv Rao and headquartered in Pittsburgh, Abridge is the leader in the AI medical scribe market, deployed at over 150 large US health systems including Mayo Clinic, Duke Health, Johns Hopkins, and Kaiser Permanente, with $117 million in contracted ARR reported in Q1 2025. Its $300 million Series E led by Andreessen Horowitz in June 2025 doubled its valuation from the $2.75 billion Series D just four months earlier.",
+      "access_routes": [],
+      "profile_source_url": "https://techcrunch.com/2025/06/24/in-just-4-months-ai-medical-scribe-abridge-doubles-valuation-to-5-3b/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Abridge AI, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.3,
+        "basis": "priced_round",
+        "round_label": "Series E",
+        "as_of": "2025-06-24",
+        "mark_age_days": 386,
+        "stale": true,
+        "source_url": "https://techcrunch.com/2025/06/24/in-just-4-months-ai-medical-scribe-abridge-doubles-valuation-to-5-3b/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "openevidence",
+      "name": "OpenEvidence",
+      "summary": "OpenEvidence operates a free, ad-supported AI medical information platform that synthesizes peer-reviewed clinical literature to answer physicians' point-of-care questions.",
+      "sector": "Biotech & Health",
+      "profile": "Founded in 2022 by Kensho founder Daniel Nadler and Zachary Ziegler, and based in Miami and Cambridge, Massachusetts, OpenEvidence says its platform is used by roughly 40% of US physicians and topped $100 million in annual revenue in 2025. It has raised about $700 million from Sequoia, GV, Thrive Capital, DST Global, Kleiner Perkins, and Blackstone, with its valuation rising from $1 billion to $12 billion across four rounds in under a year.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/OpenEvidence",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Xyla Inc.",
+        "OpenEvidence Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 12.0,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2026-01-21",
+        "mark_age_days": 175,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/OpenEvidence"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "commure",
+      "name": "Commure",
+      "summary": "Commure builds AI-powered healthcare operations software — revenue cycle management, ambient AI scribes, clinician workflow tools, and staff-safety wearables.",
+      "sector": "Biotech & Health",
+      "profile": "Founded in 2017 and incubated by General Catalyst, Bay Area-based Commure merged with Athelas in October 2023 at a $6 billion combined valuation, with Athelas co-founder Tanay Tandon as CEO. It has raised roughly $860 million in total from General Catalyst, Sequoia Capital, and Morgan Stanley, and acquired ambient-documentation company Augmedix in 2024. A May 2026 $70 million financing led by General Catalyst raised its valuation to $7 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://finance.yahoo.com/sectors/healthcare/articles/commure-raises-70m-7b-valuation-130400024.html",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Commure, Inc.",
+        "Athelas",
+        "Commure Athelas"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 7.0,
+        "basis": "priced_round",
+        "round_label": "Growth round",
+        "as_of": "2026-05-19",
+        "mark_age_days": 57,
+        "stale": false,
+        "source_url": "https://finance.yahoo.com/sectors/healthcare/articles/commure-raises-70m-7b-valuation-130400024.html"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "neko-health",
+      "name": "Neko Health",
+      "summary": "Neko Health operates preventive-health clinics offering non-invasive full-body scans that use proprietary sensors and AI to detect early signs of disease.",
+      "sector": "Biotech & Health",
+      "profile": "Founded in 2018 by Spotify's Daniel Ek and Hjalmar Nilsonne and headquartered in Stockholm with clinics in Stockholm and London, Neko designs its scanning hardware, software, and clinics fully in-house and has scanned more than 100,000 members with a 350,000-person waitlist. Its July 2026 $700 million Series C, led by Lightspeed Venture Partners with backers including Mark Zuckerberg and Priscilla Chan and OpenAI, values it at nearly $7 billion and funds a US launch starting with a Manhattan clinic.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Neko_Health",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Neko Health AB"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 7.0,
+        "basis": "priced_round",
+        "round_label": "Series C",
+        "as_of": "2026-07-14",
+        "mark_age_days": 1,
+        "stale": false,
+        "source_url": "https://hitconsultant.net/2026/07/15/neko-health-raises-700-million-series-c/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "sword-health",
+      "name": "Sword Health",
+      "summary": "Sword Health operates an AI-powered virtual physical therapy platform treating musculoskeletal pain, pelvic health, and related conditions for employers and health plans.",
+      "sector": "Biotech & Health",
+      "profile": "Founded in 2015 by Virgílio Bento with roots in Porto, Portugal, and operations split between the US and Portugal, Sword Health reported a ~$240 million annual revenue run rate in mid-2025 and acquired German digital-MSK rival Kaia Health in January 2026. Backers include General Catalyst, Khosla Ventures, Founders Fund, and BOND; its CEO has publicly pushed IPO plans to at least 2028.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Sword_Health",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Sword Health, Inc.",
+        "SWORD Health Technologies, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 4.0,
+        "basis": "priced_round",
+        "round_label": "Growth round",
+        "as_of": "2025-06-17",
+        "mark_age_days": 393,
+        "stale": true,
+        "source_url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "zelis",
+      "name": "Zelis",
+      "summary": "Zelis is a healthcare-payments technology company that digitizes claims pricing, payments, and financial communications between US payers and providers.",
+      "sector": "Biotech & Health",
+      "profile": "Formed in 2019 via the Bain Capital-backed combination of Zelis Healthcare and RedCard Systems, Zelis serves more than 750 payers including the top five national health plans. Majority-owned by Parthenon Capital and Bain Capital, it sold a minority stake to Mubadala, Norwest, and HarbourVest in a deal that closed in November 2024 at a reported ~$17 billion valuation, and has reportedly hired Goldman Sachs and JPMorgan to prepare an IPO.",
+      "access_routes": [],
+      "profile_source_url": "https://www.themiddlemarket.com/news-analysis/zelis-owners-reportedly-in-talks-to-sell-stake-at-17b-value",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://www.tekedia.com/zelis-healthtech-hires-jpmorgan-goldman-sachs-in-preparation-for-17bn-ipo/",
+      "listed_ticker": null,
+      "aliases": [
+        "Zelis Healthcare",
+        "Zelis, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 17.0,
+        "basis": "secondary_sale",
+        "round_label": "Minority stake sale",
+        "as_of": "2024-11-26",
+        "mark_age_days": 596,
+        "stale": true,
+        "source_url": "https://www.tekedia.com/zelis-healthtech-hires-jpmorgan-goldman-sachs-in-preparation-for-17bn-ipo/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "cityblock-health",
+      "name": "Cityblock Health",
+      "summary": "Cityblock Health provides value-based primary care, behavioral health, and social services to Medicaid and dually eligible Medicare populations.",
+      "sector": "Biotech & Health",
+      "profile": "Founded in 2017 as a spinout of Alphabet's Sidewalk Labs by Iyah Romm, Toyin Ajayi (CEO), and Bay Gross, and headquartered in Brooklyn, New York, Cityblock has raised roughly $900 million from SoftBank, General Catalyst, Thrive Capital, Tiger Global, and Kinnevik. Its $5.7 billion valuation dates to a September 2021 SoftBank-led round; after a 2023 restructuring it continues expanding value-based Medicaid arrangements as of 2026.",
+      "access_routes": [],
+      "profile_source_url": "https://www.statnews.com/2021/09/03/cityblock-health-series-d-valuation/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Cityblock Health, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.7,
+        "basis": "priced_round",
+        "round_label": "Series D extension",
+        "as_of": "2021-09-03",
+        "mark_age_days": 1776,
+        "stale": true,
+        "source_url": "https://www.statnews.com/2021/09/03/cityblock-health-series-d-valuation/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "datavant",
+      "name": "Datavant",
+      "summary": "Datavant is a health-data logistics company operating the largest neutral network for connecting and exchanging de-identified health data in the US.",
+      "sector": "Biotech & Health",
+      "profile": "Launched in 2017 as a Roivant Sciences spinout and headquartered in New York, Datavant merged with New Mountain Capital's Ciox Health in a $7 billion deal announced in June 2021, connecting over 2,000 hospitals, 15,000 clinics, and 120 health plans. Kyle Armbrester has been CEO since May 2024, and the company acquired Ontellus in August 2025; investors include New Mountain Capital, Roivant, Transformation Capital, Labcorp, and Merck GHI.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Datavant",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Datavant Group",
+        "Datavant, Inc.",
+        "Ciox Health"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 7.0,
+        "basis": "media_report",
+        "round_label": "Ciox Health merger",
+        "as_of": "2021-06-09",
+        "mark_age_days": 1862,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Datavant"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "helion-energy",
+      "name": "Helion Energy",
+      "summary": "Helion Energy develops pulsed field-reversed-configuration fusion generators to supply commercial electricity.",
+      "sector": "Energy",
+      "profile": "Helion Energy is a fusion power company based in Everett, Washington, founded in 2013, building magneto-inertial fusion generators that aim to convert fusion energy directly to electricity. It has a power purchase agreement to supply Microsoft with fusion electricity and is preparing its Orion power plant in Malaga, Washington. In June 2026 it raised a $465 million Series G led by Thrive Capital at a $15.5 billion valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Helion_Energy",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Helion Energy, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 15.5,
+        "basis": "priced_round",
+        "round_label": "Series G",
+        "as_of": "2026-06-04",
+        "mark_age_days": 41,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Helion_Energy"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "base-power",
+      "name": "Base Power",
+      "summary": "Base Power installs and operates leased home battery systems that provide backup power to homeowners and aggregated grid services to utilities.",
+      "sector": "Energy",
+      "profile": "Base Power, founded in Austin, Texas in 2023 by Zach Dell and Justin Lopas, leases 25-50 kWh home batteries to homeowners for a low upfront cost and aggregates them to sell electricity to the grid during peak demand, with over 100 MWh deployed in Texas. It closed a $1 billion Series C led by Addition at a $4 billion post-money valuation in October 2025; Forbes reported in May 2026 that it was in talks to raise again at a higher valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://techcrunch.com/2025/10/08/base-power-raises-1b-to-deploy-home-batteries-everywhere/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Base Power Company"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 4.0,
+        "basis": "priced_round",
+        "round_label": "Series C",
+        "as_of": "2025-10-08",
+        "mark_age_days": 280,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2025/10/08/base-power-raises-1b-to-deploy-home-batteries-everywhere/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "redwood-materials",
+      "name": "Redwood Materials",
+      "summary": "Redwood Materials recycles lithium-ion batteries and produces battery materials, and deploys second-life batteries for grid and data-center energy storage.",
+      "sector": "Energy",
+      "profile": "Founded in 2017 by former Tesla CTO J. B. Straubel and headquartered in Carson City, Nevada, Redwood Materials recycles lithium-ion batteries and manufactures anode and cathode materials to build a domestic battery supply chain. The company recovers nickel, cobalt, lithium, and copper from end-of-life batteries and has expanded into energy storage for AI data centers; its October 2025 Series E valued it at about $6 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Redwood_Materials",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Redwood Materials, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 6.0,
+        "basis": "priced_round",
+        "round_label": "Series E",
+        "as_of": "2025-10-23",
+        "mark_age_days": 265,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Redwood_Materials"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "octopus-energy",
+      "name": "Octopus Energy",
+      "summary": "Octopus Energy is a UK-based energy retailer and renewable power group supplying electricity and gas and investing in renewable generation.",
+      "sector": "Energy",
+      "profile": "Octopus Energy, founded in 2015 and headquartered in London, is one of the UK's largest electricity and gas suppliers and operates retail, generation, and flexibility businesses across multiple countries. Its valuation rose to $9 billion in 2024 after a $370 million investment from Generation Investment Management and CPP Investments; in December 2025 it announced the spin-off of its Kraken Technologies software arm.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Octopus_Energy",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Octopus Energy Group Limited"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 9.0,
+        "basis": "priced_round",
+        "round_label": "Growth round",
+        "as_of": "2024-05-07",
+        "mark_age_days": 799,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Octopus_Energy"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "kraken-technologies",
+      "name": "Kraken Technologies",
+      "summary": "Kraken Technologies provides an AI-powered operating platform that manages billing, customer service, and energy operations for utilities.",
+      "sector": "Energy",
+      "profile": "Kraken, being demerged from Octopus Energy Group, licenses its utility operating platform for billing, CRM, and flexible energy management, serving roughly 75 million customer accounts across 27 countries and expanding into water and telecoms. In December 2025 Octopus sold a minority stake for $1 billion, valuing Kraken at $8.65 billion, ahead of a formal separation targeted for mid-2026.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Kraken_Technologies",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://sifted.eu/articles/octopus-energy-spin-off-kraken",
+      "listed_ticker": null,
+      "aliases": [
+        "Kraken Technologies Ltd"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 8.65,
+        "basis": "secondary_sale",
+        "round_label": "Minority stake sale",
+        "as_of": "2025-12-30",
+        "mark_age_days": 197,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Kraken_Technologies"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "oura",
+      "name": "Oura",
+      "summary": "Oura makes the Oura Ring smart ring for sleep and health tracking.",
+      "sector": "Consumer Health",
+      "profile": "Oura is a Finnish health technology company founded in 2013 and headquartered in Oulu, Finland, that develops the Oura Ring, a smart ring used to track sleep and physical activity. The company has sold millions of rings and passed roughly $1 billion in annual sales in 2025, with more than five million paid members; it confidentially filed for a U.S. IPO in May 2026.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Oura_Health",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://femtechinsider.com/oura-files-confidentially-for-ipo/",
+      "listed_ticker": null,
+      "aliases": [
+        "Oura Health Oy",
+        "Ouraring Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 11.0,
+        "basis": "priced_round",
+        "round_label": "Series E",
+        "as_of": "2025-10-15",
+        "mark_age_days": 273,
+        "stale": false,
+        "source_url": "https://femtechinsider.com/oura-raises-over-900-million-at-11-billion-valuation/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "strava",
+      "name": "Strava",
+      "summary": "Strava operates a social fitness-tracking platform for runners, cyclists, and other athletes.",
+      "sector": "Consumer Internet",
+      "profile": "Strava is an American internet service for tracking physical exercise that incorporates social networking features, founded in 2009 by Mark Gainey and Michael Horvath. The San Francisco-based company has roughly 150 million registered users, is nearing $500 million in annual recurring revenue, and confidentially submitted a draft S-1 for a proposed IPO in February 2026.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Strava",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://press.strava.com/articles/strava-confidential-submission-of-draft-registration-statement-for-IPO",
+      "listed_ticker": null,
+      "aliases": [
+        "Strava, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 2.2,
+        "basis": "priced_round",
+        "round_label": "2025 growth round",
+        "as_of": "2025-05-22",
+        "mark_age_days": 419,
+        "stale": true,
+        "source_url": "https://www.pymnts.com/news/investment-tracker/2025/funding-round-boosts-fitness-app-stravas-valuation-to-2-2-billion/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "dataiku",
+      "name": "Dataiku",
+      "summary": "Dataiku sells a platform for building and deploying enterprise AI and analytics applications.",
+      "sector": "Enterprise AI",
+      "profile": "Dataiku is a French-American AI and machine-learning company founded in Paris in 2013 and now headquartered in New York City. Its Data Science Studio platform lets organizations build, test, and deploy AI and analytics applications, serving more than 700 customers including Johnson & Johnson and Toyota; Reuters reported in 2026 that it has hired banks for a U.S. IPO.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Dataiku",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://finance.yahoo.com/news/exclusive-ai-data-analytics-startup-165722584.html",
+      "listed_ticker": null,
+      "aliases": [
+        "Dataiku Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 3.7,
+        "basis": "priced_round",
+        "round_label": "Series F",
+        "as_of": "2022-12-01",
+        "mark_age_days": 1322,
+        "stale": true,
+        "source_url": "https://finance.yahoo.com/news/exclusive-ai-data-analytics-startup-165722584.html"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "motive",
+      "name": "Motive",
+      "summary": "Motive provides an AI-powered fleet management and physical-operations platform for trucking and logistics companies.",
+      "sector": "Logistics",
+      "profile": "Motive Technologies, formerly KeepTruckin, was founded in 2013 by Shoaib Makani, Ryan Johns, and Obaid Khan and is headquartered in San Francisco. The company builds fleet management software including GPS tracking, dashcams, driver safety, compliance, and spend management tools, and publicly filed its S-1 for a proposed IPO in December 2025.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Motive_(company)",
+      "ipo_status": "s1_filed",
+      "lifecycle": "s1_filed",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://gomotive.com/motive-files-registration-statement-for-proposed-initial-public-offering/",
+      "listed_ticker": null,
+      "aliases": [
+        "Motive Technologies, Inc.",
+        "KeepTruckin"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 2.9,
+        "basis": "priced_round",
+        "round_label": "Series F",
+        "as_of": "2022-05-24",
+        "mark_age_days": 1513,
+        "stale": true,
+        "source_url": "https://accessipos.com/motive-ipo-stock/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "switch",
+      "name": "Switch",
+      "summary": "Switch operates AI-focused data center campuses providing colocation, telecommunications, and cloud ecosystems.",
+      "sector": "Infrastructure",
+      "profile": "Switch is a Las Vegas-based data center operator founded in 2000 by Rob Roy, developing SUPERNAP campuses for clients including Nvidia, Dell, and FedEx. It was taken private in December 2022 in an $11 billion acquisition by DigitalBridge and IFM Investors; Reuters reported in July 2026 that it has hired Goldman Sachs and JPMorgan for an IPO that could value it at up to $80 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Switch_(company)",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://finance.yahoo.com/technology/articles/exclusive-data-center-firm-switch-152221299.html",
+      "listed_ticker": null,
+      "aliases": [
+        "Switch, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 11.0,
+        "basis": "media_report",
+        "round_label": "2022 take-private (2026 IPO reports target up to $80B)",
+        "as_of": "2022-12-05",
+        "mark_age_days": 1318,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Switch_(company)"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "falconx",
+      "name": "FalconX",
+      "summary": "FalconX is an institutional digital-asset prime broker providing trading, credit, and clearing services.",
+      "sector": "Crypto",
+      "profile": "FalconX is an American cryptocurrency prime brokerage founded in 2018 by Raghu Yarlagadda and Prabhakar Reddy and headquartered in San Mateo, California. It provides trading, credit, and clearing services to institutional investors such as hedge funds, asset managers, and family offices, and confidentially filed a draft S-1 with the SEC in May 2026.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/FalconX",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://www.coininsider.com/news/falconx-files-confidential-s-1-with-sec-eyes-late-2026-ipo/",
+      "listed_ticker": null,
+      "aliases": [
+        "FalconX Ltd."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 8.0,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2022-06-01",
+        "mark_age_days": 1505,
+        "stale": true,
+        "source_url": "https://www.coininsider.com/news/falconx-files-confidential-s-1-with-sec-eyes-late-2026-ipo/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "upgrade",
+      "name": "Upgrade",
+      "summary": "Upgrade is a consumer neobank offering mobile banking, credit cards, personal loans, and home improvement financing.",
+      "sector": "Fintech",
+      "profile": "Upgrade is an American neobank founded in 2016 by former LendingClub CEO Renaud Laplanche and headquartered in San Francisco. It has delivered more than $42 billion in consumer credit while passing $1 billion in annualized revenue in 2025, and its CEO says the company is 12 to 18 months away from an IPO.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Upgrade,_Inc.",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://finance.yahoo.com/news/fintech-upgrade-raises-165-million-110853336.html",
+      "listed_ticker": null,
+      "aliases": [
+        "Upgrade, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 7.3,
+        "basis": "priced_round",
+        "round_label": "2025 growth round",
+        "as_of": "2025-10-16",
+        "mark_age_days": 272,
+        "stale": false,
+        "source_url": "https://finance.yahoo.com/news/fintech-upgrade-raises-165-million-110853336.html"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "whatnot",
+      "name": "Whatnot",
+      "summary": "Whatnot operates a livestream shopping marketplace where sellers auction collectibles, fashion, and other goods in live video shows.",
+      "sector": "E-commerce",
+      "profile": "Whatnot was founded in 2019 by Grant LaFontaine and Logan Head and is based in Marina del Rey, California. It began as a marketplace for Funko Pop figurines and grew into the largest live shopping platform in the United States, expanding into the UK and Europe. In October 2025 it closed a $225 million Series F co-led by DST Global and CapitalG at an $11.5 billion valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Whatnot",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Whatnot Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 11.5,
+        "basis": "priced_round",
+        "round_label": "Series F",
+        "as_of": "2025-10-28",
+        "mark_age_days": 260,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Whatnot"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "faire",
+      "name": "Faire",
+      "summary": "Faire operates an online wholesale marketplace connecting independent brands with retailers.",
+      "sector": "E-commerce",
+      "profile": "Faire is a San Francisco-based B2B wholesale marketplace where hundreds of thousands of independent brands and retailers transact, generating over $500 million in annualized revenue and nearly $3 billion in gross merchandise value in 2025. In November 2025 it ran a WCM Investment Management-led employee share sale of roughly $100 million at a $5.2 billion valuation, down from its $12.4 billion 2021 peak.",
+      "access_routes": [],
+      "profile_source_url": "https://betakit.com/faire-co-founder-company-has-the-metrics-to-go-public-but-isnt-rushing-to-ipo/",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://betakit.com/faire-co-founder-company-has-the-metrics-to-go-public-but-isnt-rushing-to-ipo/",
+      "listed_ticker": null,
+      "aliases": [
+        "Faire Wholesale, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.2,
+        "basis": "tender_offer",
+        "round_label": "Employee share sale",
+        "as_of": "2025-11-17",
+        "mark_age_days": 240,
+        "stale": false,
+        "source_url": "https://betakit.com/faire-co-founder-company-has-the-metrics-to-go-public-but-isnt-rushing-to-ipo/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "vinted",
+      "name": "Vinted",
+      "summary": "Vinted operates a European second-hand marketplace for fashion, homeware, electronics, and collectibles.",
+      "sector": "E-commerce",
+      "profile": "Vinted was founded in 2008 in Vilnius, Lithuania, and operates a consumer-to-consumer second-hand marketplace across more than 26 European markets, alongside its Vinted Go logistics and Vinted Pay payments businesses. It generated €1.1 billion in revenue in 2025 with €10.8 billion in GMV. In April 2026 an EQT-led €880 million secondary share sale valued the company at €8 billion (about $9.1 billion).",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Vinted",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Vinted, UAB"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 9.1,
+        "basis": "secondary_sale",
+        "round_label": "Secondary share sale (€8B)",
+        "as_of": "2026-04-27",
+        "mark_age_days": 79,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Vinted"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "vuori",
+      "name": "Vuori",
+      "summary": "Vuori designs and sells performance athletic and athleisure apparel through e-commerce and retail stores.",
+      "sector": "E-commerce",
+      "profile": "Vuori is a performance apparel brand founded in 2015 in Encinitas, California, and now headquartered in Carlsbad, competing with Lululemon in athleisure. In November 2024 it completed an $825 million secondary tender led by General Atlantic and Stripes at a $5.5 billion valuation, with founder-CEO Joe Kudla retaining majority ownership.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Vuori",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Vuori, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.5,
+        "basis": "tender_offer",
+        "round_label": "Secondary tender (General Atlantic/Stripes)",
+        "as_of": "2024-11-08",
+        "mark_age_days": 614,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Vuori"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "skims",
+      "name": "Skims",
+      "summary": "Skims sells shapewear, lingerie, loungewear, and apparel direct-to-consumer and through retail partners.",
+      "sector": "E-commerce",
+      "profile": "Skims is a Los Angeles-based apparel brand co-founded in 2019 by Kim Kardashian and Jens Grede, offering shapewear and clothing in inclusive sizing and nearing $1 billion in annual net sales. In November 2025 it raised a $225 million round led by Goldman Sachs, with BDT & MSD Partners participating, at a $5 billion valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Skims",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Skims Body, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.0,
+        "basis": "priced_round",
+        "round_label": "Growth round (Goldman Sachs-led)",
+        "as_of": "2025-11-12",
+        "mark_age_days": 245,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Skims"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "zepto",
+      "name": "Zepto",
+      "summary": "Zepto operates a quick-commerce platform delivering groceries and household essentials in around 10 minutes across Indian cities.",
+      "sector": "Consumer Delivery",
+      "profile": "Zepto is an Indian quick-commerce company founded in 2021 by Aadit Palicha and Kaivalya Vohra that delivers groceries and daily essentials from a network of dark stores. Operating revenue roughly doubled to about $2.4 billion in fiscal 2026, though net losses widened to about $617 million. In June 2026 it filed an updated draft red herring prospectus with SEBI for an IPO of roughly $837 million in fresh shares plus an offer-for-sale, targeting a listing in the July-September 2026 quarter.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Zepto_(company)",
+      "ipo_status": "s1_filed",
+      "lifecycle": "s1_filed",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet/",
+      "listed_ticker": null,
+      "aliases": [
+        "Kiranakart Technologies Private Limited",
+        "Zepto Marketplace Private Limited"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 7.0,
+        "basis": "priced_round",
+        "round_label": "Series H",
+        "as_of": "2025-10-16",
+        "mark_age_days": 272,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Zepto_(company)"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "bolt-mobility",
+      "name": "Bolt",
+      "summary": "Bolt operates a super-app for ride-hailing, micromobility rental, food and grocery delivery, and carsharing across Europe, Africa, Asia, and Latin America.",
+      "sector": "Mobility",
+      "profile": "Bolt is an Estonian multinational mobility company founded in Tallinn, operating in over 850 cities in more than 50 countries with ride-hailing, scooter/bike rental, Bolt Food delivery, and carsharing. It reported roughly €2.27 billion in revenue in 2025 and closed a €220 million revolving credit facility in May 2024 described as a step towards an IPO.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Bolt_(company)",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://www.pymnts.com/news/ridesharing/2025/bolt-technology-reportedly-exploring-ipo-for-ride-hailing-operation/",
+      "listed_ticker": null,
+      "aliases": [
+        "Bolt Technology OÜ"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 8.4,
+        "basis": "priced_round",
+        "round_label": "€628M round led by Sequoia and Fidelity (€7.4B)",
+        "as_of": "2022-01-11",
+        "mark_age_days": 1646,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Bolt_(company)"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "Xiaohongshu",
+      "summary": "Xiaohongshu (RedNote) operates a Chinese social media and e-commerce platform combining user-generated lifestyle content with product discovery and social commerce.",
+      "sector": "Consumer Internet",
+      "profile": "Founded in 2013 and headquartered in Shanghai, Xiaohongshu serves over 300 million monthly active users who share \"notes\" mixing text, images, and video tied to shopping and lifestyle recommendations. Its net profit exceeded $2 billion in 2025, and secondary share transactions in 2026 implied a valuation above $50 billion as it prepares a Hong Kong IPO with CICC.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Xiaohongshu",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://www.investing.com/news/stock-market-news/chinas-xiaohongshu-prepares-hong-kong-ipo-at-over-70-bln-valuation--wsj-4746470",
+      "listed_ticker": null,
+      "aliases": [
+        "RedNote",
+        "Xingyin Information Technology (Shanghai) Co., Ltd.",
+        "Little Red Book"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 50.0,
+        "basis": "secondary_sale",
+        "round_label": "Private secondary share transactions (WSJ)",
+        "as_of": "2026-06-17",
+        "mark_age_days": 28,
+        "stale": false,
+        "source_url": "https://www.investing.com/news/stock-market-news/chinas-xiaohongshu-prepares-hong-kong-ipo-at-over-70-bln-valuation--wsj-4746470"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "ant-group",
+      "name": "Ant Group",
+      "summary": "Ant Group operates Alipay, China's largest digital payments platform, alongside consumer credit, wealth management, and insurance services.",
+      "sector": "Fintech",
+      "profile": "Ant Group is the Alibaba-affiliated fintech giant behind Alipay, which serves over one billion users in China. Its record-setting $313 billion IPO was suspended by regulators in November 2020, after which the company was restructured into a financial holding company; as of December 2024 it stated it had no immediate plans for an IPO.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Ant_Group",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Ant Group Co., Ltd.",
+        "Ant Financial"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 78.5,
+        "basis": "tender_offer",
+        "round_label": "Share repurchase",
+        "as_of": "2023-07-08",
+        "mark_age_days": 1103,
+        "stale": true,
+        "source_url": "https://www.investing.com/news/stock-market-news/ants-share-repurchase-plan-values-firm-at-nearly-79-billion-3121848"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "summary": "Telegram operates a cloud-based messaging platform with over one billion users, monetized through advertising and premium subscriptions.",
+      "sector": "Consumer Internet",
+      "profile": "Telegram is a Dubai-based messaging platform founded by Pavel Durov, financed largely through bond sales including a $1.7 billion convertible bond in May 2025 bought by BlackRock, Mubadala, and Citadel. Founder Pavel Durov told the Financial Times that potential investors had valued the company at more than $30 billion, and the company has said an eventual IPO is possible but not imminent.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Telegram_(platform)",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Telegram Group Inc.",
+        "Telegram Messenger"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 30.0,
+        "basis": "media_report",
+        "round_label": "Reported investor valuation",
+        "as_of": "2024-03-11",
+        "mark_age_days": 856,
+        "stale": true,
+        "source_url": "https://techcrunch.com/2024/03/11/telegram-founder-says-the-company-will-become-profitable-next-year/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "dji",
+      "name": "DJI",
+      "summary": "DJI designs and manufactures consumer and enterprise drones, gimbals, and camera systems, holding the leading share of the global drone market.",
+      "sector": "Hardware",
+      "profile": "DJI is a Shenzhen-based drone maker that dominates the global civilian drone market and also sells camera stabilizers, action cameras, and robotics. It raised roughly $1 billion in a 2018 competitive-bidding round at a reported $15 billion valuation ahead of a Hong Kong IPO that never materialized, and it remains private amid US regulatory pressure.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/DJI",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "SZ DJI Technology Co., Ltd.",
+        "Da-Jiang Innovations"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 15.0,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2018-04-18",
+        "mark_age_days": 3010,
+        "stale": true,
+        "source_url": "https://www.caixinglobal.com/2018-04-18/dji-to-raise-1-billion-in-innovative-bidding-process-101235781.html"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "phonepe",
+      "name": "PhonePe",
+      "summary": "PhonePe operates India's largest UPI-based digital payments app, plus insurance distribution, wealth products, and merchant financial services.",
+      "sector": "Fintech",
+      "profile": "PhonePe is a Walmart-majority-owned Indian payments company that processes the largest share of transactions on India's UPI network. It raised about $850 million in 2023 at a $12 billion valuation from General Atlantic, Walmart, and others, and has filed a draft red herring prospectus with SEBI (updated January 2026) for a Mumbai listing structured as a pure offer-for-sale.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/PhonePe",
+      "ipo_status": "s1_filed",
+      "lifecycle": "s1_filed",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://en.wikipedia.org/wiki/PhonePe",
+      "listed_ticker": null,
+      "aliases": [
+        "PhonePe Limited",
+        "PhonePe Private Limited"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 12.0,
+        "basis": "priced_round",
+        "round_label": "2023 growth round",
+        "as_of": "2023-01-19",
+        "mark_age_days": 1273,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/PhonePe"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "moonshot-ai",
+      "name": "Moonshot AI",
+      "summary": "Moonshot AI develops the Kimi family of large language models and consumer AI assistant products in China.",
+      "sector": "Artificial Intelligence",
+      "profile": "Moonshot AI is a Beijing-based large language model developer known for its Kimi chatbot and open-source Kimi model releases. In May 2026 it raised about $2 billion led by Meituan's Long-Z Investments at a $20 billion valuation, making it China's best-funded LLM startup, with annualized recurring revenue topping $200 million.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Moonshot_AI",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Beijing Moonshot Technology Co., Ltd.",
+        "Kimi"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 20.0,
+        "basis": "priced_round",
+        "round_label": "2026 financing (Long-Z-led)",
+        "as_of": "2026-05-07",
+        "mark_age_days": 69,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "summary": "Miro operates a visual collaboration and innovation workspace platform used for whiteboarding, brainstorming, and product planning.",
+      "sector": "Enterprise Software",
+      "profile": "Founded in 2011 as RealtimeBoard by Andrey Khusid and Oleg Shardin and rebranded to Miro in 2019, the company is co-headquartered in San Francisco and Amsterdam. Its online workspace supports brainstorming, agile planning, customer journey mapping, and remote workshops, and is used by over 90 million users and more than 250,000 organizations as of 2025.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Miro_(collaboration_platform)",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "RealtimeBoard, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 17.5,
+        "basis": "priced_round",
+        "round_label": "Series C",
+        "as_of": "2022-01-05",
+        "mark_age_days": 1652,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Miro_(collaboration_platform)"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "clickhouse",
+      "name": "ClickHouse",
+      "summary": "ClickHouse commercializes an open-source column-oriented database for real-time analytics via its managed ClickHouse Cloud service.",
+      "sector": "Data Infrastructure",
+      "profile": "ClickHouse, Inc. was incorporated in San Francisco in September 2021 to commercialize the open-source ClickHouse OLAP database originally developed at Yandex. The company serves more than 3,000 customers on ClickHouse Cloud, tripled annualized revenue to roughly $250 million by May 2026, and acquired Langfuse to enter LLM observability alongside its January 2026 Series D.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/ClickHouse",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://techcrunch.com/2026/05/27/clickhouse-triples-annualized-revenue-to-250m-charting-a-path-toward-an-ipo/",
+      "listed_ticker": null,
+      "aliases": [
+        "ClickHouse, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 15.0,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2026-01-16",
+        "mark_age_days": 180,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/05/27/clickhouse-triples-annualized-revenue-to-250m-charting-a-path-toward-an-ipo/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "celonis",
+      "name": "Celonis",
+      "summary": "Celonis provides process mining and execution management software that analyzes business processes to find and fix operational inefficiencies.",
+      "sector": "Enterprise Software",
+      "profile": "Celonis was founded in 2011 by Alex Rinke, Bastian Nominacher, and Martin Klenk as a spin-off from the Technical University of Munich, and is dual-headquartered in Munich and New York. Its process mining platform and Execution Management System are delivered as SaaS to improve business processes; the company has raised roughly $1.77 billion and is widely regarded as a candidate for a US listing.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Celonis",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://en.wikipedia.org/wiki/Celonis",
+      "listed_ticker": null,
+      "aliases": [
+        "Celonis SE"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 13.0,
+        "basis": "priced_round",
+        "round_label": "Series D expansion",
+        "as_of": "2022-08-23",
+        "mark_age_days": 1422,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Celonis"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "summary": "Supabase offers an open-source Postgres-based backend-as-a-service platform providing databases, authentication, and storage for application developers.",
+      "sector": "Data Infrastructure",
+      "profile": "Founded in 2020 and based in San Francisco, Supabase provides an open-source alternative to Firebase built on PostgreSQL, serving roughly 10 million developers and over 250,000 customers. Growth has been driven heavily by AI coding tools, with database launches up over 600% year over year and a majority created by AI agents.",
+      "access_routes": [],
+      "profile_source_url": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Supabase, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 10.5,
+        "basis": "priced_round",
+        "round_label": "Series F",
+        "as_of": "2026-06-04",
+        "mark_age_days": 41,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "summary": "Replit provides an AI-powered cloud coding platform that lets users build, run, and deploy software applications from natural-language prompts.",
+      "sector": "Developer Tools",
+      "profile": "Founded in 2016 by Amjad Masad, Faris Masad, and Haya Odeh and headquartered in Foster City, California, Replit began as a browser-based IDE and has become a leading AI \"vibe coding\" platform with over 50 million users. Its valuation tripled from $3 billion in September 2025 to $9 billion in March 2026 as annualized revenue climbed toward $1 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Replit",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Replit, Inc.",
+        "Repl.it"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 9.0,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2026-03-11",
+        "mark_age_days": 126,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "grafana-labs",
+      "name": "Grafana Labs",
+      "summary": "Grafana Labs commercializes the open-source Grafana observability platform for visualizing and monitoring metrics, logs, and traces.",
+      "sector": "Data Infrastructure",
+      "profile": "Grafana Labs, originally founded as Raintank, commercializes the open-source Grafana analytics and dashboarding software first released by Torkel Odegaard in 2014. The company surpassed $400 million in annual recurring revenue in September 2025, up from $250 million in August 2024, and previously raised $270 million at a $6 billion valuation in 2024.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Grafana",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Grafana Labs Inc",
+        "Raintank, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 9.0,
+        "basis": "media_report",
+        "round_label": "GIC-led round (reported)",
+        "as_of": "2026-02-13",
+        "mark_age_days": 152,
+        "stale": false,
+        "source_url": "https://siliconangle.com/2026/02/13/grafana-labs-reportedly-raising-funding-9b-valuation/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "onepassword",
+      "name": "1Password",
+      "summary": "1Password develops password management and extended access management software that secures credentials and sign-ins for consumers and enterprises.",
+      "sector": "Cybersecurity",
+      "profile": "Developed by Canadian company AgileBits Inc. and founded in 2006, Toronto-based 1Password lets users store passwords, software licenses, and other sensitive information in encrypted vaults. The company surpassed $400 million in annual recurring revenue in 2025 and its CEO has said it is weighing a possible IPO in 2026 or 2027.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/1Password",
+      "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": "https://en.wikipedia.org/wiki/1Password",
+      "listed_ticker": null,
+      "aliases": [
+        "AgileBits Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 6.8,
+        "basis": "priced_round",
+        "round_label": "Series C",
+        "as_of": "2022-01-19",
+        "mark_age_days": 1638,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/1Password"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "summary": "Lovable provides an AI software-building platform that turns natural-language prompts into working web applications.",
+      "sector": "Developer Tools",
+      "profile": "Founded in Stockholm in 2023 by Anton Osika and Fabian Hedin, Lovable evolved from the open-source GPT Engineer project into a commercial AI app-building platform. The company reached roughly $500 million in annualized revenue by mid-2026 and sells to enterprises including Workday, Asana, and Nvidia; it was reported in July 2026 to be in talks to raise at a $13.2 billion valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Lovable_(company)",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Lovable Labs Incorporated"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 6.6,
+        "basis": "priced_round",
+        "round_label": "Series B",
+        "as_of": "2025-12-18",
+        "mark_age_days": 209,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Lovable_(company)"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "summary": "Postman offers an API development and testing platform used by developers to build, test, and collaborate on APIs.",
+      "sector": "Developer Tools",
+      "profile": "Postman began in 2012 in Bangalore as a side project of software engineer Abhinav Asthana and is now headquartered in San Francisco with offices in Tokyo and Bengaluru. The company provides a collaborative platform for designing, testing, and documenting APIs and remains privately held after a $225 million Series D in August 2021.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Postman_(software)",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Postman, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.6,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2021-08-18",
+        "mark_age_days": 1792,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Postman_(software)"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "fivetran",
+      "name": "Fivetran",
+      "summary": "Fivetran provides automated data movement and transformation infrastructure, merged with dbt Labs to form a combined data-integration and analytics platform.",
+      "sector": "Data Infrastructure",
+      "profile": "Fivetran automates data pipelines that move data from source systems into cloud warehouses. In October 2025 it agreed to an all-stock merger with data-transformation company dbt Labs, completed in June 2026, creating a combined company approaching $600 million in annual recurring revenue led by Fivetran CEO George Fraser with dbt's Tristan Handy as president.",
+      "access_routes": [],
+      "profile_source_url": "https://finance.yahoo.com/news/a16z-backed-data-firms-fivetran-140301503.html",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Fivetran Inc.",
+        "dbt Labs"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.6,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2021-09-20",
+        "mark_age_days": 1759,
+        "stale": true,
+        "source_url": "https://finance.yahoo.com/news/a16z-backed-data-firms-fivetran-140301503.html"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "summary": "Zapier operates a no-code workflow automation platform that connects web applications and moves data between them.",
+      "sector": "Enterprise Software",
+      "profile": "Founded in 2011 in Columbia, Missouri by Wade Foster, Bryan Helmig, and Mike Knoop and launched through Y Combinator in 2012, Zapier lets users automate tasks and integrate AI into workflows across thousands of web apps. The largely bootstrapped, fully remote company was valued at $5 billion in a January 2021 secondary share purchase by Sequoia Capital and Steadfast Financial.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Zapier",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Zapier, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.0,
+        "basis": "secondary_sale",
+        "round_label": "Secondary share sale",
+        "as_of": "2021-01-01",
+        "mark_age_days": 2021,
+        "stale": true,
+        "source_url": "https://en.wikipedia.org/wiki/Zapier"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "temporal",
+      "name": "Temporal",
+      "summary": "Temporal provides a durable execution platform that manages state and fault tolerance for long-running application workflows and AI agents.",
+      "sector": "Developer Tools",
+      "profile": "Temporal Technologies offers an open-source durable execution engine and managed cloud service that handle retries, failure recovery, and state management for distributed applications, used in production by OpenAI, ADP, Yum! Brands, and Block. Revenue grew more than 380% year over year into early 2026, driven by demand for reliable agentic AI infrastructure.",
+      "access_routes": [],
+      "profile_source_url": "https://temporal.io/blog/temporal-raises-usd300m-series-d-at-a-usd5b-valuation",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Temporal Technologies, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.0,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2026-02-17",
+        "mark_age_days": 148,
+        "stale": false,
+        "source_url": "https://temporal.io/blog/temporal-raises-usd300m-series-d-at-a-usd5b-valuation"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "nuro",
+      "name": "Nuro",
+      "summary": "Nuro develops Level 4 autonomous driving technology, licensing its Nuro Driver system to automakers and mobility providers for robotaxis and delivery.",
+      "sector": "Autonomous Vehicles",
+      "profile": "Nuro was founded in 2016 by former Google self-driving engineers and initially built custom driverless delivery vehicles. In 2024 it pivoted to licensing its proprietary Level 4 \"Nuro Driver\" autonomy system to automakers and mobility providers, with partners including Uber and Lucid. It has raised over $2.3 billion to date.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Nuro",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Nuro, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 6.0,
+        "basis": "priced_round",
+        "round_label": "Series E",
+        "as_of": "2025-08-21",
+        "mark_age_days": 328,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Nuro"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "wayve",
+      "name": "Wayve",
+      "summary": "Wayve develops end-to-end deep-learning-based self-driving software for automakers and mobility platforms.",
+      "sector": "Autonomous Vehicles",
+      "profile": "Founded in 2017 and headquartered in London, Wayve pioneered an end-to-end, vision-based AI approach to autonomous driving that it licenses to automakers. In February 2026 it raised a $1.5 billion Series D from Mercedes-Benz, Stellantis, Nissan, Uber, Microsoft, Nvidia and others at an $8.6 billion valuation, and in June 2026 ran an $85 million employee tender offer.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Wayve",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Wayve Technologies Ltd"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 8.6,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2026-02-24",
+        "mark_age_days": 141,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Wayve"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "zipline",
+      "name": "Zipline",
+      "summary": "Zipline designs, manufactures, and operates autonomous delivery drones for medical, retail, and food logistics.",
+      "sector": "Robotics",
+      "profile": "Founded in 2014, Zipline operates an autonomous drone delivery network spanning several African countries, multiple U.S. cities, and Japan, and has surpassed 2 million commercial deliveries. It builds its own aircraft, docking systems, and logistics software. In January 2026 it raised over $600 million led by Valor Equity Partners at a $7.6 billion valuation, later extending the round to about $800 million.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Zipline_(drone_delivery_company)",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Zipline International Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 7.6,
+        "basis": "priced_round",
+        "round_label": "Series H",
+        "as_of": "2026-01-21",
+        "mark_age_days": 175,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "physical-intelligence",
+      "name": "Physical Intelligence",
+      "summary": "Physical Intelligence develops general-purpose foundation models that let robots perform diverse physical tasks.",
+      "sector": "Robotics",
+      "profile": "Physical Intelligence, founded in 2024 in San Francisco, builds general-purpose AI models for robots — \"ChatGPT, but for robots\" in its founders' framing. In November 2025 it raised a $600 million Series B led by Alphabet's CapitalG at a $5.6 billion valuation, and by March 2026 was reported in talks to raise about $1 billion more at over $11 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://techcrunch.com/2026/03/27/physical-intelligence-is-reportedly-in-talks-to-raise-1-billion-again/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Pi"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.6,
+        "basis": "priced_round",
+        "round_label": "Series B",
+        "as_of": "2025-11-20",
+        "mark_age_days": 237,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/03/27/physical-intelligence-is-reportedly-in-talks-to-raise-1-billion-again/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "skild-ai",
+      "name": "Skild AI",
+      "summary": "Skild AI builds general-purpose robotic foundation models designed to work across different robots and tasks with minimal retraining.",
+      "sector": "Robotics",
+      "profile": "Skild AI, spun out of Carnegie Mellon research in 2023, develops a general-purpose \"robot brain\" — foundation models that transfer across robot bodies and tasks, deployed in security, inspection, delivery, warehouse, and manufacturing settings. In January 2026 it raised a $1.4 billion Series C led by SoftBank, with Nvidia, Macquarie, and Jeff Bezos participating, at a valuation above $14 billion — roughly triple its $4.5 billion valuation from mid-2025.",
+      "access_routes": [],
+      "profile_source_url": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Skild AI, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 14.0,
+        "basis": "priced_round",
+        "round_label": "Series C",
+        "as_of": "2026-01-14",
+        "mark_age_days": 182,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "apptronik",
+      "name": "Apptronik",
+      "summary": "Apptronik builds Apollo, a general-purpose humanoid robot for industrial tasks such as trailer unloading, warehouse picking, and machine tending.",
+      "sector": "Robotics",
+      "profile": "Austin-based Apptronik, spun out of the University of Texas Human Centered Robotics Lab in 2016, develops the Apollo humanoid robot for logistics and manufacturing work and partners with Google DeepMind on embodied AI. By February 2026 it had raised $935 million in an extended Series A backed by Google, Mercedes-Benz, and B Capital, at a post-money valuation of about $5.3 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Apptronik, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.3,
+        "basis": "priced_round",
+        "round_label": "Series A extension",
+        "as_of": "2026-02-11",
+        "mark_age_days": 154,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "cognition",
+      "name": "Cognition",
+      "summary": "Cognition develops Devin, an autonomous AI software engineer used by enterprises for coding and software-maintenance tasks.",
+      "sector": "Artificial Intelligence",
+      "profile": "Founded in 2023, Cognition created Devin, an autonomous AI software engineer, and acquired the agentic IDE Windsurf in July 2025 (rebranded Devin Desktop in 2026). Enterprise customers include Goldman Sachs, Mercedes-Benz, and NASA, with annualized revenue reaching $492 million by May 2026. That month it raised more than $1 billion led by Lux Capital, General Catalyst, and 8VC at a $26 billion post-money valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Cognition_AI",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Cognition AI, Inc.",
+        "Cognition Labs"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 26.0,
+        "basis": "priced_round",
+        "round_label": "Growth round",
+        "as_of": "2026-05-27",
+        "mark_age_days": 49,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "mercor",
+      "name": "Mercor",
+      "summary": "Mercor operates a marketplace connecting AI labs with vetted domain experts — doctors, lawyers, scientists — for training frontier AI models.",
+      "sector": "Artificial Intelligence",
+      "profile": "Mercor, founded in 2022 by three Thiel Fellows, matches AI labs with specialized professionals for model training and evaluation, paying out over $1.5 million daily to a roster of more than 30,000 experts. In October 2025 it raised a $350 million Series C led by Felicis at a $10 billion valuation, and by July 2026 was reported in early talks to raise about $500 million at a $20 billion valuation.",
+      "access_routes": [],
+      "profile_source_url": "https://techcrunch.com/2025/10/27/mercor-quintuples-valuation-to-10b-with-350m-series-c/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Mercor, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 10.0,
+        "basis": "priced_round",
+        "round_label": "Series C",
+        "as_of": "2025-10-27",
+        "mark_age_days": 261,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2025/10/27/mercor-quintuples-valuation-to-10b-with-350m-series-c/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "reflection-ai",
+      "name": "Reflection AI",
+      "summary": "Reflection AI develops open-weight frontier foundation models and AI coding agents, positioning itself as a Western open-source alternative to DeepSeek.",
+      "sector": "Artificial Intelligence",
+      "profile": "Founded in 2024 by former Google DeepMind researchers Misha Laskin and Ioannis Antonoglou, Reflection AI builds open foundation models and agents for AI-assisted software development, including its code-comprehension agent Asimov. In October 2025 it raised $2 billion in a round led by Nvidia at an $8 billion valuation, and in 2026 announced a U.S. Department of Energy collaboration and a SpaceX compute agreement.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Reflection_AI",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Reflection AI, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 8.0,
+        "basis": "priced_round",
+        "round_label": "Series B",
+        "as_of": "2025-10-09",
+        "mark_age_days": 279,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Reflection_AI"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "summary": "Runway builds generative AI video models and world models used across media, entertainment, and advertising.",
+      "sector": "Artificial Intelligence",
+      "profile": "Founded in 2018 in New York, Runway is best known for its physics-aware AI video-generation models (Gen series) and released its first world model in December 2025. In February 2026 it raised a $315 million Series E led by General Atlantic, with Nvidia, Fidelity, and Adobe Ventures participating, at a $5.3 billion valuation — up from about $3.3 billion in April 2025.",
+      "access_routes": [],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Runway_(company)",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Runway AI, Inc.",
+        "RunwayML"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.3,
+        "basis": "priced_round",
+        "round_label": "Series E",
+        "as_of": "2026-02-10",
+        "mark_age_days": 155,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "summary": "Suno operates an AI music-generation platform that creates full songs from text prompts.",
+      "sector": "Artificial Intelligence",
+      "profile": "Cambridge, Massachusetts-based Suno lets users generate complete songs from text prompts and reached roughly $300 million in ARR by early 2026. It has signed a licensing deal with Warner Music Group while facing lawsuits from Universal and Sony Music, and is developing its first model built with music-industry partners. In June 2026 it raised a $400 million Series D led by Bond Capital at a $5.4 billion valuation, more than doubling its November 2025 valuation of $2.45 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://musically.com/2026/06/04/suno-raises-400m-funding-and-teases-its-first-licensed-model/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Suno, Inc.",
+        "Suno AI"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.4,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2026-06-04",
+        "mark_age_days": 41,
+        "stale": false,
+        "source_url": "https://musically.com/2026/06/04/suno-raises-400m-funding-and-teases-its-first-licensed-model/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "decagon",
+      "name": "Decagon",
+      "summary": "Decagon builds enterprise AI agents for customer support and 'AI concierge' experiences across chat, email, and voice.",
+      "sector": "Enterprise AI",
+      "profile": "Decagon, founded in 2023 in San Francisco, provides conversational AI agents that handle complex customer-support workflows — accessing CRM and billing systems and executing tasks like refunds — for customers including Avis, Hertz, Block, Affirm, Chime, and Deutsche Telekom. In January 2026 it raised $250 million in a Series D led by Coatue and Index Ventures at a $4.5 billion valuation, tripling its June 2025 valuation of $1.5 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://siliconangle.com/2026/01/28/decagon-ai-raises-250m-4-5b-valuation-scale-ai-concierge-platform/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "Decagon AI Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 4.5,
+        "basis": "priced_round",
+        "round_label": "Series D",
+        "as_of": "2026-01-28",
+        "mark_age_days": 168,
+        "stale": false,
+        "source_url": "https://siliconangle.com/2026/01/28/decagon-ai-raises-250m-4-5b-valuation-scale-ai-concierge-platform/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "world-labs",
+      "name": "World Labs",
+      "summary": "World Labs develops spatial-intelligence AI, including Marble, a large world model that generates navigable, editable 3D environments from text, images, or video.",
+      "sector": "Artificial Intelligence",
+      "profile": "World Labs was co-founded in 2023 by AI pioneer Fei-Fei Li and Justin Johnson to build AI systems that reason about three-dimensional space. Its first product, Marble, launched commercially in February 2026 and creates persistent, editable 3D worlds from text, images, or video. In February 2026 it raised $1 billion from investors including Autodesk ($200 million), Nvidia, AMD, Fidelity, and Emerson Collective, at a widely reported valuation of about $5 billion.",
+      "access_routes": [],
+      "profile_source_url": "https://techcrunch.com/2026/02/18/world-labs-lands-200m-from-autodesk-to-bring-world-models-into-3d-workflows/",
+      "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
+      "ipo_status_source_url": null,
+      "listed_ticker": null,
+      "aliases": [
+        "World Labs, Inc."
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.0,
+        "basis": "media_report",
+        "round_label": "Growth round",
+        "as_of": "2026-02-18",
+        "mark_age_days": 147,
+        "stale": false,
+        "source_url": "https://techcrunch.com/2026/02/18/world-labs-lands-200m-from-autodesk-to-bring-world-models-into-3d-workflows/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": null
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "summary": "Reddit operates a social news aggregation and discussion platform organized into user-moderated communities called subreddits.",
+      "sector": "Consumer Internet",
+      "profile": "Founded in 2005 and headquartered in San Francisco, Reddit hosts topic-based communities (subreddits) moderated largely by volunteers, monetizing through advertising and data-licensing deals. Listed on NYSE as RDDT on 2024-03-21 at $34.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "RDDT",
+          "exchange": "NYSE",
+          "url": "https://finance.yahoo.com/quote/RDDT"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Reddit",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2024-03-21",
+      "ipo_status_source_url": "https://en.wikipedia.org/wiki/Reddit",
+      "listed_ticker": "RDDT",
+      "aliases": [
+        "Reddit Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 6.4,
+        "basis": "public_market",
+        "round_label": "IPO priced at $34.00/share",
+        "as_of": "2024-03-21",
+        "mark_age_days": 846,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Reddit"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 34.0,
+        "current_price_usd": 197.38,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:18+00:00",
+        "change_from_ipo_pct": 480.53,
+        "source_url": "https://finance.yahoo.com/quote/RDDT"
+      }
+    },
+    {
+      "id": "astera-labs",
+      "name": "Astera Labs",
+      "summary": "Astera Labs designs high-speed semiconductor connectivity solutions for AI and cloud data-center infrastructure.",
+      "sector": "AI Semiconductors",
+      "profile": "Founded in 2017 and headquartered in San Jose, California, Astera Labs is a fabless chipmaker whose connectivity products ride AI data-center demand; its IPO raised about $713 million. Listed on Nasdaq as ALAB on 2024-03-20 at $36.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "ALAB",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/ALAB"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Astera_Labs",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2024-03-20",
+      "ipo_status_source_url": "https://www.asteralabs.com/news/astera-labs-announces-pricing-of-initial-public-offering/",
+      "listed_ticker": "ALAB",
+      "aliases": [
+        "Astera Labs Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.5,
+        "basis": "public_market",
+        "round_label": "IPO priced at $36.00/share",
+        "as_of": "2024-03-20",
+        "mark_age_days": 847,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Astera_Labs"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 36.0,
+        "current_price_usd": 346.851,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:19+00:00",
+        "change_from_ipo_pct": 863.48,
+        "source_url": "https://finance.yahoo.com/quote/ALAB"
+      }
+    },
+    {
+      "id": "rubrik",
+      "name": "Rubrik",
+      "summary": "Rubrik provides cloud data-security software for backup, recovery, and cyber resilience across enterprise and hybrid-cloud environments.",
+      "sector": "Cybersecurity",
+      "profile": "Founded in January 2014 and headquartered in Palo Alto, California, Rubrik sells Zero Trust data-security and backup software for on-premises and cloud environments; its IPO raised $752 million. Listed on NYSE as RBRK on 2024-04-25 at $32.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "RBRK",
+          "exchange": "NYSE",
+          "url": "https://finance.yahoo.com/quote/RBRK"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Rubrik",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2024-04-25",
+      "ipo_status_source_url": "https://en.wikipedia.org/wiki/Rubrik",
+      "listed_ticker": "RBRK",
+      "aliases": [
+        "Rubrik Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.6,
+        "basis": "public_market",
+        "round_label": "IPO priced at $32.00/share",
+        "as_of": "2024-04-25",
+        "mark_age_days": 811,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Rubrik"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 32.0,
+        "current_price_usd": 80.12,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:24+00:00",
+        "change_from_ipo_pct": 150.38,
+        "source_url": "https://finance.yahoo.com/quote/RBRK"
+      }
+    },
+    {
+      "id": "tempus-ai",
+      "name": "Tempus AI",
+      "summary": "Tempus AI applies data and artificial intelligence to precision medicine, including genomic sequencing and diagnostics for oncology and other diseases.",
+      "sector": "Health Tech",
+      "profile": "Founded in 2015 by Eric Lefkofsky and headquartered in Chicago, Tempus AI provides AI-driven genomic sequencing and diagnostics across oncology, cardiology, radiology, and depression; its IPO raised about $410.7 million. Listed on Nasdaq as TEM on 2024-06-14 at $37.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "TEM",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/TEM"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Tempus_AI",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2024-06-14",
+      "ipo_status_source_url": "https://www.builtinchicago.org/articles/tempus-ai-ipo-pricing-20240614",
+      "listed_ticker": "TEM",
+      "aliases": [
+        "Tempus AI Inc",
+        "Tempus Labs"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 6.1,
+        "basis": "public_market",
+        "round_label": "IPO priced at $37.00/share",
+        "as_of": "2024-06-14",
+        "mark_age_days": 761,
+        "stale": false,
+        "source_url": "https://www.builtinchicago.org/articles/tempus-ai-ipo-pricing-20240614"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 37.0,
+        "current_price_usd": 56.785,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:14+00:00",
+        "change_from_ipo_pct": 53.47,
+        "source_url": "https://finance.yahoo.com/quote/TEM"
+      }
+    },
+    {
+      "id": "lineage",
+      "name": "Lineage",
+      "summary": "Lineage operates the world's largest network of temperature-controlled warehouses as a cold-storage REIT serving global food supply chains.",
+      "sector": "Logistics",
+      "profile": "Founded in 2012 and headquartered in Novi, Michigan, Lineage runs temperature-controlled warehousing and cold-chain logistics across North America, Europe, and Asia-Pacific; its roughly $4.4 billion offering was the largest US IPO of 2024. Listed on Nasdaq as LINE on 2024-07-25 at $78.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "LINE",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/LINE"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Lineage_Logistics",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2024-07-25",
+      "ipo_status_source_url": "https://www.onelineage.com/news-stories/lineage-announces-pricing-initial-public-offering",
+      "listed_ticker": "LINE",
+      "aliases": [
+        "Lineage Inc",
+        "Lineage Logistics"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 18.0,
+        "basis": "public_market",
+        "round_label": "IPO priced at $78.00/share",
+        "as_of": "2024-07-25",
+        "mark_age_days": 720,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Lineage_Logistics"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 78.0,
+        "current_price_usd": 44.36,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:23+00:00",
+        "change_from_ipo_pct": -43.13,
+        "source_url": "https://finance.yahoo.com/quote/LINE"
+      }
+    },
+    {
+      "id": "servicetitan",
+      "name": "ServiceTitan",
+      "summary": "ServiceTitan provides cloud-based operating software for residential and commercial trades businesses such as HVAC, plumbing, and electrical contractors.",
+      "sector": "Enterprise Software",
+      "profile": "Founded in 2007 by Ara Mahdessian and Vahe Kuzoyan and headquartered in Glendale, California, ServiceTitan covers scheduling, dispatch, marketing, payments, and payroll for trades businesses; its IPO raised about $625 million. Listed on Nasdaq as TTAN on 2024-12-12 at $71.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "TTAN",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/TTAN"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/ServiceTitan",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2024-12-12",
+      "ipo_status_source_url": "https://en.wikipedia.org/wiki/ServiceTitan",
+      "listed_ticker": "TTAN",
+      "aliases": [
+        "ServiceTitan Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 6.3,
+        "basis": "public_market",
+        "round_label": "IPO priced at $71.00/share (at-offer)",
+        "as_of": "2024-12-12",
+        "mark_age_days": 580,
+        "stale": false,
+        "source_url": "https://accessipos.com/servicetitan-ipo-stock/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 71.0,
+        "current_price_usd": 78.76,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:22+00:00",
+        "change_from_ipo_pct": 10.93,
+        "source_url": "https://finance.yahoo.com/quote/TTAN"
+      }
+    },
+    {
+      "id": "etoro",
+      "name": "eToro",
+      "summary": "eToro operates a multi-asset social trading platform where retail investors trade stocks, ETFs, and cryptocurrencies and copy other users' trades.",
+      "sector": "Fintech",
+      "profile": "Founded in 2007 and headquartered in Tel Aviv, Israel, eToro is known for its copy-trading feature and a large crypto business; its IPO priced above the $46-$50 range and raised about $620 million. Listed on Nasdaq as ETOR on 2025-05-14 at $52.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "ETOR",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/ETOR"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/EToro",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-05-14",
+      "ipo_status_source_url": "https://en.wikipedia.org/wiki/EToro",
+      "listed_ticker": "ETOR",
+      "aliases": [
+        "eToro Group Ltd"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.64,
+        "basis": "public_market",
+        "round_label": "IPO priced at $52.00/share",
+        "as_of": "2025-05-14",
+        "mark_age_days": 427,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/EToro"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 52.0,
+        "current_price_usd": 38.465,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:14+00:00",
+        "change_from_ipo_pct": -26.03,
+        "source_url": "https://finance.yahoo.com/quote/ETOR"
+      }
+    },
+    {
+      "id": "hinge-health",
+      "name": "Hinge Health",
+      "summary": "Hinge Health provides AI-driven digital musculoskeletal care combining motion-tracking technology, wearable devices, and licensed physical therapists.",
+      "sector": "Health Tech",
+      "profile": "Founded in 2012 by Daniel Perez and Gabriel Mecklenburg and headquartered in San Francisco, Hinge Health sells digital physical-therapy programs mainly to self-insured employers, with $390.4 million of 2024 revenue; its IPO raised about $437 million. Listed on NYSE as HNGE on 2025-05-22 at $32.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "HNGE",
+          "exchange": "NYSE",
+          "url": "https://finance.yahoo.com/quote/HNGE"
+        }
+      ],
+      "profile_source_url": "https://www.iposcoop.com/the-ipo-buzz-hinge-health-hnge-prices-ipo-at-32-top-of-range/",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-05-22",
+      "ipo_status_source_url": "https://ir.hingehealth.com/news/news-details/2025/Hinge-Health-Announces-Pricing-of-Initial-Public-Offering/default.aspx",
+      "listed_ticker": "HNGE",
+      "aliases": [
+        "Hinge Health Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 2.5,
+        "basis": "public_market",
+        "round_label": "IPO priced at $32.00/share",
+        "as_of": "2025-05-22",
+        "mark_age_days": 419,
+        "stale": false,
+        "source_url": "https://www.iposcoop.com/the-ipo-buzz-hinge-health-hnge-prices-ipo-at-32-top-of-range/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 32.0,
+        "current_price_usd": 86.8,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:22+00:00",
+        "change_from_ipo_pct": 171.25,
+        "source_url": "https://finance.yahoo.com/quote/HNGE"
+      }
+    },
+    {
+      "id": "bullish",
+      "name": "Bullish",
+      "summary": "Bullish operates an institutionally focused cryptocurrency exchange and global digital-asset trading platform.",
+      "sector": "Crypto",
+      "profile": "Launched in 2021 and based in the Cayman Islands, Bullish has processed over $1.25 trillion in trading volume since inception; its roughly $1.1 billion IPO priced above the marketed range and shares more than doubled on debut. Listed on NYSE as BLSH on 2025-08-13 at $37.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "BLSH",
+          "exchange": "NYSE",
+          "url": "https://finance.yahoo.com/quote/BLSH"
+        }
+      ],
+      "profile_source_url": "https://www.coindesk.com/markets/2025/08/13/crypto-exchange-bullish-shoots-above-usd100-as-shares-debut-more-than-doubling-ipo-price",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-08-13",
+      "ipo_status_source_url": "https://www.coindesk.com/markets/2025/08/13/crypto-exchange-bullish-shoots-above-usd100-as-shares-debut-more-than-doubling-ipo-price",
+      "listed_ticker": "BLSH",
+      "aliases": [
+        "Bullish Global"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 5.4,
+        "basis": "public_market",
+        "round_label": "IPO priced at $37.00/share",
+        "as_of": "2025-08-13",
+        "mark_age_days": 336,
+        "stale": false,
+        "source_url": "https://www.coindesk.com/markets/2025/08/13/crypto-exchange-bullish-shoots-above-usd100-as-shares-debut-more-than-doubling-ipo-price"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 37.0,
+        "current_price_usd": 24.71,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:23+00:00",
+        "change_from_ipo_pct": -33.22,
+        "source_url": "https://finance.yahoo.com/quote/BLSH"
+      }
+    },
+    {
+      "id": "firefly-aerospace",
+      "name": "Firefly Aerospace",
+      "summary": "Firefly Aerospace develops small- and medium-lift rockets, lunar landers, and orbital vehicles for commercial and government space missions.",
+      "sector": "Aerospace & Defense",
+      "profile": "Founded in 2017 (successor to 2014's Firefly Space Systems) and headquartered in Cedar Park, Texas, Firefly builds the Alpha rocket and Blue Ghost lunar landers; its upsized $868 million IPO was the largest US space-tech offering of 2025. Listed on Nasdaq as FLY on 2025-08-07 at $45.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "FLY",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/FLY"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Firefly_Aerospace",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-08-07",
+      "ipo_status_source_url": "https://fireflyspace.com/news/firefly-aerospace-announces-pricing-of-upsized-initial-public-offering/",
+      "listed_ticker": "FLY",
+      "aliases": [
+        "Firefly Aerospace Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 6.3,
+        "basis": "public_market",
+        "round_label": "IPO priced at $45.00/share",
+        "as_of": "2025-08-07",
+        "mark_age_days": 342,
+        "stale": false,
+        "source_url": "https://www.fool.com/investing/2025/08/10/the-largest-space-tech-ipo-of-the-year-just-launch/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 45.0,
+        "current_price_usd": 21.14,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:14+00:00",
+        "change_from_ipo_pct": -53.02,
+        "source_url": "https://finance.yahoo.com/quote/FLY"
+      }
+    },
+    {
+      "id": "netskope",
+      "name": "Netskope",
+      "summary": "Netskope provides a cloud-native SASE platform that secures enterprise access to web, cloud applications, and AI services.",
+      "sector": "Cybersecurity",
+      "profile": "Founded in 2012 and headquartered in Santa Clara, California, Netskope had $707 million in annual recurring revenue as of July 2025, up 33% year over year; its IPO raised $908 million. Listed on Nasdaq as NTSK on 2025-09-18 at $19.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "NTSK",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/NTSK"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Netskope",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-09-18",
+      "ipo_status_source_url": "https://en.wikipedia.org/wiki/Netskope",
+      "listed_ticker": "NTSK",
+      "aliases": [
+        "Netskope Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 9.0,
+        "basis": "public_market",
+        "round_label": "IPO priced at $19.00/share (fully diluted)",
+        "as_of": "2025-09-18",
+        "mark_age_days": 300,
+        "stale": false,
+        "source_url": "https://www.renaissancecapital.com/IPO-Center/News/113567/Cybersecurity-firm-Netskope-prices-IPO-at-$19-the-high-end-of-the-upwardly-"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 19.0,
+        "current_price_usd": 13.33,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:09+00:00",
+        "change_from_ipo_pct": -29.84,
+        "source_url": "https://finance.yahoo.com/quote/NTSK"
+      }
+    },
+    {
+      "id": "stubhub",
+      "name": "StubHub",
+      "summary": "StubHub operates an online marketplace for resale and primary sale of tickets to concerts, sports, and live events.",
+      "sector": "Consumer Internet",
+      "profile": "Founded in March 2000, StubHub is a global ticket marketplace with offices including Los Angeles and New York; its IPO of 34.0 million shares raised about $800 million with J.P. Morgan and Goldman Sachs leading. Listed on NYSE as STUB on 2025-09-17 at $23.50 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "STUB",
+          "exchange": "NYSE",
+          "url": "https://finance.yahoo.com/quote/STUB"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/StubHub",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-09-17",
+      "ipo_status_source_url": "https://www.prnewswire.com/news-releases/stubhub-announces-pricing-of-initial-public-offering-302558424.html",
+      "listed_ticker": "STUB",
+      "aliases": [
+        "StubHub Holdings"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 8.6,
+        "basis": "public_market",
+        "round_label": "IPO priced at $23.50/share",
+        "as_of": "2025-09-17",
+        "mark_age_days": 301,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/StubHub"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 23.5,
+        "current_price_usd": 9.59,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:33+00:00",
+        "change_from_ipo_pct": -59.19,
+        "source_url": "https://finance.yahoo.com/quote/STUB"
+      }
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "summary": "Gemini operates a cryptocurrency exchange and custodian offering trading, staking, the Gemini Dollar stablecoin, and a crypto rewards credit card.",
+      "sector": "Crypto",
+      "profile": "Founded in 2014 by Cameron and Tyler Winklevoss and headquartered in New York City, Gemini is also a New York trust company providing regulated custody; its shares opened at $37.01 on debut. Listed on Nasdaq as GEMI on 2025-09-12 at $28.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "GEMI",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/GEMI"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Gemini_(company)",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-09-12",
+      "ipo_status_source_url": "https://en.wikipedia.org/wiki/Gemini_(company)",
+      "listed_ticker": "GEMI",
+      "aliases": [
+        "Gemini Space Station",
+        "Gemini Trust"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 3.3,
+        "basis": "public_market",
+        "round_label": "IPO priced at $28.00/share",
+        "as_of": "2025-09-12",
+        "mark_age_days": 306,
+        "stale": false,
+        "source_url": "https://en.wikipedia.org/wiki/Gemini_(company)"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 28.0,
+        "current_price_usd": 4.63,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:50:38+00:00",
+        "change_from_ipo_pct": -83.46,
+        "source_url": "https://finance.yahoo.com/quote/GEMI"
+      }
+    },
+    {
+      "id": "quantinuum",
+      "name": "Quantinuum",
+      "summary": "Quantinuum builds full-stack trapped-ion quantum computers along with software for cybersecurity, chemistry simulation, and machine learning.",
+      "sector": "Quantum Computing",
+      "profile": "Formed in 2021 by merging Honeywell Quantum Solutions with Cambridge Quantum and headquartered in Broomfield, Colorado, Quantinuum raised $1.68 billion in an upsized IPO, one of the largest quantum-computing listings to date, with Honeywell retaining about 48% voting control. Listed on Nasdaq as QNT on 2026-06-04 at $60.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "QNT",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/QNT"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Quantinuum",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2026-06-04",
+      "ipo_status_source_url": "https://www.quantinuum.com/press-releases/quantinuum-announces-pricing-of-upsized-initial-public-offering",
+      "listed_ticker": "QNT",
+      "aliases": [
+        "Quantinuum Inc"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 14.5,
+        "basis": "public_market",
+        "round_label": "IPO priced at $60.00/share (reported $14-15B)",
+        "as_of": "2026-06-04",
+        "mark_age_days": 41,
+        "stale": false,
+        "source_url": "https://thequantuminsider.com/2026/06/04/quantinuum-to-debut-on-nasdaq-after-raising-1-68-billion-in-ipo/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 60.0,
+        "current_price_usd": 59.87,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:50:30+00:00",
+        "change_from_ipo_pct": -0.22,
+        "source_url": "https://finance.yahoo.com/quote/QNT"
+      }
+    },
+    {
+      "id": "lime",
+      "name": "Lime",
+      "summary": "Lime operates shared electric scooter and e-bike rentals in more than 200 cities across nearly 30 countries.",
+      "sector": "Mobility",
+      "profile": "Founded in January 2017 as Neutron Holdings and headquartered in San Francisco, Uber-backed Lime generated $886.7 million of 2025 revenue, up 29% year over year; its IPO raised about $167 million. Listed on Nasdaq as LIME on 2026-07-01 at $25.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "LIME",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/LIME"
+        }
+      ],
+      "profile_source_url": "https://en.wikipedia.org/wiki/Lime_(transportation_company)",
+      "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2026-07-01",
+      "ipo_status_source_url": "https://finance.yahoo.com/markets/stocks/articles/uber-backed-lime-prices-ipo-010436987.html",
+      "listed_ticker": "LIME",
+      "aliases": [
+        "Neutron Holdings",
+        "Lime Micromobility"
+      ],
+      "crosscheck_skip": false,
+      "valuation": {
+        "amount_usd_billions": 1.6,
+        "basis": "public_market",
+        "round_label": "IPO priced at $25.00/share",
+        "as_of": "2026-07-01",
+        "mark_age_days": 14,
+        "stale": false,
+        "source_url": "https://www.iposcoop.com/the-ipo-buzz-lime-lime-prices-its-ipo-at-25-mid-point/"
+      },
+      "as_of": "2026-07-15",
+      "graduation_outcome": {
+        "ipo_price_usd": 25.0,
+        "current_price_usd": 27.08,
+        "currency": "USD",
+        "price_as_of": "2026-07-15T18:51:35+00:00",
+        "change_from_ipo_pct": 8.32,
+        "source_url": "https://finance.yahoo.com/quote/LIME"
+      }
     }
   ]
 }

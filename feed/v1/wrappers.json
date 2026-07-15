@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-15T04:15:53+00:00",
-  "as_of": "2026-07-15T04:15:53+00:00",
+  "generated_at": "2026-07-15T18:52:47+00:00",
+  "as_of": "2026-07-15T18:52:47+00:00",
   "notes": "Factual descriptions of investment vehicle structures and terms compiled from issuer disclosures. Educational display only; nothing here is a recommendation. Fee and liquidity facts are hand-curated from the cited sources and re-verified on the curation cadence in the README.",
   "wrappers": [
     {
@@ -30,7 +30,7 @@
       "nav_per_share": {
         "value": 56.03,
         "currency": "USD",
-        "as_of": "2026-07-15T00:00:08+00:00",
+        "as_of": "2026-07-15T12:05:08+00:00",
         "source": "Fund transacts at NAV; NAV via Yahoo Finance quote",
         "source_url": "https://finance.yahoo.com/quote/ARKVX"
       },
@@ -157,9 +157,9 @@
       "nav_note": null,
       "nav_unavailable_reason": null,
       "market_price": {
-        "value": 25.95,
+        "value": 27.21,
         "currency": "USD",
-        "as_of": "2026-07-14T20:03:50+00:00",
+        "as_of": "2026-07-15T18:52:32+00:00",
         "source": "Yahoo Finance quote (unofficial endpoint)",
         "source_url": "https://finance.yahoo.com/quote/DXYZ"
       },
@@ -170,10 +170,10 @@
         "source": "Destiny Tech100 prospectus supplement (424B3) filed 2026-05-12: \"our net asset value as of March 31, 2026, is $24.56 per share\".",
         "source_url": "https://www.sec.gov/Archives/edgar/data/1843974/000157587226000288/dxyz100_424b3.htm"
       },
-      "premium_to_nav_pct": 5.66,
-      "premium_to_nav_calculation": "premium_to_nav_pct = (market_price 25.95 - nav_per_share 24.56) / 24.56 * 100 = 5.66%",
+      "premium_to_nav_pct": 10.79,
+      "premium_to_nav_calculation": "premium_to_nav_pct = (market_price 27.21 - nav_per_share 24.56) / 24.56 * 100 = 10.79%",
       "premium_to_nav_inputs_as_of": {
-        "market_price": "2026-07-14T20:03:50+00:00",
+        "market_price": "2026-07-15T18:52:32+00:00",
         "nav_per_share": "2026-03-31"
       },
       "holdings": null
@@ -201,9 +201,9 @@
       "nav_note": "The issuer publishes NAV and premium/discount information on its site and in filings, but not in a machine-readable feed this pipeline can cite; premium_to_nav is therefore marked unavailable rather than computed against a stale figure.",
       "nav_unavailable_reason": "The issuer publishes daily NAV on its website, but only via scripts this pipeline cannot cite as a stable source, and no machine-readable NAV feed or recent NAV-bearing SEC filing is available. Rather than compute a premium against a stale or unverifiable figure, the field is marked unavailable. ETF creation/redemption arbitrage typically keeps market price near NAV.",
       "market_price": {
-        "value": 20.33,
+        "value": 20.22,
         "currency": "USD",
-        "as_of": "2026-07-14T20:00:00+00:00",
+        "as_of": "2026-07-15T18:52:16+00:00",
         "source": "Yahoo Finance quote (unofficial endpoint)",
         "source_url": "https://finance.yahoo.com/quote/XOVR"
       },
@@ -250,16 +250,16 @@
     },
     {
       "id": "ssss",
-      "name": "SuRo Capital",
+      "name": "Neostellar Capital (formerly SuRo Capital)",
       "structure": "listed_business_development_company",
-      "ticker": "SSSS",
+      "ticker": "NSLR",
       "exchange": "Nasdaq",
       "issuer_url": "https://www.surocap.com/",
       "fees": {
         "expense_ratio_pct": null,
-        "description": "Internally managed BDC: no external management fee; fund-level operating expenses are reported in its SEC filings (see 10-K/10-Q).",
-        "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509470&type=10-K&dateb=&owner=include&count=10",
-        "as_of": "2026-07-14"
+        "description": "Transitioning from an internally managed BDC to an externally managed structure (joint venture with Magnetar as investment adviser) per its July 2026 8-K; fee terms are reported in its SEC filings (10-K/10-Q).",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1509470/000149315226015439/form8-k.htm",
+        "as_of": "2026-07-15"
       },
       "liquidity": {
         "terms": "Exchange-listed BDC: shares trade intraday on Nasdaq at market price, which can differ substantially from NAV. No redemption right at NAV.",
@@ -271,11 +271,11 @@
       "nav_note": null,
       "nav_unavailable_reason": null,
       "market_price": {
-        "value": 10.91,
+        "value": 11.135,
         "currency": "USD",
-        "as_of": "2026-07-13T13:30:00+00:00",
+        "as_of": "2026-07-15T18:49:03+00:00",
         "source": "Yahoo Finance quote (unofficial endpoint)",
-        "source_url": "https://finance.yahoo.com/quote/SSSS"
+        "source_url": "https://finance.yahoo.com/quote/NSLR"
       },
       "nav_per_share": {
         "value": 14.24,
@@ -284,10 +284,10 @@
         "source": "SuRo Capital Form 10-Q for the quarter ended 2026-03-31 (filed 2026-05-06), condensed consolidated statements of assets and liabilities: net asset value per share $14.24.",
         "source_url": "https://www.sec.gov/Archives/edgar/data/1509470/000149315226021430/form10-q.htm"
       },
-      "premium_to_nav_pct": -23.38,
-      "premium_to_nav_calculation": "premium_to_nav_pct = (market_price 10.91 - nav_per_share 14.24) / 14.24 * 100 = -23.38%",
+      "premium_to_nav_pct": -21.8,
+      "premium_to_nav_calculation": "premium_to_nav_pct = (market_price 11.135 - nav_per_share 14.24) / 14.24 * 100 = -21.80%",
       "premium_to_nav_inputs_as_of": {
-        "market_price": "2026-07-13T13:30:00+00:00",
+        "market_price": "2026-07-15T18:49:03+00:00",
         "nav_per_share": "2026-03-31"
       },
       "holdings": null

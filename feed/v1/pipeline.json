@@ -1,12 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-15T04:15:47+00:00",
-  "as_of": "2026-07-15T04:15:47+00:00",
+  "generated_at": "2026-07-15T18:52:42+00:00",
+  "as_of": "2026-07-15T18:52:42+00:00",
   "source": {
     "name": "SEC EDGAR daily form indexes",
     "url": "https://www.sec.gov/Archives/edgar/daily-index/",
     "days_covered": [
-      "2026-01-15",
       "2026-01-16",
       "2026-01-20",
       "2026-01-21",
@@ -2759,7 +2758,7 @@
       "accession_number": "0001628280-26-044471",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1699963/000162828026044471/0001628280-26-044471-index.htm",
       "fund_keyword_match": false,
-      "universe_company_id": null
+      "universe_company_id": "lime"
     },
     {
       "form_type": "S-1/A",
@@ -5231,7 +5230,7 @@
       "accession_number": "0001628280-26-039286",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2110105/000162828026039286/0001628280-26-039286-index.htm",
       "fund_keyword_match": false,
-      "universe_company_id": null
+      "universe_company_id": "quantinuum"
     },
     {
       "form_type": "S-1/A",
@@ -5999,7 +5998,7 @@
       "accession_number": "0001628280-26-037917",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2110105/000162828026037917/0001628280-26-037917-index.htm",
       "fund_keyword_match": false,
-      "universe_company_id": null
+      "universe_company_id": "quantinuum"
     },
     {
       "form_type": "F-1",
@@ -6083,7 +6082,7 @@
       "accession_number": "0001193125-26-239249",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1860160/000119312526239249/0001193125-26-239249-index.htm",
       "fund_keyword_match": false,
-      "universe_company_id": null
+      "universe_company_id": "firefly-aerospace"
     },
     {
       "form_type": "S-1/A",
@@ -8003,7 +8002,7 @@
       "accession_number": "0001628280-26-032836",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2110105/000162828026032836/0001628280-26-032836-index.htm",
       "fund_keyword_match": false,
-      "universe_company_id": null
+      "universe_company_id": "quantinuum"
     },
     {
       "form_type": "S-1",
@@ -8015,7 +8014,7 @@
       "accession_number": "0001628280-26-032523",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1699963/000162828026032523/0001628280-26-032523-index.htm",
       "fund_keyword_match": false,
-      "universe_company_id": null
+      "universe_company_id": "lime"
     },
     {
       "form_type": "S-1/A",
@@ -22527,150 +22526,6 @@
     },
     {
       "form_type": "S-1/A",
-      "issuer": "X3 Acquisition Corp. Ltd.",
-      "display_name": "X3 Acquisition",
-      "entity_suffix": "Corp Ltd",
-      "cik": "2083493",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001493152-26-002389",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2083493/000149315226002389/0001493152-26-002389-index.htm",
-      "fund_keyword_match": true,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "S-1",
-      "issuer": "United Health Products, Inc.",
-      "display_name": "United Health Products",
-      "entity_suffix": "Inc",
-      "cik": "1096938",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001477932-26-000238",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1096938/000147793226000238/0001477932-26-000238-index.htm",
-      "fund_keyword_match": false,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "F-1",
-      "issuer": "TRINITY BIOTECH PLC",
-      "display_name": "Trinity Biotech",
-      "entity_suffix": "Plc",
-      "cik": "888721",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001178913-26-000150",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/888721/000117891326000150/0001178913-26-000150-index.htm",
-      "fund_keyword_match": false,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "S-1/A",
-      "issuer": "Proem Acquisition Corp. I",
-      "display_name": "Proem Acquisition Corp. I",
-      "entity_suffix": null,
-      "cik": "2087446",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001213900-26-004766",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2087446/000121390026004766/0001213900-26-004766-index.htm",
-      "fund_keyword_match": true,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "S-1/A",
-      "issuer": "Pine Tree Acquisition Corp.",
-      "display_name": "Pine Tree Acquisition",
-      "entity_suffix": "Corp",
-      "cik": "2076561",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001477932-26-000218",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2076561/000147793226000218/0001477932-26-000218-index.htm",
-      "fund_keyword_match": true,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "F-1/A",
-      "issuer": "Nihon Shintatsu Co., Ltd.",
-      "display_name": "Nihon Shintatsu",
-      "entity_suffix": "Co Ltd",
-      "cik": "2073819",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001493152-26-002311",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2073819/000149315226002311/0001493152-26-002311-index.htm",
-      "fund_keyword_match": false,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "S-1/A",
-      "issuer": "Maywood Acquisition Corp. 2",
-      "display_name": "Maywood Acquisition Corp. 2",
-      "entity_suffix": null,
-      "cik": "2080087",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001477932-26-000211",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2080087/000147793226000211/0001477932-26-000211-index.htm",
-      "fund_keyword_match": true,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "S-1/A",
-      "issuer": "Hillhouse Frontier Holdings Inc.",
-      "display_name": "Hillhouse Frontier Holdings",
-      "entity_suffix": "Inc",
-      "cik": "2065707",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001477932-26-000239",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2065707/000147793226000239/0001477932-26-000239-index.htm",
-      "fund_keyword_match": false,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "S-1",
-      "issuer": "FARADAY FUTURE INTELLIGENT ELECTRIC INC.",
-      "display_name": "Faraday Future Intelligent Electric",
-      "entity_suffix": "Inc",
-      "cik": "1805521",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001213900-26-004453",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1805521/000121390026004453/0001213900-26-004453-index.htm",
-      "fund_keyword_match": false,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "F-1",
-      "issuer": "DDC Enterprise Ltd",
-      "display_name": "DDC Enterprise",
-      "entity_suffix": "Ltd",
-      "cik": "1808110",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001213900-26-004713",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1808110/000121390026004713/0001213900-26-004713-index.htm",
-      "fund_keyword_match": false,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "S-1/A",
-      "issuer": "Archimedes Tech SPAC Partners III Co.",
-      "display_name": "Archimedes Tech SPAC Partners III",
-      "entity_suffix": "Co",
-      "cik": "2083910",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001437749-26-001284",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2083910/000143774926001284/0001437749-26-001284-index.htm",
-      "fund_keyword_match": true,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "S-1/A",
-      "issuer": "Akston Biosciences Corp",
-      "display_name": "Akston Biosciences",
-      "entity_suffix": "Corp",
-      "cik": "1776612",
-      "filing_date": "2026-01-15",
-      "accession_number": "0001104659-26-004158",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1776612/000110465926004158/0001104659-26-004158-index.htm",
-      "fund_keyword_match": false,
-      "universe_company_id": null
-    },
-    {
-      "form_type": "S-1/A",
       "issuer": "Franklin Solana Trust",
       "display_name": "Franklin Solana Trust",
       "entity_suffix": null,
@@ -23031,7 +22886,7 @@
       "accession_number": "0001628280-26-046635",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1699963/000162828026046635/0001628280-26-046635-index.htm",
       "fund_keyword_match": false,
-      "universe_company_id": null,
+      "universe_company_id": "lime",
       "price_usd": 25.0
     },
     {
@@ -23629,7 +23484,7 @@
       "accession_number": "0001628280-26-041003",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2110105/000162828026041003/0001628280-26-041003-index.htm",
       "fund_keyword_match": false,
-      "universe_company_id": null,
+      "universe_company_id": "quantinuum",
       "price_usd": 60.0
     },
     {
@@ -23656,6 +23511,19 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2131853/000121390026065927/0001213900-26-065927-index.htm",
       "fund_keyword_match": true,
       "universe_company_id": null,
+      "price_usd": null
+    },
+    {
+      "form_type": "424B3",
+      "issuer": "Firefly Aerospace Inc.",
+      "display_name": "Firefly Aerospace",
+      "entity_suffix": "Inc",
+      "cik": "1860160",
+      "filing_date": "2026-06-05",
+      "accession_number": "0001193125-26-259750",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1860160/000119312526259750/0001193125-26-259750-index.htm",
+      "fund_keyword_match": false,
+      "universe_company_id": "firefly-aerospace",
       "price_usd": null
     },
     {
@@ -23815,6 +23683,19 @@
       "price_usd": null
     },
     {
+      "form_type": "424B3",
+      "issuer": "Firefly Aerospace Inc.",
+      "display_name": "Firefly Aerospace",
+      "entity_suffix": "Inc",
+      "cik": "1860160",
+      "filing_date": "2026-06-02",
+      "accession_number": "0001193125-26-252409",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1860160/000119312526252409/0001193125-26-252409-index.htm",
+      "fund_keyword_match": false,
+      "universe_company_id": "firefly-aerospace",
+      "price_usd": 48.0
+    },
+    {
       "form_type": "424B4",
       "issuer": "Constellation Energy Corp",
       "display_name": "Constellation Energy",
@@ -23889,7 +23770,7 @@
       "accession_number": "0001193125-26-249159",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1860160/000119312526249159/0001193125-26-249159-index.htm",
       "fund_keyword_match": false,
-      "universe_company_id": null,
+      "universe_company_id": "firefly-aerospace",
       "price_usd": 48.0
     },
     {
@@ -23942,6 +23823,19 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2046386/000119312526239247/0001193125-26-239247-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
+      "price_usd": null
+    },
+    {
+      "form_type": "424B3",
+      "issuer": "Firefly Aerospace Inc.",
+      "display_name": "Firefly Aerospace",
+      "entity_suffix": "Inc",
+      "cik": "1860160",
+      "filing_date": "2026-05-26",
+      "accession_number": "0001193125-26-239406",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1860160/000119312526239406/0001193125-26-239406-index.htm",
+      "fund_keyword_match": false,
+      "universe_company_id": "firefly-aerospace",
       "price_usd": null
     },
     {
@@ -24608,6 +24502,19 @@
       "price_usd": null
     },
     {
+      "form_type": "424B3",
+      "issuer": "Firefly Aerospace Inc.",
+      "display_name": "Firefly Aerospace",
+      "entity_suffix": "Inc",
+      "cik": "1860160",
+      "filing_date": "2026-05-04",
+      "accession_number": "0001193125-26-204359",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1860160/000119312526204359/0001193125-26-204359-index.htm",
+      "fund_keyword_match": false,
+      "universe_company_id": "firefly-aerospace",
+      "price_usd": 45.0
+    },
+    {
       "form_type": "424B4",
       "issuer": "CH4 Natural Solutions Corp",
       "display_name": "CH4 Natural Solutions",
@@ -24800,7 +24707,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1540171/000119312526197686/0001193125-26-197686-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 18.0
     },
     {
       "form_type": "424B4",
@@ -24826,7 +24733,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2093507/000182912626004054/0001829126-26-004054-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 4.0
     },
     {
       "form_type": "424B4",
@@ -24878,7 +24785,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2114227/000121390026048413/0001213900-26-048413-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 10.0
     },
     {
       "form_type": "424B4",
@@ -24891,7 +24798,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2088896/000110465926049515/0001104659-26-049515-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 23.0
     },
     {
       "form_type": "424B4",
@@ -24904,7 +24811,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1367083/000168316826003212/0001683168-26-003212-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 1.35
     },
     {
       "form_type": "424B4",
@@ -24917,7 +24824,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1554818/000168316826003222/0001683168-26-003222-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 2.36
     },
     {
       "form_type": "424B4",
@@ -24930,7 +24837,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1859836/000110465926047210/0001104659-26-047210-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 20.0
     },
     {
       "form_type": "424B4",
@@ -24956,7 +24863,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026047144/0001213900-26-047144-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 14.0
     },
     {
       "form_type": "424B4",
@@ -24969,7 +24876,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1561032/000162828026026541/0001628280-26-026541-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 12.0
     },
     {
       "form_type": "424B4",
@@ -24982,6 +24889,19 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1919776/000110465926046160/0001104659-26-046160-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
+      "price_usd": null
+    },
+    {
+      "form_type": "424B3",
+      "issuer": "Firefly Aerospace Inc.",
+      "display_name": "Firefly Aerospace",
+      "entity_suffix": "Inc",
+      "cik": "1860160",
+      "filing_date": "2026-04-21",
+      "accession_number": "0001193125-26-167153",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1860160/000119312526167153/0001193125-26-167153-index.htm",
+      "fund_keyword_match": false,
+      "universe_company_id": "firefly-aerospace",
       "price_usd": null
     },
     {
@@ -25008,7 +24928,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2023796/000149315226018037/0001493152-26-018037-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 1.55
     },
     {
       "form_type": "424B4",
@@ -25021,7 +24941,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2096300/000119312526162601/0001193125-26-162601-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 20.0
     },
     {
       "form_type": "424B4",
@@ -25034,7 +24954,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2098430/000119312526160250/0001193125-26-160250-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 27.0
     },
     {
       "form_type": "424B4",
@@ -25047,7 +24967,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2096997/000119312526161521/0001193125-26-161521-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 16.0
     },
     {
       "form_type": "424B4",
@@ -25099,7 +25019,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2104204/000119312526161647/0001193125-26-161647-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 17.0
     },
     {
       "form_type": "424B4",
@@ -25112,7 +25032,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1969928/000121390026044373/0001213900-26-044373-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 4.0
     },
     {
       "form_type": "424B4",
@@ -25138,7 +25058,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2099767/000121390026044337/0001213900-26-044337-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 10.0
     },
     {
       "form_type": "424B4",
@@ -25151,7 +25071,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2093536/000119312526159369/0001193125-26-159369-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 28.0
     },
     {
       "form_type": "424B4",
@@ -25177,7 +25097,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2071668/000110465926042683/0001104659-26-042683-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 14.65
     },
     {
       "form_type": "424B4",
@@ -25203,7 +25123,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1980088/000121390026041190/0001213900-26-041190-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 14.06
     },
     {
       "form_type": "424B4",
@@ -25216,7 +25136,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2052568/000119312526147659/0001193125-26-147659-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 28.0
     },
     {
       "form_type": "424B4",
@@ -25255,6 +25175,19 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1912884/000121390026039917/0001213900-26-039917-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
+      "price_usd": 4.0
+    },
+    {
+      "form_type": "424B3",
+      "issuer": "Firefly Aerospace Inc.",
+      "display_name": "Firefly Aerospace",
+      "entity_suffix": "Inc",
+      "cik": "1860160",
+      "filing_date": "2026-04-03",
+      "accession_number": "0001193125-26-142304",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1860160/000119312526142304/0001193125-26-142304-index.htm",
+      "fund_keyword_match": false,
+      "universe_company_id": "firefly-aerospace",
       "price_usd": null
     },
     {
@@ -25268,7 +25201,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1497253/000121390026039307/0001213900-26-039307-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 1.14
     },
     {
       "form_type": "424B4",
@@ -25281,7 +25214,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2095297/000121390026038033/0001213900-26-038033-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 10.0
     },
     {
       "form_type": "424B4",
@@ -25294,7 +25227,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2021880/000119312526138102/0001193125-26-138102-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 20.0
     },
     {
       "form_type": "424B4",
@@ -25320,7 +25253,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1958777/000119312526137949/0001193125-26-137949-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 1.32
     },
     {
       "form_type": "424B1",
@@ -25359,7 +25292,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2080126/000119312526129984/0001193125-26-129984-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 27.0
     },
     {
       "form_type": "424B1",
@@ -25411,7 +25344,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1932072/000149315226012602/0001493152-26-012602-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.51
     },
     {
       "form_type": "424B4",
@@ -25437,7 +25370,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2100805/000110465926032901/0001104659-26-032901-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 20.0
     },
     {
       "form_type": "424B4",
@@ -25463,7 +25396,20 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1939780/000121390026032141/0001213900-26-032141-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.449
+    },
+    {
+      "form_type": "424B3",
+      "issuer": "Firefly Aerospace Inc.",
+      "display_name": "Firefly Aerospace",
+      "entity_suffix": "Inc",
+      "cik": "1860160",
+      "filing_date": "2026-03-20",
+      "accession_number": "0001193125-26-116479",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1860160/000119312526116479/0001193125-26-116479-index.htm",
+      "fund_keyword_match": false,
+      "universe_company_id": "firefly-aerospace",
+      "price_usd": 45.0
     },
     {
       "form_type": "424B4",
@@ -25502,7 +25448,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2092574/000110465926029590/0001104659-26-029590-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 5.0
     },
     {
       "form_type": "424B4",
@@ -25515,7 +25461,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1924482/000173112226000399/0001731122-26-000399-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 1.75
     },
     {
       "form_type": "424B4",
@@ -25528,7 +25474,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2108164/000121390026027596/0001213900-26-027596-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 10.0
     },
     {
       "form_type": "424B4",
@@ -25541,7 +25487,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2108164/000121390026027770/0001213900-26-027770-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 10.0
     },
     {
       "form_type": "424B4",
@@ -25619,7 +25565,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2046386/000119312526096456/0001193125-26-096456-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 29.0
     },
     {
       "form_type": "424B4",
@@ -25684,7 +25630,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1074871/000121390026023516/0001213900-26-023516-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.1762
     },
     {
       "form_type": "424B4",
@@ -25710,6 +25656,19 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1831979/000149315226008594/0001493152-26-008594-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
+      "price_usd": 2.0
+    },
+    {
+      "form_type": "424B3",
+      "issuer": "Firefly Aerospace Inc.",
+      "display_name": "Firefly Aerospace",
+      "entity_suffix": "Inc",
+      "cik": "1860160",
+      "filing_date": "2026-03-03",
+      "accession_number": "0001193125-26-088589",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1860160/000119312526088589/0001193125-26-088589-index.htm",
+      "fund_keyword_match": false,
+      "universe_company_id": "firefly-aerospace",
       "price_usd": null
     },
     {
@@ -25723,7 +25682,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1995075/000121390026020884/0001213900-26-020884-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 4.0
     },
     {
       "form_type": "424B4",
@@ -25749,7 +25708,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2100782/000119312526083190/0001193125-26-083190-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 16.0
     },
     {
       "form_type": "424B4",
@@ -25762,7 +25721,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226008271/0001493152-26-008271-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.3231
     },
     {
       "form_type": "424B4",
@@ -25775,7 +25734,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/728385/000110465926021168/0001104659-26-021168-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 2.4
     },
     {
       "form_type": "424B4",
@@ -25801,7 +25760,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2098780/000121390026020576/0001213900-26-020576-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 10.0
     },
     {
       "form_type": "424B4",
@@ -25866,7 +25825,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1855509/000173112226000273/0001731122-26-000273-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.47
     },
     {
       "form_type": "424B4",
@@ -25879,7 +25838,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1759136/000173112226000275/0001731122-26-000275-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.2
     },
     {
       "form_type": "424B4",
@@ -25905,7 +25864,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2077709/000121390026018551/0001213900-26-018551-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 6.0
     },
     {
       "form_type": "424B4",
@@ -25918,7 +25877,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2077709/000121390026018553/0001213900-26-018553-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 6.0
     },
     {
       "form_type": "424B4",
@@ -25931,7 +25890,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1066764/000149315226007618/0001493152-26-007618-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 4.0
     },
     {
       "form_type": "424B4",
@@ -25944,7 +25903,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2068385/000182912626001448/0001829126-26-001448-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 30.0
     },
     {
       "form_type": "424B4",
@@ -25970,7 +25929,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1828673/000119312526059279/0001193125-26-059279-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.6055
     },
     {
       "form_type": "424B1",
@@ -26009,7 +25968,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1971387/000110465926016706/0001104659-26-016706-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.29
     },
     {
       "form_type": "424B4",
@@ -26022,7 +25981,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2064124/000162828026008786/0001628280-26-008786-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 25.0
     },
     {
       "form_type": "424B4",
@@ -26074,7 +26033,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1814215/000119312526053786/0001193125-26-053786-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.11
     },
     {
       "form_type": "424B4",
@@ -26087,7 +26046,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/946644/000149315226006944/0001493152-26-006944-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 1000.0
     },
     {
       "form_type": "424B4",
@@ -26113,7 +26072,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1817511/000149315226006529/0001493152-26-006529-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 4.0
     },
     {
       "form_type": "424B4",
@@ -26139,7 +26098,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1505497/000149315226006580/0001493152-26-006580-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.35
     },
     {
       "form_type": "424B4",
@@ -26152,7 +26111,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2080921/000119312526049767/0001193125-26-049767-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 18.0
     },
     {
       "form_type": "424B4",
@@ -26165,7 +26124,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2088103/000118518526000538/0001185185-26-000538-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 10.0
     },
     {
       "form_type": "424B4",
@@ -26204,7 +26163,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1840877/000121390026015230/0001213900-26-015230-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.4
     },
     {
       "form_type": "424B4",
@@ -26217,7 +26176,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1840877/000121390026015232/0001213900-26-015232-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.4
     },
     {
       "form_type": "424B4",
@@ -26243,7 +26202,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1831979/000149315226006057/0001493152-26-006057-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 2.0
     },
     {
       "form_type": "424B4",
@@ -26269,7 +26228,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2065636/000119312526046879/0001193125-26-046879-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 25.0
     },
     {
       "form_type": "424B4",
@@ -26282,7 +26241,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1916331/000121390026014624/0001213900-26-014624-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.5454
     },
     {
       "form_type": "424B4",
@@ -26295,7 +26254,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1741534/000110465926012910/0001104659-26-012910-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 1.4
     },
     {
       "form_type": "424B4",
@@ -26308,7 +26267,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2039273/000121390026014610/0001213900-26-014610-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 4.0
     },
     {
       "form_type": "424B4",
@@ -26321,7 +26280,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1397183/000149315226006070/0001493152-26-006070-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.35
     },
     {
       "form_type": "424B4",
@@ -26399,7 +26358,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1696556/000119312526041885/0001193125-26-041885-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 18.0
     },
     {
       "form_type": "424B4",
@@ -26412,7 +26371,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1807887/000149315226005741/0001493152-26-005741-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.7
     },
     {
       "form_type": "424B4",
@@ -26425,7 +26384,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1778922/000162828026006068/0001628280-26-006068-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 16.0
     },
     {
       "form_type": "424B4",
@@ -26451,7 +26410,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2080126/000119312526040029/0001193125-26-040029-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 27.0
     },
     {
       "form_type": "424B4",
@@ -26477,7 +26436,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2020932/000110465926011523/0001104659-26-011523-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 16.0
     },
     {
       "form_type": "424B4",
@@ -26490,7 +26449,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2099093/000149315226005394/0001493152-26-005394-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.2
     },
     {
       "form_type": "424B4",
@@ -26503,7 +26462,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1861123/000119312526039375/0001193125-26-039375-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 18.0
     },
     {
       "form_type": "424B4",
@@ -26529,7 +26488,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2085187/000162828026005868/0001628280-26-005868-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 17.0
     },
     {
       "form_type": "424B4",
@@ -26542,7 +26501,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1827635/000162828026005505/0001628280-26-005505-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 17.0
     },
     {
       "form_type": "424B4",
@@ -26607,7 +26566,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1796949/000168316826000711/0001683168-26-000711-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 3.0
     },
     {
       "form_type": "424B4",
@@ -26620,7 +26579,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226004854/0001493152-26-004854-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 3.16
     },
     {
       "form_type": "424B4",

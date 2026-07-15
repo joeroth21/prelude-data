@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
   "pipeline_version": "0.1.0",
-  "generated_at": "2026-07-15T04:17:00+00:00",
+  "generated_at": "2026-07-15T18:57:24+00:00",
   "compliance": "Publicly available factual data compiled for educational display. No recommendations, ratings, or trade signals.",
   "files": {
     "companies.json": {
-      "as_of": "2026-07-14",
-      "generated_at": "2026-07-15T04:14:51+00:00",
-      "sha256": "a03b70ea2c7170da8169a20658c327c1346383a4d8bdaf231c51617528f4003e",
-      "bytes": 67668,
-      "record_count": 62
+      "as_of": "2026-07-15",
+      "generated_at": "2026-07-15T18:51:36+00:00",
+      "sha256": "37f5f1c960a6b5c462283ede966d6f4261df882cc995982fc2c36a5053abb1e0",
+      "bytes": 216903,
+      "record_count": 160
     },
     "pipeline.json": {
-      "as_of": "2026-07-15T04:15:47+00:00",
-      "generated_at": "2026-07-15T04:15:47+00:00",
-      "sha256": "0a0f5643cbfef575816f07c87d7591d2ca01caaac7dd2826ba13c77fc5418c08",
-      "bytes": 1027708,
-      "record_count": 1891
+      "as_of": "2026-07-15T18:52:42+00:00",
+      "generated_at": "2026-07-15T18:52:42+00:00",
+      "sha256": "d1e9a767166a2e0cb16f4c5011e9fb9e09f1cd39104924ed54018af367063028",
+      "bytes": 1026133,
+      "record_count": 1879
     },
     "wrappers.json": {
-      "as_of": "2026-07-15T04:15:53+00:00",
-      "generated_at": "2026-07-15T04:15:53+00:00",
-      "sha256": "ec03aa6c2c63adfd73ab44daddfd1e39dd1376b9a8b226c06416569934a7d10e",
-      "bytes": 13814,
+      "as_of": "2026-07-15T18:52:47+00:00",
+      "generated_at": "2026-07-15T18:52:47+00:00",
+      "sha256": "30681bd1313d4d021487d5c887af392bebc92275e3bc2b6b9ef9db8ef3d5f7b7",
+      "bytes": 13891,
       "record_count": 5
     },
     "signals.json": {
-      "as_of": "2026-07-14",
-      "generated_at": "2026-07-15T04:15:53+00:00",
-      "sha256": "6b38c87750c4452f96e60166544bb39356562b269f8be50f9cd238187f0fa8a1",
-      "bytes": 40998,
-      "record_count": 62
+      "as_of": "2026-07-15",
+      "generated_at": "2026-07-15T18:52:47+00:00",
+      "sha256": "b5fa2ba52c9ba6faf3ec52503b097ac9879eea575a990e4cc970aa394d0096dd",
+      "bytes": 109220,
+      "record_count": 160
     },
     "briefs.json": {
       "as_of": "2026-07-15T01:27:15+00:00",
