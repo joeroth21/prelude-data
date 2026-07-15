@@ -174,7 +174,9 @@ def main(argv: list[str] | None = None) -> int:
     pub = sub.add_parser("publish")
     pub.add_argument("--dir", default=None, help="cycle directory (default: latest)")
     pub.add_argument("--no-push", action="store_true")
-    baseline = sub.add_parser("seed-baseline")
+    sub.add_parser("seed-baseline")
+    lint_p = sub.add_parser("lint")
+    lint_p.add_argument("--dir", default=None, help="cycle directory (default: latest)")
     args = parser.parse_args(argv)
 
     setup_logging()
@@ -183,6 +185,17 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "seed-baseline":
         save_baseline()
         log.info("baseline seeded from current feed")
+        return 0
+    if args.command == "lint":
+        from .briefs_publish import latest_cycle_dir, lint_cycle, load_cycle
+
+        cycle = Path(args.dir) if args.dir else latest_cycle_dir()
+        errors = lint_cycle(load_cycle(cycle))
+        if errors:
+            for e in errors:
+                log.error("LINT: %s", e)
+            return 1
+        log.info("lint clean for all drafts in %s", cycle)
         return 0
     return cmd_publish(args.dir, push=not args.no_push)
 

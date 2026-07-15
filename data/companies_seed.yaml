@@ -228,9 +228,9 @@ companies:
     listed_ticker: CBRS
     ipo_status_source_url: https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm
     valuation:
-      amount_usd_billions: 40.6
+      amount_usd_billions: 39.8
       basis: public_market
-      round_label: "IPO priced at $185.00/share (~219.6M shares post-offering per prospectus ownership table)"
+      round_label: "IPO priced at $185.00/share (215,110,345 shares post-offering: 185,110,345 Class B + 30,000,000 Class A offered, per prospectus)"
       as_of: 2026-05-14
       source_url: https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm
 
