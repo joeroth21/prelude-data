@@ -1,34 +1,34 @@
 {
   "schema_version": 1,
   "pipeline_version": "0.1.0",
-  "generated_at": "2026-07-15T01:00:18+00:00",
+  "generated_at": "2026-07-15T03:09:22+00:00",
   "compliance": "Publicly available factual data compiled for educational display. No recommendations, ratings, or trade signals.",
   "files": {
     "companies.json": {
       "as_of": "2026-07-14",
-      "generated_at": "2026-07-15T00:58:56+00:00",
-      "sha256": "71bdf8ef03154a93770ec918e77455db31df53c696fa63a41b614b285b5366e2",
-      "bytes": 44299,
+      "generated_at": "2026-07-15T03:08:04+00:00",
+      "sha256": "e5572dd7f190eeefd0d47059f168350d653afdf8d163458e5bf68fd7cd651e67",
+      "bytes": 56800,
       "record_count": 62
     },
     "pipeline.json": {
-      "as_of": "2026-07-15T00:59:06+00:00",
-      "generated_at": "2026-07-15T00:59:06+00:00",
-      "sha256": "bb97c102c61e13bfdd75d3c48543fd48451d818a5f7848b8ceeb19a38901c9f5",
-      "bytes": 33668,
-      "record_count": 96
+      "as_of": "2026-07-15T03:08:11+00:00",
+      "generated_at": "2026-07-15T03:08:11+00:00",
+      "sha256": "39f75b608d0eeadf6e890f43365fab5f15dd02edadd87bbde2e49996d34b20b4",
+      "bytes": 1027722,
+      "record_count": 1891
     },
     "wrappers.json": {
-      "as_of": "2026-07-15T00:59:11+00:00",
-      "generated_at": "2026-07-15T00:59:11+00:00",
-      "sha256": "d14822128270082efb17c85b131268a9f44252929d80ae18dcb458ee9ad3cae8",
-      "bytes": 13080,
+      "as_of": "2026-07-15T03:08:15+00:00",
+      "generated_at": "2026-07-15T03:08:15+00:00",
+      "sha256": "f95efbea10421c16a3ab8d7dba57ba11689985e25cc8e824858c6836ea3409ef",
+      "bytes": 13814,
       "record_count": 5
     },
     "signals.json": {
       "as_of": "2026-07-14",
-      "generated_at": "2026-07-15T00:59:11+00:00",
-      "sha256": "c9d1baef6645d574e317e79ce3cb06d448c64929d0ff89856d0482137bf65088",
+      "generated_at": "2026-07-15T03:08:15+00:00",
+      "sha256": "0291405de93d0c8b51dae11625bc667a8f3477b5fa416b67a946d6425f3855a0",
       "bytes": 40998,
       "record_count": 62
     },

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-15T00:59:11+00:00",
+  "generated_at": "2026-07-15T03:08:15+00:00",
   "as_of": "2026-07-14",
   "signals": [
     {
@@ -10,7 +10,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -28,7 +28,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -46,7 +46,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -64,7 +64,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -82,13 +82,13 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
           "kind": "funding_round_report",
           "url": "https://en.wikipedia.org/wiki/Stripe",
-          "as_of": "2025-02-27"
+          "as_of": "2026-02-01"
         }
       ],
       "as_of": "2026-07-14"
@@ -100,7 +100,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -118,7 +118,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -136,13 +136,13 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
           "kind": "funding_round_report",
           "url": "https://en.wikipedia.org/wiki/Shein",
-          "as_of": "2023-05-17"
+          "as_of": "2025-02-01"
         }
       ],
       "as_of": "2026-07-14"
@@ -154,7 +154,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -172,7 +172,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -190,7 +190,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -208,7 +208,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -226,7 +226,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -244,7 +244,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -262,7 +262,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -280,7 +280,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -298,7 +298,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -316,7 +316,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -334,7 +334,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -352,7 +352,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -370,7 +370,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -388,7 +388,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -406,7 +406,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -424,13 +424,13 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
           "kind": "funding_round_report",
           "url": "https://en.wikipedia.org/wiki/Gusto",
-          "as_of": "2021-08-10"
+          "as_of": "2025-06-01"
         }
       ],
       "as_of": "2026-07-14"
@@ -442,13 +442,13 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
           "kind": "funding_round_report",
           "url": "https://en.wikipedia.org/wiki/Plaid_Inc.",
-          "as_of": "2025-04-03"
+          "as_of": "2026-02-01"
         }
       ],
       "as_of": "2026-07-14"
@@ -460,7 +460,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -478,7 +478,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -496,7 +496,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -514,7 +514,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -532,7 +532,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -550,7 +550,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -568,7 +568,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -586,7 +586,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -604,13 +604,13 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
           "kind": "funding_round_report",
           "url": "https://en.wikipedia.org/wiki/Harvey_(software)",
-          "as_of": "2025-06-23"
+          "as_of": "2026-03-01"
         }
       ],
       "as_of": "2026-07-14"
@@ -622,7 +622,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -640,7 +640,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -658,7 +658,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -676,7 +676,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -694,7 +694,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -712,7 +712,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -730,7 +730,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -748,13 +748,13 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
           "kind": "funding_round_report",
           "url": "https://en.wikipedia.org/wiki/VAST_Data",
-          "as_of": "2023-12-05"
+          "as_of": "2026-04-01"
         }
       ],
       "as_of": "2026-07-14"
@@ -766,7 +766,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -784,13 +784,13 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
           "kind": "funding_round_report",
           "url": "https://en.wikipedia.org/wiki/Anduril_Industries",
-          "as_of": "2025-06-05"
+          "as_of": "2026-05-01"
         }
       ],
       "as_of": "2026-07-14"
@@ -802,7 +802,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -820,7 +820,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -838,7 +838,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -856,7 +856,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -874,7 +874,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -892,7 +892,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -910,7 +910,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -928,7 +928,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -946,7 +946,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -964,13 +964,13 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
           "kind": "funding_round_report",
           "url": "https://en.wikipedia.org/wiki/Waymo",
-          "as_of": "2024-10-25"
+          "as_of": "2026-02-01"
         }
       ],
       "as_of": "2026-07-14"
@@ -982,7 +982,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -1000,7 +1000,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -1018,7 +1018,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -1036,7 +1036,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -1054,7 +1054,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -1072,7 +1072,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -1090,7 +1090,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {
@@ -1108,7 +1108,7 @@
         "status": "unavailable_tos",
         "note": "Hiive and comparable secondary-market venues prohibit automated access and republication in their terms of use; no price level is ingested. Field reserved for licensed or expressly permitted data.",
         "price_level": null,
-        "as_of": "2026-07-15T00:59:11+00:00"
+        "as_of": "2026-07-15T03:08:15+00:00"
       },
       "recent_news": [
         {

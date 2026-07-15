@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-15T00:58:56+00:00",
+  "generated_at": "2026-07-15T03:08:04+00:00",
   "as_of": "2026-07-14",
   "notes": "Curated universe of late-stage private companies (plus a handful of 2025 listings kept for status continuity). Factual profiles only; educational display. Source URLs point to stable public summaries which themselves cite primary reporting.",
   "companies": [
@@ -11,6 +11,9 @@
       "profile": "Developer of the GPT model family and ChatGPT. Capped-profit structure under a nonprofit parent, restructured 2025 into a public benefit corporation with Microsoft as largest minority investor.",
       "profile_source_url": "https://en.wikipedia.org/wiki/OpenAI",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -20,9 +23,12 @@
         "basis": "secondary_sale",
         "round_label": "Employee share sale",
         "as_of": "2025-10-01",
+        "mark_age_days": 286,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/OpenAI"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "anthropic",
@@ -31,6 +37,9 @@
       "profile": "AI safety and research company behind the Claude model family. Founded 2021 by former OpenAI researchers; backed by Google, Amazon, and others.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Anthropic",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -40,9 +49,12 @@
         "basis": "priced_round",
         "round_label": "Series F",
         "as_of": "2025-09-02",
+        "mark_age_days": 315,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Anthropic"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "spacex",
@@ -51,6 +63,9 @@
       "profile": "Launch provider and operator of the Starlink satellite internet constellation. Filed its S-1 on 2026-05-20 and listed on Nasdaq as SPCX on 2026-06-12 at $135.00 per share.",
       "profile_source_url": "https://en.wikipedia.org/wiki/SpaceX",
       "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2026-06-12",
       "ipo_status_source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
       "listed_ticker": "SPCX",
       "aliases": [
@@ -63,9 +78,19 @@
         "basis": "public_market",
         "round_label": "IPO priced at $135.00/share (13,090,853,965 shares post-offering)",
         "as_of": "2026-06-12",
+        "mark_age_days": 32,
+        "stale": false,
         "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": {
+        "ipo_price_usd": 135.0,
+        "current_price_usd": 136.08,
+        "currency": "USD",
+        "price_as_of": "2026-07-14T20:00:01+00:00",
+        "change_from_ipo_pct": 0.8,
+        "source_url": "https://finance.yahoo.com/quote/SPCX"
+      }
     },
     {
       "id": "xai",
@@ -74,6 +99,9 @@
       "profile": "Elon Musk's AI company, developer of the Grok models; merged with X Corp in 2025. Operates the Colossus training cluster in Memphis.",
       "profile_source_url": "https://en.wikipedia.org/wiki/XAI_(company)",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [
@@ -85,9 +113,12 @@
         "basis": "media_report",
         "round_label": "Reported financing",
         "as_of": "2025-12-01",
+        "mark_age_days": 225,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/XAI_(company)"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "stripe",
@@ -96,18 +127,24 @@
       "profile": "Payments infrastructure for internet businesses. Dublin/San Francisco dual-headquartered; among the longest-standing IPO candidates.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Stripe,_Inc.",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
       "crosscheck_skip": false,
       "valuation": {
-        "amount_usd_billions": 91.5,
+        "amount_usd_billions": 159,
         "basis": "tender_offer",
-        "round_label": "Employee tender",
-        "as_of": "2025-02-27",
+        "round_label": "Employee and shareholder tender",
+        "as_of": "2026-02-01",
+        "mark_age_days": 163,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Stripe"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "databricks",
@@ -116,6 +153,9 @@
       "profile": "Data lakehouse and AI platform company. Repeatedly cited by its CEO as a future public company without a committed timeline.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Databricks",
       "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": "https://en.wikipedia.org/wiki/Databricks",
       "listed_ticker": null,
       "aliases": [],
@@ -125,9 +165,12 @@
         "basis": "priced_round",
         "round_label": "Series K",
         "as_of": "2025-09-08",
+        "mark_age_days": 309,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Databricks"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "bytedance",
@@ -136,6 +179,9 @@
       "profile": "Parent of TikTok and Douyin. The largest private technology company by revenue; periodic employee buybacks set its reference valuation.",
       "profile_source_url": "https://en.wikipedia.org/wiki/ByteDance",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -145,9 +191,12 @@
         "basis": "tender_offer",
         "round_label": "Employee buyback",
         "as_of": "2024-12-01",
+        "mark_age_days": 590,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/ByteDance"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "shein",
@@ -156,18 +205,24 @@
       "profile": "Fast-fashion marketplace. Has pursued a listing across multiple venues (US, London, Hong Kong) amid regulatory scrutiny; valuation reported well below its 2023 round in subsequent coverage.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Shein",
       "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": "https://en.wikipedia.org/wiki/Shein",
       "listed_ticker": null,
       "aliases": [],
       "crosscheck_skip": false,
       "valuation": {
-        "amount_usd_billions": 66,
-        "basis": "priced_round",
-        "round_label": "Series G",
-        "as_of": "2023-05-17",
+        "amount_usd_billions": 30,
+        "basis": "media_report",
+        "round_label": "Reported valuation",
+        "as_of": "2025-02-01",
+        "mark_age_days": 528,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Shein"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "epic-games",
@@ -176,6 +231,9 @@
       "profile": "Maker of Fortnite and Unreal Engine. Backed by Tencent, Sony, and KIRKBI; Disney took a stake in 2024.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Epic_Games",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -185,9 +243,12 @@
         "basis": "priced_round",
         "round_label": "2022 financing",
         "as_of": "2022-04-11",
+        "mark_age_days": 1555,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Epic_Games"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "canva",
@@ -196,6 +257,9 @@
       "profile": "Visual communication and design platform, Sydney-based, cash-flow positive with recurring employee liquidity programs.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Canva",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -205,9 +269,12 @@
         "basis": "secondary_sale",
         "round_label": "Employee share sale",
         "as_of": "2025-10-01",
+        "mark_age_days": 286,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Canva"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "revolut",
@@ -216,6 +283,9 @@
       "profile": "London-based global neobank with 50m+ customers; holds a UK banking licence (restricted) since 2024. US listing intent widely reported.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Revolut",
       "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": "https://en.wikipedia.org/wiki/Revolut",
       "listed_ticker": null,
       "aliases": [],
@@ -225,9 +295,12 @@
         "basis": "secondary_sale",
         "round_label": "Employee share sale",
         "as_of": "2025-11-01",
+        "mark_age_days": 255,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Revolut"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "figure-ai",
@@ -236,6 +309,9 @@
       "profile": "Humanoid robotics company developing the Figure robot line for commercial and industrial deployment.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Figure_AI",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -245,9 +321,12 @@
         "basis": "priced_round",
         "round_label": "Series C",
         "as_of": "2025-09-16",
+        "mark_age_days": 301,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Figure_AI"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "scale-ai",
@@ -256,6 +335,9 @@
       "profile": "Data labeling and evaluation infrastructure for AI. Meta acquired a 49% stake in June 2025; founder Alexandr Wang departed to Meta.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Scale_AI",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -265,9 +347,12 @@
         "basis": "priced_round",
         "round_label": "Meta strategic investment",
         "as_of": "2025-06-13",
+        "mark_age_days": 396,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Scale_AI"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "perplexity",
@@ -276,6 +361,9 @@
       "profile": "AI-powered answer engine and search product; rapid 2024-2025 fundraising cadence across multiple rounds.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -285,9 +373,12 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-09-10",
+        "mark_age_days": 307,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "safe-superintelligence",
@@ -296,6 +387,9 @@
       "profile": "Research lab founded 2024 by Ilya Sutskever with the stated single goal of building safe superintelligence; no commercial product.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Safe_Superintelligence",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -305,9 +399,12 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-04-12",
+        "mark_age_days": 458,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Safe_Superintelligence"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "mistral-ai",
@@ -316,6 +413,9 @@
       "profile": "Paris-based open-weight model developer; Europe's most valuable AI startup, with ASML as lead strategic investor since 2025.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Mistral_AI",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -325,9 +425,12 @@
         "basis": "priced_round",
         "round_label": "Series C",
         "as_of": "2025-09-09",
+        "mark_age_days": 308,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Mistral_AI"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "cohere",
@@ -336,6 +439,9 @@
       "profile": "Toronto-based enterprise AI company focused on secure, private model deployment for business and government.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Cohere",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -345,9 +451,12 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-08-14",
+        "mark_age_days": 334,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Cohere"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "groq",
@@ -356,6 +465,9 @@
       "profile": "Inference-focused chip company (LPU architecture) selling fast inference via GroqCloud.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Groq",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -365,9 +477,12 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-09-17",
+        "mark_age_days": 300,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Groq"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "cerebras",
@@ -376,6 +491,9 @@
       "profile": "Wafer-scale AI compute company. Filed an S-1 in 2024, stepped back and raised privately in 2025, refiled 2026-04-17, and listed on Nasdaq as CBRS on 2026-05-14 at $185.00 per share.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Cerebras",
       "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2026-05-14",
       "ipo_status_source_url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm",
       "listed_ticker": "CBRS",
       "aliases": [],
@@ -385,9 +503,19 @@
         "basis": "public_market",
         "round_label": "IPO priced at $185.00/share (215,110,345 shares post-offering: 185,110,345 Class B + 30,000,000 Class A offered, per prospectus)",
         "as_of": "2026-05-14",
+        "mark_age_days": 61,
+        "stale": false,
         "source_url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": {
+        "ipo_price_usd": 185.0,
+        "current_price_usd": 203.81,
+        "currency": "USD",
+        "price_as_of": "2026-07-14T20:00:01+00:00",
+        "change_from_ipo_pct": 10.17,
+        "source_url": "https://finance.yahoo.com/quote/CBRS"
+      }
     },
     {
       "id": "neuralink",
@@ -396,6 +524,9 @@
       "profile": "Brain-computer interface company running human clinical trials of its implant since 2024.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Neuralink",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -405,9 +536,12 @@
         "basis": "priced_round",
         "round_label": "Series E",
         "as_of": "2025-06-02",
+        "mark_age_days": 407,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Neuralink"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "the-boring-company",
@@ -416,6 +550,9 @@
       "profile": "Tunneling and underground transit company; operates the Las Vegas Convention Center Loop.",
       "profile_source_url": "https://en.wikipedia.org/wiki/The_Boring_Company",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -425,9 +562,12 @@
         "basis": "priced_round",
         "round_label": "Series C",
         "as_of": "2022-04-20",
+        "mark_age_days": 1546,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/The_Boring_Company"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "rippling",
@@ -436,6 +576,9 @@
       "profile": "Workforce management platform spanning HR, IT, and finance.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Rippling",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -445,9 +588,12 @@
         "basis": "priced_round",
         "round_label": "Series G",
         "as_of": "2025-05-16",
+        "mark_age_days": 424,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Rippling"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "deel",
@@ -456,6 +602,9 @@
       "profile": "Global payroll and employer-of-record platform.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Deel",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -465,9 +614,12 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-08-19",
+        "mark_age_days": 329,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Deel"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "gusto",
@@ -476,18 +628,24 @@
       "profile": "Payroll and benefits platform for small businesses.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Gusto,_Inc.",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
       "crosscheck_skip": false,
       "valuation": {
-        "amount_usd_billions": 9.5,
-        "basis": "priced_round",
-        "round_label": "Series E extension",
-        "as_of": "2021-08-10",
+        "amount_usd_billions": 9.3,
+        "basis": "tender_offer",
+        "round_label": "Employee tender",
+        "as_of": "2025-06-01",
+        "mark_age_days": 408,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Gusto"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "plaid",
@@ -496,18 +654,24 @@
       "profile": "Bank-account connectivity APIs for fintech apps; 2025 secondary reset its reference valuation below the 2021 round.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Plaid_Inc.",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
       "crosscheck_skip": false,
       "valuation": {
-        "amount_usd_billions": 6.1,
+        "amount_usd_billions": 8,
         "basis": "secondary_sale",
         "round_label": "Employee share sale",
-        "as_of": "2025-04-03",
+        "as_of": "2026-02-01",
+        "mark_age_days": 163,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Plaid_Inc."
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "brex",
@@ -516,6 +680,9 @@
       "profile": "Corporate cards and spend management for startups and enterprises.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Brex",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -525,9 +692,12 @@
         "basis": "priced_round",
         "round_label": "Series D-2",
         "as_of": "2022-01-11",
+        "mark_age_days": 1645,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Brex"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "ramp",
@@ -536,6 +706,9 @@
       "profile": "Spend management and corporate card platform; one of the fastest valuation ramps of the 2024-2025 private market.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Ramp_(company)",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -545,9 +718,12 @@
         "basis": "secondary_sale",
         "round_label": "Employee share sale",
         "as_of": "2025-09-04",
+        "mark_age_days": 313,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Ramp_(company)"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "airtable",
@@ -556,6 +732,9 @@
       "profile": "No-code app-building and database platform.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Airtable",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -565,9 +744,12 @@
         "basis": "priced_round",
         "round_label": "Series F",
         "as_of": "2021-12-13",
+        "mark_age_days": 1674,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Airtable"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "notion",
@@ -576,6 +758,9 @@
       "profile": "Connected workspace for docs, wikis, and projects.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -585,9 +770,12 @@
         "basis": "priced_round",
         "round_label": "Series C",
         "as_of": "2021-10-08",
+        "mark_age_days": 1740,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "grammarly",
@@ -596,6 +784,9 @@
       "profile": "AI writing assistant; acquired Coda in 2024 and Superhuman in 2025.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Grammarly",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -605,9 +796,12 @@
         "basis": "priced_round",
         "round_label": "2021 financing",
         "as_of": "2021-11-17",
+        "mark_age_days": 1700,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Grammarly"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "discord",
@@ -616,6 +810,9 @@
       "profile": "Voice/video/text community platform; IPO preparation reported by multiple outlets in 2025.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Discord",
       "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": "https://en.wikipedia.org/wiki/Discord",
       "listed_ticker": null,
       "aliases": [],
@@ -625,9 +822,12 @@
         "basis": "priced_round",
         "round_label": "Series H",
         "as_of": "2021-09-15",
+        "mark_age_days": 1763,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Discord"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "anysphere",
@@ -636,6 +836,9 @@
       "profile": "Maker of the Cursor AI code editor; among the fastest companies to $1B+ annualized revenue.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Cursor_(code_editor)",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [
@@ -647,9 +850,12 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2025-11-13",
+        "mark_age_days": 243,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Cursor_(code_editor)"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "glean",
@@ -658,6 +864,9 @@
       "profile": "Enterprise search and work AI assistant across company knowledge.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Glean_Technologies",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -667,9 +876,12 @@
         "basis": "priced_round",
         "round_label": "Series F",
         "as_of": "2025-06-10",
+        "mark_age_days": 399,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Glean_Technologies"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "harvey",
@@ -678,18 +890,24 @@
       "profile": "AI platform for law firms and professional services.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Harvey_(software)",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
       "crosscheck_skip": false,
       "valuation": {
-        "amount_usd_billions": 5,
+        "amount_usd_billions": 11,
         "basis": "priced_round",
-        "round_label": "Series E",
-        "as_of": "2025-06-23",
+        "round_label": "2026 financing (GIC/Sequoia)",
+        "as_of": "2026-03-01",
+        "mark_age_days": 135,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Harvey_(software)"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "elevenlabs",
@@ -698,6 +916,9 @@
       "profile": "AI voice synthesis and audio platform.",
       "profile_source_url": "https://en.wikipedia.org/wiki/ElevenLabs",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -707,9 +928,12 @@
         "basis": "media_report",
         "round_label": "Reported tender",
         "as_of": "2025-11-01",
+        "mark_age_days": 255,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/ElevenLabs"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "snyk",
@@ -718,6 +942,9 @@
       "profile": "Developer-first security platform for code and dependencies.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Snyk",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -727,9 +954,12 @@
         "basis": "priced_round",
         "round_label": "Series G",
         "as_of": "2022-12-12",
+        "mark_age_days": 1310,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Snyk"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "vercel",
@@ -738,6 +968,9 @@
       "profile": "Frontend cloud platform and steward of the Next.js framework.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Vercel",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -747,9 +980,12 @@
         "basis": "priced_round",
         "round_label": "Series F",
         "as_of": "2025-09-24",
+        "mark_age_days": 293,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Vercel"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "hugging-face",
@@ -758,6 +994,9 @@
       "profile": "Open model hub and ML tooling community.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Hugging_Face",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -767,9 +1006,12 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2023-08-24",
+        "mark_age_days": 1055,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Hugging_Face"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "together-ai",
@@ -778,6 +1020,9 @@
       "profile": "Cloud platform for open-source model training and inference.",
       "profile_source_url": "https://www.together.ai/blog",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -787,9 +1032,12 @@
         "basis": "priced_round",
         "round_label": "Series B",
         "as_of": "2025-02-20",
+        "mark_age_days": 509,
+        "stale": true,
         "source_url": "https://www.together.ai/blog"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "lambda",
@@ -798,6 +1046,9 @@
       "profile": "GPU cloud for AI training and inference workloads.",
       "profile_source_url": "https://lambda.ai/blog",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -807,9 +1058,12 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2025-02-19",
+        "mark_age_days": 510,
+        "stale": true,
         "source_url": "https://lambda.ai/blog"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "crusoe",
@@ -818,6 +1072,9 @@
       "profile": "AI data-center developer (Stargate Abilene anchor builder), originally a flared-gas compute company.",
       "profile_source_url": "https://crusoe.ai/newsroom",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -827,9 +1084,12 @@
         "basis": "media_report",
         "round_label": "Reported 2025 financing",
         "as_of": "2025-11-01",
+        "mark_age_days": 255,
+        "stale": false,
         "source_url": "https://crusoe.ai/newsroom"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "vast-data",
@@ -838,18 +1098,24 @@
       "profile": "AI-era data platform (storage, database, compute fabric).",
       "profile_source_url": "https://en.wikipedia.org/wiki/VAST_Data",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
       "crosscheck_skip": false,
       "valuation": {
-        "amount_usd_billions": 9.1,
-        "basis": "priced_round",
-        "round_label": "Series E",
-        "as_of": "2023-12-05",
+        "amount_usd_billions": 30,
+        "basis": "media_report",
+        "round_label": "Reported valuation",
+        "as_of": "2026-04-01",
+        "mark_age_days": 104,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/VAST_Data"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "shield-ai",
@@ -858,6 +1124,9 @@
       "profile": "Autonomy software (Hivemind) and V-BAT aircraft for defense.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Shield_AI",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -867,9 +1136,12 @@
         "basis": "priced_round",
         "round_label": "Series F-1",
         "as_of": "2025-03-06",
+        "mark_age_days": 495,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Shield_AI"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "anduril",
@@ -878,18 +1150,24 @@
       "profile": "Defense products company (Lattice OS, autonomous systems); a founder has repeatedly described an eventual IPO as the plan.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Anduril_Industries",
       "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": "https://en.wikipedia.org/wiki/Anduril_Industries",
       "listed_ticker": null,
       "aliases": [],
       "crosscheck_skip": false,
       "valuation": {
-        "amount_usd_billions": 30.5,
+        "amount_usd_billions": 61,
         "basis": "priced_round",
-        "round_label": "Series G",
-        "as_of": "2025-06-05",
+        "round_label": "2026 financing (Thrive/a16z)",
+        "as_of": "2026-05-01",
+        "mark_age_days": 74,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Anduril_Industries"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "flexport",
@@ -898,6 +1176,9 @@
       "profile": "Digital freight forwarding and supply-chain platform.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Flexport",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -907,9 +1188,12 @@
         "basis": "priced_round",
         "round_label": "Series E",
         "as_of": "2022-02-07",
+        "mark_age_days": 1618,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Flexport"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "sierra",
@@ -918,6 +1202,9 @@
       "profile": "Conversational AI agents for customer experience, co-founded by Bret Taylor.",
       "profile_source_url": "https://sierra.ai/blog",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -927,9 +1214,12 @@
         "basis": "priced_round",
         "round_label": "2025 financing",
         "as_of": "2025-10-09",
+        "mark_age_days": 278,
+        "stale": false,
         "source_url": "https://sierra.ai/blog"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "thinking-machines-lab",
@@ -938,6 +1228,9 @@
       "profile": "AI research company founded 2025 by Mira Murati; raised a record seed round before shipping product.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -947,9 +1240,12 @@
         "basis": "priced_round",
         "round_label": "Seed",
         "as_of": "2025-07-15",
+        "mark_age_days": 364,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "polymarket",
@@ -958,6 +1254,9 @@
       "profile": "Crypto-settled prediction market; ICE (NYSE parent) announced a strategic investment in 2025 alongside its US re-entry.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Polymarket",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -967,9 +1266,12 @@
         "basis": "priced_round",
         "round_label": "ICE strategic investment",
         "as_of": "2025-10-07",
+        "mark_age_days": 280,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Polymarket"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "kalshi",
@@ -978,6 +1280,9 @@
       "profile": "CFTC-regulated event-contract exchange.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Kalshi",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -987,9 +1292,12 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2025-10-10",
+        "mark_age_days": 277,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Kalshi"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "kraken",
@@ -998,6 +1306,9 @@
       "profile": "US crypto exchange; a public listing has been repeatedly reported as under consideration.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Kraken_(company)",
       "ipo_status": "rumored",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": "https://en.wikipedia.org/wiki/Kraken_(company)",
       "listed_ticker": null,
       "aliases": [
@@ -1009,9 +1320,12 @@
         "basis": "media_report",
         "round_label": "Reported 2025 financing",
         "as_of": "2025-07-25",
+        "mark_age_days": 354,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Kraken_(company)"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "ripple",
@@ -1020,6 +1334,9 @@
       "profile": "Enterprise blockchain payments company associated with the XRP ledger.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Ripple_Labs",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [
@@ -1031,9 +1348,12 @@
         "basis": "media_report",
         "round_label": "Reported tender",
         "as_of": "2025-11-05",
+        "mark_age_days": 251,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Ripple_Labs"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "chainguard",
@@ -1042,6 +1362,9 @@
       "profile": "Secure software supply chain (hardened container images).",
       "profile_source_url": "https://en.wikipedia.org/wiki/Chainguard",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -1051,9 +1374,12 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2025-04-23",
+        "mark_age_days": 447,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Chainguard"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "fanatics",
@@ -1062,6 +1388,9 @@
       "profile": "Licensed sports merchandise, collectibles, and betting platform.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Fanatics,_Inc.",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -1071,9 +1400,12 @@
         "basis": "priced_round",
         "round_label": "2022 financing",
         "as_of": "2022-12-06",
+        "mark_age_days": 1316,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Fanatics"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "waymo",
@@ -1082,18 +1414,24 @@
       "profile": "Alphabet's autonomous ride-hailing subsidiary with external investors; operates driverless services in multiple US metros.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Waymo",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
       "crosscheck_skip": false,
       "valuation": {
-        "amount_usd_billions": 45,
+        "amount_usd_billions": 126,
         "basis": "priced_round",
-        "round_label": "External round (Alphabet subsidiary)",
-        "as_of": "2024-10-25",
+        "round_label": "2026 round ($16B raised)",
+        "as_of": "2026-02-01",
+        "mark_age_days": 163,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Waymo"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "klarna",
@@ -1102,6 +1440,9 @@
       "profile": "Swedish buy-now-pay-later and banking company; listed on NYSE in September 2025.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Klarna",
       "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-09-10",
       "ipo_status_source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=klarna&type=F-1&dateb=&owner=include&count=10",
       "listed_ticker": "KLAR",
       "aliases": [],
@@ -1111,9 +1452,19 @@
         "basis": "public_market",
         "round_label": "IPO pricing",
         "as_of": "2025-09-10",
+        "mark_age_days": 307,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Klarna"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": {
+        "ipo_price_usd": 40.0,
+        "current_price_usd": 19.63,
+        "currency": "USD",
+        "price_as_of": "2026-07-14T20:00:02+00:00",
+        "change_from_ipo_pct": -50.92,
+        "source_url": "https://finance.yahoo.com/quote/KLAR"
+      }
     },
     {
       "id": "coreweave",
@@ -1122,6 +1473,9 @@
       "profile": "GPU cloud provider; listed on Nasdaq in March 2025.",
       "profile_source_url": "https://en.wikipedia.org/wiki/CoreWeave",
       "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-03-28",
       "ipo_status_source_url": null,
       "listed_ticker": "CRWV",
       "aliases": [],
@@ -1131,9 +1485,19 @@
         "basis": "public_market",
         "round_label": "IPO pricing",
         "as_of": "2025-03-28",
+        "mark_age_days": 473,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/CoreWeave"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": {
+        "ipo_price_usd": 40.0,
+        "current_price_usd": 79.94,
+        "currency": "USD",
+        "price_as_of": "2026-07-14T20:00:01+00:00",
+        "change_from_ipo_pct": 99.85,
+        "source_url": "https://finance.yahoo.com/quote/CRWV"
+      }
     },
     {
       "id": "figma",
@@ -1142,6 +1506,9 @@
       "profile": "Collaborative design platform; listed on NYSE in July 2025.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Figma",
       "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-07-31",
       "ipo_status_source_url": null,
       "listed_ticker": "FIG",
       "aliases": [],
@@ -1151,9 +1518,19 @@
         "basis": "public_market",
         "round_label": "IPO pricing",
         "as_of": "2025-07-31",
+        "mark_age_days": 348,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Figma"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": {
+        "ipo_price_usd": 33.0,
+        "current_price_usd": 23.86,
+        "currency": "USD",
+        "price_as_of": "2026-07-14T20:00:02+00:00",
+        "change_from_ipo_pct": -27.7,
+        "source_url": "https://finance.yahoo.com/quote/FIG"
+      }
     },
     {
       "id": "circle",
@@ -1162,6 +1539,9 @@
       "profile": "Issuer of the USDC stablecoin; listed on NYSE in June 2025.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Circle_(company)",
       "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-06-05",
       "ipo_status_source_url": null,
       "listed_ticker": "CRCL",
       "aliases": [],
@@ -1171,9 +1551,19 @@
         "basis": "public_market",
         "round_label": "IPO pricing",
         "as_of": "2025-06-05",
+        "mark_age_days": 404,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Circle_(company)"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": {
+        "ipo_price_usd": 31.0,
+        "current_price_usd": 63.22,
+        "currency": "USD",
+        "price_as_of": "2026-07-14T20:00:02+00:00",
+        "change_from_ipo_pct": 103.94,
+        "source_url": "https://finance.yahoo.com/quote/CRCL"
+      }
     },
     {
       "id": "chime",
@@ -1182,6 +1572,9 @@
       "profile": "US consumer neobank; listed on Nasdaq in June 2025.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Chime_(company)",
       "ipo_status": "listed",
+      "lifecycle": "listed",
+      "graduated": true,
+      "listing_date": "2025-06-12",
       "ipo_status_source_url": null,
       "listed_ticker": "CHYM",
       "aliases": [],
@@ -1191,9 +1584,19 @@
         "basis": "public_market",
         "round_label": "IPO pricing",
         "as_of": "2025-06-12",
+        "mark_age_days": 397,
+        "stale": false,
         "source_url": "https://en.wikipedia.org/wiki/Chime_(company)"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": {
+        "ipo_price_usd": 27.0,
+        "current_price_usd": 21.46,
+        "currency": "USD",
+        "price_as_of": "2026-07-14T20:00:01+00:00",
+        "change_from_ipo_pct": -20.52,
+        "source_url": "https://finance.yahoo.com/quote/CHYM"
+      }
     },
     {
       "id": "tenstorrent",
@@ -1202,6 +1605,9 @@
       "profile": "RISC-V and AI accelerator company led by Jim Keller.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Tenstorrent",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -1211,9 +1617,12 @@
         "basis": "priced_round",
         "round_label": "Series D",
         "as_of": "2024-12-02",
+        "mark_age_days": 589,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Tenstorrent"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "gopuff",
@@ -1222,6 +1631,9 @@
       "profile": "Instant-needs delivery platform.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Gopuff",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [
@@ -1233,9 +1645,12 @@
         "basis": "priced_round",
         "round_label": "2021 financing",
         "as_of": "2021-07-30",
+        "mark_age_days": 1810,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Gopuff"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     },
     {
       "id": "automation-anywhere",
@@ -1244,6 +1659,9 @@
       "profile": "Robotic process automation platform.",
       "profile_source_url": "https://en.wikipedia.org/wiki/Automation_Anywhere",
       "ipo_status": "private",
+      "lifecycle": "private",
+      "graduated": false,
+      "listing_date": null,
       "ipo_status_source_url": null,
       "listed_ticker": null,
       "aliases": [],
@@ -1253,9 +1671,12 @@
         "basis": "priced_round",
         "round_label": "Series B",
         "as_of": "2019-11-21",
+        "mark_age_days": 2427,
+        "stale": true,
         "source_url": "https://en.wikipedia.org/wiki/Automation_Anywhere"
       },
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-14",
+      "graduation_outcome": null
     }
   ]
 }

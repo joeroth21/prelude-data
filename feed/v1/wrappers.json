@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-15T00:59:11+00:00",
-  "as_of": "2026-07-15T00:59:11+00:00",
+  "generated_at": "2026-07-15T03:08:15+00:00",
+  "as_of": "2026-07-15T03:08:15+00:00",
   "notes": "Factual descriptions of investment vehicle structures and terms compiled from issuer disclosures. Educational display only; nothing here is a recommendation. Fee and liquidity facts are hand-curated from the cited sources and re-verified on the curation cadence in the README.",
   "wrappers": [
     {
@@ -25,6 +25,7 @@
       "private_exposure_notes": "Venture portfolio including OpenAI, Anthropic, Stripe and other late-stage private companies; its SpaceX position became publicly traded stock at the June 2026 SPCX listing. See live holdings block.",
       "nav_expected": true,
       "nav_note": null,
+      "nav_unavailable_reason": null,
       "market_price": null,
       "nav_per_share": {
         "value": 56.03,
@@ -154,6 +155,7 @@
       "private_exposure_notes": "Portfolio of roughly two dozen late-stage private companies; SpaceX and OpenAI have been its largest disclosed positions. Holdings and NAV are disclosed in SEC filings (N-PORT, 424B3 supplements).",
       "nav_expected": true,
       "nav_note": null,
+      "nav_unavailable_reason": null,
       "market_price": {
         "value": 25.95,
         "currency": "USD",
@@ -196,7 +198,8 @@
       },
       "private_exposure_notes": "SPV exposure to SpaceX was 44.65% of the fund as of 2026-03-31 per the issuer's published Top 10 Holdings — disclosed pre-IPO; SpaceX has traded as SPCX since 2026-06-12.",
       "nav_expected": false,
-      "nav_note": "The issuer publishes NAV and premium/discount information on its site and in filings, but not in a machine-readable feed this pipeline can cite; premium_to_nav is therefore marked unavailable rather than computed against a stale figure. ETF creation/redemption arbitrage typically keeps market price near NAV.",
+      "nav_note": "The issuer publishes NAV and premium/discount information on its site and in filings, but not in a machine-readable feed this pipeline can cite; premium_to_nav is therefore marked unavailable rather than computed against a stale figure.",
+      "nav_unavailable_reason": "The issuer publishes daily NAV on its website, but only via scripts this pipeline cannot cite as a stable source, and no machine-readable NAV feed or recent NAV-bearing SEC filing is available. Rather than compute a premium against a stale or unverifiable figure, the field is marked unavailable. ETF creation/redemption arbitrage typically keeps market price near NAV.",
       "market_price": {
         "value": 20.33,
         "currency": "USD",
@@ -266,6 +269,7 @@
       "private_exposure_notes": "Venture-stage portfolio; OpenAI (via SPVs), CoreWeave-adjacent and other late-stage names have featured among its largest positions per quarterly filings.",
       "nav_expected": true,
       "nav_note": null,
+      "nav_unavailable_reason": null,
       "market_price": {
         "value": 10.91,
         "currency": "USD",
@@ -307,10 +311,17 @@
         "as_of": "2026-07-14"
       },
       "private_exposure_notes": "Disclosed portfolio has included OpenAI, Anthropic, Anduril, Databricks and Canva per the issuer's public fund page.",
-      "nav_expected": false,
-      "nav_note": "Share price (NAV) is published to platform account holders; there is no public machine-readable NAV feed to cite, so NAV and premium_to_nav are marked unavailable here.",
+      "nav_expected": true,
+      "nav_note": null,
+      "nav_unavailable_reason": null,
       "market_price": null,
-      "nav_per_share": null,
+      "nav_per_share": {
+        "value": 18.97,
+        "currency": "USD",
+        "as_of": "2026-03-31",
+        "source": "Fundrise Innovation Fund, LLC N-CSR (filed 2026-06-02), statement of assets and liabilities as of 2026-03-31: net asset value per share $18.97 (net assets $678.9M / 35,797,138 shares outstanding).",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1867090/000143510926000093/primary-document.htm"
+      },
       "premium_to_nav_pct": null,
       "premium_to_nav_calculation": null,
       "holdings": null
