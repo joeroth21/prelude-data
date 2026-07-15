@@ -66,6 +66,12 @@ class TestNameMatching:
         assert not names_match("Stripe", "Stripes Group Fund V")
         assert not names_match("Notion", "Notional Financial Corp")
 
+    def test_single_word_names_require_equality(self):
+        # the Columbus Circle incident: a SPAC must not match Circle
+        assert not names_match("Circle", "Columbus Circle Capital Corp III")
+        assert names_match("Circle", "Circle, Inc.")
+        assert names_match("Anthropic", "Anthropic PBC")
+
 
 class TestPrivateButTrading:
     def test_spacex_case_fails_validation(self):

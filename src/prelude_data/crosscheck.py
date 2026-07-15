@@ -39,6 +39,7 @@ SUFFIXES = {
     "llc",
     "ltd",
     "plc",
+    "pbc",
     "corp",
     "corporation",
     "company",
@@ -62,14 +63,18 @@ def normalize_name(raw: str) -> str:
 
 
 def names_match(a: str, b: str) -> bool:
-    """Normalized equality, or full-phrase containment for multi-word names."""
+    """Normalized equality, or full-phrase containment for multi-word names.
+
+    Single-word names require exact equality — 'Circle' must not match
+    'Columbus Circle Capital', 'Ramp' must not match 'Ramp Metals'.
+    """
     na, nb = normalize_name(a), normalize_name(b)
     if not na or not nb:
         return False
     if na == nb:
         return True
     shorter, longer = (na, nb) if len(na) <= len(nb) else (nb, na)
-    if len(shorter) < 5:  # too short to phrase-match safely
+    if " " not in shorter or len(shorter) < 5:  # single word / too short
         return False
     return (
         longer.startswith(f"{shorter} ")

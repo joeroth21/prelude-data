@@ -10,11 +10,12 @@ from __future__ import annotations
 import datetime as dt
 import json
 import logging
+from decimal import Decimal, ROUND_HALF_EVEN
 from pathlib import Path
 
 import yaml
 
-from . import ark, compute, config, edgar, market
+from . import ark, compute, config, crosscheck, edgar, market
 
 log = logging.getLogger(__name__)
 
@@ -32,32 +33,89 @@ def load_yaml(path: Path) -> dict:
 # companies.json
 # ---------------------------------------------------------------------------
 
-def build_companies() -> dict:
+# ipo_status carries curation nuance (rumored); lifecycle is the hard state.
+LIFECYCLE_FROM_STATUS = {
+    "private": "private",
+    "rumored": "private",
+    "s1_filed": "s1_filed",
+    "priced": "priced",
+    "listed": "listed",
+}
+
+STALE_AFTER_DAYS = 365
+
+
+def mark_age_days(as_of: str, today: dt.date) -> int | None:
+    try:
+        marked = dt.date.fromisoformat(str(as_of)[:10])
+    except ValueError:
+        return None
+    return (today - marked).days
+
+
+def graduation_outcome(ipo_price_usd: float, ticker: str) -> dict | None:
+    """IPO price vs current price for a graduated (listed) company."""
+    quote = market.fetch_quote(ticker)
+    if quote is None:
+        return None
+    change = (Decimal(str(quote["price"])) / Decimal(str(ipo_price_usd)) - 1) * 100
+    return {
+        "ipo_price_usd": ipo_price_usd,
+        "current_price_usd": quote["price"],
+        "currency": quote["currency"],
+        "price_as_of": quote["as_of"],
+        "change_from_ipo_pct": float(change.quantize(Decimal("0.01"), rounding=ROUND_HALF_EVEN)),
+        "source_url": quote["source_url"],
+    }
+
+
+def build_companies(today: dt.date | None = None) -> dict:
+    today = today or dt.date.today()
     seed = load_yaml(config.DATA_DIR / "companies_seed.yaml")
     companies = []
     for c in seed["companies"]:
-        companies.append(
-            {
-                "id": c["id"],
-                "name": c["name"],
-                "sector": c["sector"],
-                "profile": c["profile"],
-                "profile_source_url": c["profile_source_url"],
-                "ipo_status": c["ipo_status"],  # private|rumored|s1_filed|priced|listed
-                "ipo_status_source_url": c.get("ipo_status_source_url"),
-                "listed_ticker": c.get("listed_ticker"),
-                "aliases": c.get("aliases", []),
-                "crosscheck_skip": c.get("crosscheck_skip", False),
-                "valuation": {
-                    "amount_usd_billions": c["valuation"]["amount_usd_billions"],
-                    "basis": c["valuation"]["basis"],  # priced_round|secondary_sale|tender_offer|media_report|public_market
-                    "round_label": c["valuation"].get("round_label"),
-                    "as_of": str(c["valuation"]["as_of"]),
-                    "source_url": c["valuation"]["source_url"],
-                },
-                "as_of": str(seed["curated_as_of"]),
-            }
+        lifecycle = LIFECYCLE_FROM_STATUS[c["ipo_status"]]
+        graduated = lifecycle == "listed"
+        age = mark_age_days(c["valuation"]["as_of"], today)
+        # Public-market marks track the tape; staleness is a private-mark concept.
+        stale = (
+            not graduated
+            and c["valuation"]["basis"] != "public_market"
+            and age is not None
+            and age > STALE_AFTER_DAYS
         )
+        entry = {
+            "id": c["id"],
+            "name": c["name"],
+            "sector": c["sector"],
+            "profile": c["profile"],
+            "profile_source_url": c["profile_source_url"],
+            "ipo_status": c["ipo_status"],  # private|rumored|s1_filed|priced|listed
+            "lifecycle": lifecycle,
+            "graduated": graduated,
+            "listing_date": str(c["listing_date"]) if c.get("listing_date") else None,
+            "ipo_status_source_url": c.get("ipo_status_source_url"),
+            "listed_ticker": c.get("listed_ticker"),
+            "aliases": c.get("aliases", []),
+            "crosscheck_skip": c.get("crosscheck_skip", False),
+            "valuation": {
+                "amount_usd_billions": c["valuation"]["amount_usd_billions"],
+                "basis": c["valuation"]["basis"],  # priced_round|secondary_sale|tender_offer|media_report|public_market
+                "round_label": c["valuation"].get("round_label"),
+                "as_of": str(c["valuation"]["as_of"]),
+                "mark_age_days": age,
+                "stale": stale,
+                "source_url": c["valuation"]["source_url"],
+            },
+            "as_of": str(seed["curated_as_of"]),
+        }
+        if graduated and c.get("ipo_price_usd") and c.get("listed_ticker"):
+            entry["graduation_outcome"] = graduation_outcome(
+                float(c["ipo_price_usd"]), c["listed_ticker"]
+            )
+        else:
+            entry["graduation_outcome"] = None
+        companies.append(entry)
     return {
         "schema_version": 1,
         "generated_at": utcnow_iso(),
@@ -68,16 +126,58 @@ def build_companies() -> dict:
 
 
 # ---------------------------------------------------------------------------
-# pipeline.json — EDGAR S-1 flow + curated overlay
+# pipeline.json — EDGAR registrations + pricings + curated overlay
 # ---------------------------------------------------------------------------
 
-def build_pipeline(today: dt.date | None = None) -> dict:
-    filings, covered = edgar.fetch_recent_s1_filings(today=today)
+def match_universe(entries: list[dict], companies: list[dict]) -> None:
+    """Tag each filing with the universe company it matches, if any."""
+    for entry in entries:
+        entry["universe_company_id"] = None
+        for c in companies:
+            if any(
+                crosscheck.names_match(entry["issuer"], n)
+                for n in crosscheck.company_names(c)
+            ):
+                entry["universe_company_id"] = c["id"]
+                break
+
+
+def build_pipeline(companies: list[dict], today: dt.date | None = None) -> dict:
+    registrations, pricings, covered = edgar.fetch_window(today=today)
     overlay = load_yaml(config.DATA_DIR / "pipeline_overlay.yaml")
-    return merge_pipeline(filings, covered, overlay)
+
+    match_universe(registrations, companies)
+    match_universe(pricings, companies)
+
+    # Published priced lane: real pricing prospectuses (424B4/424B1) plus any
+    # universe-matched 424B3. Unmatched 424B3s are overwhelmingly supplements
+    # (interval funds file them monthly) — detected, but not lane material.
+    pricings = [
+        p
+        for p in pricings
+        if p["form_type"] in ("424B4", "424B1") or p["universe_company_id"] is not None
+    ]
+
+    # Offer prices: every universe-matched pricing, plus the most recent
+    # non-fund pricings up to the fetch budget. Results cache on disk.
+    budget = config.MAX_PRICE_FETCHES
+    for p in pricings:
+        wanted = p["universe_company_id"] is not None or (
+            budget > 0 and not p["fund_keyword_match"] and p["form_type"] in ("424B4", "424B1")
+        )
+        if not wanted:
+            p["price_usd"] = None
+            continue
+        if p["universe_company_id"] is None:
+            budget -= 1
+        p["price_usd"] = edgar.fetch_pricing_price(p["cik"], p["accession_number"])
+
+    return merge_pipeline(registrations, pricings, covered, overlay)
 
 
-def merge_pipeline(filings: list[dict], covered: list[str], overlay: dict) -> dict:
+def merge_pipeline(
+    filings: list[dict], pricings: list[dict], covered: list[str], overlay: dict
+) -> dict:
     """Attach hand-curated overlay facts (keyed by CIK) to EDGAR filings."""
     by_cik = {str(o["cik"]): o for o in overlay.get("issuers", [])}
     merged = []
@@ -108,8 +208,15 @@ def merge_pipeline(filings: list[dict], covered: list[str], overlay: dict) -> di
             "url": "https://www.sec.gov/Archives/edgar/daily-index/",
             "days_covered": covered,
         },
-        "form_types": list(edgar.FORM_TYPES),
+        "form_types": list(edgar.REGISTRATION_FORMS),
+        "pricing_form_types": list(edgar.PRICING_FORMS),
+        "pricing_lane_policy": (
+            "424B4/424B1 pricing prospectuses, plus 424B3 only when the filer "
+            "matches the tracked universe — unmatched 424B3s are routine "
+            "supplements, detected but excluded from the lane."
+        ),
         "filings": merged,
+        "pricings": pricings,
     }
 
 
@@ -136,6 +243,7 @@ def build_wrappers() -> dict:
             "private_exposure_notes": w.get("private_exposure_notes"),
             "nav_expected": w.get("nav_expected", True),
             "nav_note": w.get("nav_note"),
+            "nav_unavailable_reason": w.get("nav_unavailable_reason"),
         }
 
         # --- one quote fetch; it is either the market price or (for funds

@@ -22,3 +22,13 @@ navs:
       2026-05-06), condensed consolidated statements of assets and
       liabilities: net asset value per share $14.24.
     source_url: https://www.sec.gov/Archives/edgar/data/1509470/000149315226021430/form10-q.htm
+
+  - id: fundrise-innovation
+    nav_per_share: 18.97
+    currency: USD
+    as_of: "2026-03-31"
+    source: >-
+      Fundrise Innovation Fund, LLC N-CSR (filed 2026-06-02), statement of
+      assets and liabilities as of 2026-03-31: net asset value per share
+      $18.97 (net assets $678.9M / 35,797,138 shares outstanding).
+    source_url: https://www.sec.gov/Archives/edgar/data/1867090/000143510926000093/primary-document.htm

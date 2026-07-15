@@ -53,6 +53,8 @@ companies:
     profile_source_url: https://en.wikipedia.org/wiki/SpaceX
     ipo_status: listed
     listed_ticker: SPCX
+    listing_date: 2026-06-12
+    ipo_price_usd: 135.00
     ipo_status_source_url: https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm
     valuation:
       amount_usd_billions: 1767
@@ -80,7 +82,7 @@ companies:
       dual-headquartered; among the longest-standing IPO candidates.
     profile_source_url: https://en.wikipedia.org/wiki/Stripe,_Inc.
     ipo_status: private
-    valuation: {amount_usd_billions: 91.5, basis: tender_offer, round_label: Employee tender, as_of: 2025-02-27, source_url: https://en.wikipedia.org/wiki/Stripe,_Inc.}
+    valuation: {amount_usd_billions: 159, basis: tender_offer, round_label: Employee and shareholder tender, as_of: 2026-02-01, source_url: https://en.wikipedia.org/wiki/Stripe,_Inc.}
 
   - id: databricks
     name: Databricks
@@ -113,7 +115,7 @@ companies:
     profile_source_url: https://en.wikipedia.org/wiki/Shein
     ipo_status: rumored
     ipo_status_source_url: https://en.wikipedia.org/wiki/Shein
-    valuation: {amount_usd_billions: 66, basis: priced_round, round_label: Series G, as_of: 2023-05-17, source_url: https://en.wikipedia.org/wiki/Shein}
+    valuation: {amount_usd_billions: 30, basis: media_report, round_label: Reported valuation, as_of: 2025-02-01, source_url: https://en.wikipedia.org/wiki/Shein}
 
   - id: epic-games
     name: Epic Games
@@ -226,6 +228,8 @@ companies:
     profile_source_url: https://en.wikipedia.org/wiki/Cerebras
     ipo_status: listed
     listed_ticker: CBRS
+    listing_date: 2026-05-14
+    ipo_price_usd: 185.00
     ipo_status_source_url: https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm
     valuation:
       amount_usd_billions: 39.8
@@ -279,7 +283,7 @@ companies:
       Payroll and benefits platform for small businesses.
     profile_source_url: https://en.wikipedia.org/wiki/Gusto,_Inc.
     ipo_status: private
-    valuation: {amount_usd_billions: 9.5, basis: priced_round, round_label: Series E extension, as_of: 2021-08-10, source_url: https://en.wikipedia.org/wiki/Gusto,_Inc.}
+    valuation: {amount_usd_billions: 9.3, basis: tender_offer, round_label: Employee tender, as_of: 2025-06-01, source_url: https://en.wikipedia.org/wiki/Gusto,_Inc.}
 
   - id: plaid
     name: Plaid
@@ -289,7 +293,7 @@ companies:
       its reference valuation below the 2021 round.
     profile_source_url: https://en.wikipedia.org/wiki/Plaid_Inc.
     ipo_status: private
-    valuation: {amount_usd_billions: 6.1, basis: secondary_sale, round_label: Employee share sale, as_of: 2025-04-03, source_url: https://en.wikipedia.org/wiki/Plaid_Inc.}
+    valuation: {amount_usd_billions: 8, basis: secondary_sale, round_label: Employee share sale, as_of: 2026-02-01, source_url: https://en.wikipedia.org/wiki/Plaid_Inc.}
 
   - id: brex
     name: Brex
@@ -376,7 +380,7 @@ companies:
       AI platform for law firms and professional services.
     profile_source_url: https://en.wikipedia.org/wiki/Harvey_(software)
     ipo_status: private
-    valuation: {amount_usd_billions: 5, basis: priced_round, round_label: Series E, as_of: 2025-06-23, source_url: https://en.wikipedia.org/wiki/Harvey_(software)}
+    valuation: {amount_usd_billions: 11, basis: priced_round, round_label: 2026 financing (GIC/Sequoia), as_of: 2026-03-01, source_url: https://en.wikipedia.org/wiki/Harvey_(software)}
 
   - id: elevenlabs
     name: ElevenLabs
@@ -449,7 +453,7 @@ companies:
       AI-era data platform (storage, database, compute fabric).
     profile_source_url: https://en.wikipedia.org/wiki/VAST_Data
     ipo_status: private
-    valuation: {amount_usd_billions: 9.1, basis: priced_round, round_label: Series E, as_of: 2023-12-05, source_url: https://en.wikipedia.org/wiki/VAST_Data}
+    valuation: {amount_usd_billions: 30, basis: media_report, round_label: Reported valuation, as_of: 2026-04-01, source_url: https://en.wikipedia.org/wiki/VAST_Data}
 
   - id: shield-ai
     name: Shield AI
@@ -469,7 +473,7 @@ companies:
     profile_source_url: https://en.wikipedia.org/wiki/Anduril_Industries
     ipo_status: rumored
     ipo_status_source_url: https://en.wikipedia.org/wiki/Anduril_Industries
-    valuation: {amount_usd_billions: 30.5, basis: priced_round, round_label: Series G, as_of: 2025-06-05, source_url: https://en.wikipedia.org/wiki/Anduril_Industries}
+    valuation: {amount_usd_billions: 61, basis: priced_round, round_label: 2026 financing (Thrive/a16z), as_of: 2026-05-01, source_url: https://en.wikipedia.org/wiki/Anduril_Industries}
 
   - id: flexport
     name: Flexport
@@ -567,7 +571,7 @@ companies:
       operates driverless services in multiple US metros.
     profile_source_url: https://en.wikipedia.org/wiki/Waymo
     ipo_status: private
-    valuation: {amount_usd_billions: 45, basis: priced_round, round_label: External round (Alphabet subsidiary), as_of: 2024-10-25, source_url: https://en.wikipedia.org/wiki/Waymo}
+    valuation: {amount_usd_billions: 126, basis: priced_round, round_label: 2026 round ($16B raised), as_of: 2026-02-01, source_url: https://en.wikipedia.org/wiki/Waymo}
 
   - id: klarna
     name: Klarna
@@ -578,6 +582,8 @@ companies:
     profile_source_url: https://en.wikipedia.org/wiki/Klarna
     ipo_status: listed
     listed_ticker: KLAR
+    listing_date: 2025-09-10
+    ipo_price_usd: 40.00
     ipo_status_source_url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=klarna&type=F-1&dateb=&owner=include&count=10
     valuation: {amount_usd_billions: 15.1, basis: public_market, round_label: IPO pricing, as_of: 2025-09-10, source_url: https://en.wikipedia.org/wiki/Klarna}
 
@@ -589,6 +595,8 @@ companies:
     profile_source_url: https://en.wikipedia.org/wiki/CoreWeave
     ipo_status: listed
     listed_ticker: CRWV
+    listing_date: 2025-03-28
+    ipo_price_usd: 40.00
     valuation: {amount_usd_billions: 23, basis: public_market, round_label: IPO pricing, as_of: 2025-03-28, source_url: https://en.wikipedia.org/wiki/CoreWeave}
 
   - id: figma
@@ -599,6 +607,8 @@ companies:
     profile_source_url: https://en.wikipedia.org/wiki/Figma
     ipo_status: listed
     listed_ticker: FIG
+    listing_date: 2025-07-31
+    ipo_price_usd: 33.00
     valuation: {amount_usd_billions: 19.3, basis: public_market, round_label: IPO pricing, as_of: 2025-07-31, source_url: https://en.wikipedia.org/wiki/Figma}
 
   - id: circle
@@ -609,6 +619,8 @@ companies:
     profile_source_url: https://en.wikipedia.org/wiki/Circle_(company)
     ipo_status: listed
     listed_ticker: CRCL
+    listing_date: 2025-06-05
+    ipo_price_usd: 31.00
     valuation: {amount_usd_billions: 6.9, basis: public_market, round_label: IPO pricing, as_of: 2025-06-05, source_url: https://en.wikipedia.org/wiki/Circle_(company)}
 
   - id: chime
@@ -619,6 +631,8 @@ companies:
     profile_source_url: https://en.wikipedia.org/wiki/Chime_(company)
     ipo_status: listed
     listed_ticker: CHYM
+    listing_date: 2025-06-12
+    ipo_price_usd: 27.00
     valuation: {amount_usd_billions: 11.6, basis: public_market, round_label: IPO pricing, as_of: 2025-06-12, source_url: https://en.wikipedia.org/wiki/Chime_(company)}
 
   - id: tenstorrent

@@ -17,8 +17,14 @@ MIN_SECONDS_BETWEEN_REQUESTS = 1.0
 REQUEST_TIMEOUT = 30
 RETRIES = 3
 
-# EDGAR daily form indexes: how many calendar days back to sweep for S-1s.
-EDGAR_LOOKBACK_DAYS = 14
+# EDGAR daily form indexes: rolling window swept for registrations/pricings.
+# Past days are cached on disk, so only the backfill pays the full cost.
+EDGAR_LOOKBACK_DAYS = 180
+# Validation floor for covered business days in the window.
+MIN_EDGAR_DAYS = 100
+# Pricing filings whose offer price we fetch/parse per run (plus every
+# universe-matched pricing, always).
+MAX_PRICE_FETCHES = 25
 
 # ARK publishes fund holdings CSVs publicly (see README for terms posture).
 ARK_HOLDINGS_URLS = {

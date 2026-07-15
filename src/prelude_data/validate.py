@@ -58,22 +58,57 @@ def validate_companies(doc: dict, now: dt.datetime) -> list[str]:
             errors.append(f"companies[{cid}]: unparseable valuation.as_of")
         elif age < 0:
             errors.append(f"companies[{cid}]: valuation.as_of is in the future")
+        if val.get("mark_age_days") is None:
+            errors.append(f"companies[{cid}]: missing valuation.mark_age_days")
+        if not isinstance(val.get("stale"), bool):
+            errors.append(f"companies[{cid}]: missing valuation.stale flag")
+
+        # Lifecycle consistency
+        lifecycle = c.get("lifecycle")
+        if lifecycle not in ("private", "s1_filed", "priced", "listed"):
+            errors.append(f"companies[{cid}]: invalid lifecycle {lifecycle!r}")
+        graduated = c.get("graduated")
+        if graduated != (lifecycle == "listed"):
+            errors.append(f"companies[{cid}]: graduated flag inconsistent with lifecycle")
+        if lifecycle == "listed":
+            if not c.get("listed_ticker"):
+                errors.append(f"companies[{cid}]: listed lifecycle but no listed_ticker")
+            if not c.get("listing_date"):
+                errors.append(f"companies[{cid}]: listed lifecycle but no listing_date")
+            outcome = c.get("graduation_outcome")
+            if outcome is not None:
+                for field in ("ipo_price_usd", "current_price_usd", "change_from_ipo_pct", "price_as_of", "source_url"):
+                    if outcome.get(field) is None:
+                        errors.append(f"companies[{cid}]: graduation_outcome missing {field}")
     return errors
 
 
 def validate_pipeline(doc: dict, now: dt.datetime) -> list[str]:
     errors = []
     covered = doc.get("source", {}).get("days_covered", [])
-    if len(covered) < 3:
-        errors.append(f"pipeline: only {len(covered)} EDGAR days covered (< 3) — feed too thin")
+    if len(covered) < config.MIN_EDGAR_DAYS:
+        errors.append(
+            f"pipeline: only {len(covered)} EDGAR days covered (< {config.MIN_EDGAR_DAYS}) — window too thin"
+        )
     age = _age_days(doc.get("generated_at", ""), now)
     if age is None or age > 1:
         errors.append("pipeline: generated_at missing or older than a day")
     for f in doc.get("filings", []):
         acc = f.get("accession_number", "<no accession>")
-        for field in ("issuer", "cik", "filing_date", "form_type", "source_url"):
+        for field in ("issuer", "display_name", "cik", "filing_date", "form_type", "source_url"):
             if not f.get(field):
                 errors.append(f"pipeline[{acc}]: missing {field}")
+        if "universe_company_id" not in f:
+            errors.append(f"pipeline[{acc}]: missing universe_company_id key")
+    for p in doc.get("pricings", []):
+        acc = p.get("accession_number", "<no accession>")
+        for field in ("issuer", "display_name", "cik", "filing_date", "form_type", "source_url"):
+            if not p.get(field):
+                errors.append(f"pricing[{acc}]: missing {field}")
+        if "price_usd" not in p:
+            errors.append(f"pricing[{acc}]: missing price_usd key")
+        elif p["price_usd"] is not None and not (0 < p["price_usd"] < 100_000):
+            errors.append(f"pricing[{acc}]: implausible price_usd {p['price_usd']}")
     return errors
 
 
@@ -109,8 +144,11 @@ def validate_wrappers(doc: dict, now: dt.datetime) -> list[str]:
         if nav is None:
             if w.get("nav_expected", True):
                 errors.append(f"wrappers[{wid}]: nav_per_share missing")
-            elif not w.get("nav_note"):
-                errors.append(f"wrappers[{wid}]: NAV not expected but nav_note missing")
+            elif not w.get("nav_unavailable_reason"):
+                errors.append(
+                    f"wrappers[{wid}]: NAV unavailable but nav_unavailable_reason missing — "
+                    "the app must be able to explain, not shrug"
+                )
         else:
             age = _age_days(nav.get("as_of", ""), now)
             if age is None or age > config.MAX_NAV_AGE_DAYS:

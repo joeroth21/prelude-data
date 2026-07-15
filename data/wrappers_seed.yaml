@@ -78,12 +78,18 @@ wrappers:
     exchange: Nasdaq
     quote_symbol: XOVR
     nav_expected: false
+    nav_unavailable_reason: >-
+      The issuer publishes daily NAV on its website, but only via scripts
+      this pipeline cannot cite as a stable source, and no machine-readable
+      NAV feed or recent NAV-bearing SEC filing is available. Rather than
+      compute a premium against a stale or unverifiable figure, the field
+      is marked unavailable. ETF creation/redemption arbitrage typically
+      keeps market price near NAV.
     nav_note: >-
       The issuer publishes NAV and premium/discount information on its site
       and in filings, but not in a machine-readable feed this pipeline can
       cite; premium_to_nav is therefore marked unavailable rather than
-      computed against a stale figure. ETF creation/redemption arbitrage
-      typically keeps market price near NAV.
+      computed against a stale figure.
     issuer_url: https://entrepreneurshares.com/xovr-etf/
     fees:
       expense_ratio_pct: 0.75
@@ -143,11 +149,6 @@ wrappers:
     structure: closed_end_interval_fund
     ticker: null
     exchange: null
-    nav_expected: false
-    nav_note: >-
-      Share price (NAV) is published to platform account holders; there is
-      no public machine-readable NAV feed to cite, so NAV and
-      premium_to_nav are marked unavailable here.
     issuer_url: https://fundrise.com/innovation
     fees:
       expense_ratio_pct: 1.85

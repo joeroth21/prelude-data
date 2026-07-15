@@ -19,10 +19,14 @@ def company(**over):
         "profile": "Does things.",
         "profile_source_url": "https://example.com/acme",
         "ipo_status": "private",
+        "lifecycle": "private",
+        "graduated": False,
         "valuation": {
             "amount_usd_billions": 10,
             "basis": "priced_round",
             "as_of": "2025-06-01",
+            "mark_age_days": 408,
+            "stale": True,
             "source_url": "https://example.com/round",
         },
     }
@@ -64,18 +68,36 @@ class TestCompanies:
         assert any("missing profile" in e for e in errors)
 
 
+DAYS = [f"2026-{m:02d}-{d:02d}" for m in range(1, 7) for d in range(1, 21)]  # 120 pseudo-days
+
+
 def pipeline_doc(**over):
     base = {
         "generated_at": NOW.isoformat(),
-        "source": {"days_covered": ["2026-07-08", "2026-07-09", "2026-07-10"]},
+        "source": {"days_covered": DAYS},
         "filings": [
             {
                 "issuer": "Acme",
+                "display_name": "Acme",
                 "cik": "123",
                 "filing_date": "2026-07-10",
                 "form_type": "S-1",
                 "accession_number": "0000000000-26-000001",
                 "source_url": "https://example.com/f",
+                "universe_company_id": None,
+            }
+        ],
+        "pricings": [
+            {
+                "issuer": "Acme",
+                "display_name": "Acme",
+                "cik": "123",
+                "filing_date": "2026-07-11",
+                "form_type": "424B4",
+                "accession_number": "0000000000-26-000002",
+                "source_url": "https://example.com/p",
+                "price_usd": 21.5,
+                "universe_company_id": None,
             }
         ],
     }
@@ -88,8 +110,23 @@ class TestPipeline:
         assert validate_pipeline(pipeline_doc(), NOW) == []
 
     def test_thin_coverage_fails(self):
-        doc = pipeline_doc(source={"days_covered": ["2026-07-10"]})
-        assert any("too thin" in e for e in validate_pipeline(doc, NOW))
+        doc = pipeline_doc(source={"days_covered": DAYS[:50]})
+        assert any("window too thin" in e for e in validate_pipeline(doc, NOW))
+
+    def test_pricing_without_price_key_fails(self):
+        doc = pipeline_doc()
+        doc["pricings"][0].pop("price_usd")
+        assert any("missing price_usd" in e for e in validate_pipeline(doc, NOW))
+
+    def test_implausible_price_fails(self):
+        doc = pipeline_doc()
+        doc["pricings"][0]["price_usd"] = 5_000_000
+        assert any("implausible" in e for e in validate_pipeline(doc, NOW))
+
+    def test_null_price_is_fine(self):
+        doc = pipeline_doc()
+        doc["pricings"][0]["price_usd"] = None
+        assert validate_pipeline(doc, NOW) == []
 
     def test_stale_generated_at_fails(self):
         doc = pipeline_doc(generated_at="2026-07-01T00:00:00+00:00")
@@ -154,15 +191,20 @@ class TestWrappers:
         doc = {"wrappers": [wrapper(nav_per_share=None, premium_to_nav_pct=None)] * 4}
         assert any("nav_per_share missing" in e for e in validate_wrappers(doc, NOW))
 
-    def test_missing_nav_ok_when_not_expected_with_note(self):
+    def test_missing_nav_ok_when_not_expected_with_reason(self):
         w = wrapper(
             nav_per_share=None,
             premium_to_nav_pct=None,
             nav_expected=False,
-            nav_note="Issuer publishes NAV but not machine-readably.",
+            nav_unavailable_reason="Issuer publishes NAV but not machine-readably.",
         )
         doc = {"wrappers": [w] * 4}
         assert validate_wrappers(doc, NOW) == []
+
+    def test_missing_nav_without_reason_fails(self):
+        w = wrapper(nav_per_share=None, premium_to_nav_pct=None, nav_expected=False)
+        doc = {"wrappers": [w] * 4}
+        assert any("nav_unavailable_reason" in e for e in validate_wrappers(doc, NOW))
 
     def test_price_and_nav_without_premium_fails(self):
         doc = {"wrappers": [wrapper(premium_to_nav_pct=None)] * 4}

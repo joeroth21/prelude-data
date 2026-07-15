@@ -35,8 +35,8 @@ def build_all() -> dict[str, dict]:
     docs: dict[str, dict] = {}
     log.info("building companies.json ...")
     docs["companies.json"] = builders.build_companies()
-    log.info("building pipeline.json (EDGAR sweep) ...")
-    docs["pipeline.json"] = builders.build_pipeline()
+    log.info("building pipeline.json (EDGAR %d-day window) ...", config.EDGAR_LOOKBACK_DAYS)
+    docs["pipeline.json"] = builders.build_pipeline(docs["companies.json"]["companies"])
     log.info("building wrappers.json (quotes + NAV + holdings) ...")
     docs["wrappers.json"] = builders.build_wrappers()
     log.info("building signals.json ...")
