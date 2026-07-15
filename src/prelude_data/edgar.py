@@ -220,6 +220,15 @@ def parse_424_price(document_text: str) -> float | None:
     return None
 
 
+def cached_price(accession: str) -> tuple[bool, float | None]:
+    """(cache_hit, price) without touching the network."""
+    cache_path = CACHE_DIR / "prices" / f"{accession}.txt"
+    if not cache_path.exists():
+        return False, None
+    cached = cache_path.read_text(encoding="utf-8").strip()
+    return True, (None if cached == "none" else float(cached))
+
+
 def fetch_pricing_price(cik: str, accession: str) -> float | None:
     """Fetch a pricing filing's primary document and extract the offer price.
 

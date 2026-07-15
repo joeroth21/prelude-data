@@ -158,19 +158,22 @@ def build_pipeline(companies: list[dict], today: dt.date | None = None) -> dict:
         if p["form_type"] in ("424B4", "424B1") or p["universe_company_id"] is not None
     ]
 
-    # Offer prices: every universe-matched pricing, plus the most recent
-    # non-fund pricings up to the fetch budget. Results cache on disk.
+    # Offer prices: cached results are free and always used; the network
+    # budget covers universe matches first, then the most recent pricings.
+    # The cache fills a little more every night until the window is priced.
     budget = config.MAX_PRICE_FETCHES
     for p in pricings:
-        wanted = p["universe_company_id"] is not None or (
-            budget > 0 and not p["fund_keyword_match"] and p["form_type"] in ("424B4", "424B1")
-        )
-        if not wanted:
-            p["price_usd"] = None
+        hit, price = edgar.cached_price(p["accession_number"])
+        if hit:
+            p["price_usd"] = price
             continue
-        if p["universe_company_id"] is None:
+        if p["universe_company_id"] is not None:
+            p["price_usd"] = edgar.fetch_pricing_price(p["cik"], p["accession_number"])
+        elif budget > 0 and not p["fund_keyword_match"]:
             budget -= 1
-        p["price_usd"] = edgar.fetch_pricing_price(p["cik"], p["accession_number"])
+            p["price_usd"] = edgar.fetch_pricing_price(p["cik"], p["accession_number"])
+        else:
+            p["price_usd"] = None
 
     return merge_pipeline(registrations, pricings, covered, overlay)
 
