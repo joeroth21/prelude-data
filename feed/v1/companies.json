@@ -1,14 +1,73 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-15T03:10:16+00:00",
+  "generated_at": "2026-07-15T04:14:51+00:00",
   "as_of": "2026-07-14",
   "notes": "Curated universe of late-stage private companies (plus a handful of 2025 listings kept for status continuity). Factual profiles only; educational display. Source URLs point to stable public summaries which themselves cite primary reporting.",
+  "access_venues": [
+    {
+      "id": "forge",
+      "name": "Forge Global",
+      "kind": "secondary_marketplace",
+      "description": "Public secondary marketplace where shares of private companies change hands between existing holders and eligible participants.",
+      "eligibility": "Generally limited to accredited investors; minimums apply.",
+      "url": "https://forgeglobal.com"
+    },
+    {
+      "id": "equityzen",
+      "name": "EquityZen",
+      "kind": "secondary_marketplace",
+      "description": "Secondary marketplace offering exposure to private companies through pooled fund vehicles built on shares from existing holders.",
+      "eligibility": "Generally limited to accredited investors; minimums apply.",
+      "url": "https://equityzen.com"
+    },
+    {
+      "id": "hiive",
+      "name": "Hiive",
+      "kind": "secondary_marketplace",
+      "description": "Direct secondary marketplace listing bids and asks on private-company shares between holders and eligible participants.",
+      "eligibility": "Generally limited to accredited and institutional participants.",
+      "url": "https://www.hiive.com"
+    },
+    {
+      "id": "robinhood",
+      "name": "Robinhood (IPO Access)",
+      "kind": "ipo_allocation_broker",
+      "description": "Retail brokerage whose IPO Access program allocates shares of participating IPOs to eligible customers at the offering price.",
+      "eligibility": "US brokerage customers; allocations depend on the issuer and demand.",
+      "url": "https://robinhood.com"
+    },
+    {
+      "id": "sofi",
+      "name": "SoFi",
+      "kind": "ipo_allocation_broker",
+      "description": "Retail brokerage that distributes allocations of participating IPOs to eligible members at the offering price.",
+      "eligibility": "US brokerage members; availability varies by offering.",
+      "url": "https://www.sofi.com/invest/ipo-investing/"
+    },
+    {
+      "id": "fidelity",
+      "name": "Fidelity",
+      "kind": "ipo_allocation_broker",
+      "description": "Brokerage that makes allocations of participating new issues available to customers meeting asset or activity criteria.",
+      "eligibility": "Qualifying brokerage customers; issuer participation varies.",
+      "url": "https://www.fidelity.com/trading/ipos"
+    }
+  ],
   "companies": [
     {
       "id": "openai",
       "name": "OpenAI",
+      "summary": "OpenAI develops the GPT family of AI models and ChatGPT.",
       "sector": "Artificial Intelligence",
       "profile": "Developer of the GPT model family and ChatGPT. Capped-profit structure under a nonprofit parent, restructured 2025 into a public benefit corporation with Microsoft as largest minority investor.",
+      "access_routes": [
+        {
+          "kind": "venue_page",
+          "venue_id": "equityzen",
+          "url": "https://equityzen.com/company/openai/",
+          "as_of": "2026-07-14"
+        }
+      ],
       "profile_source_url": "https://en.wikipedia.org/wiki/OpenAI",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -33,8 +92,17 @@
     {
       "id": "anthropic",
       "name": "Anthropic",
+      "summary": "Anthropic builds the Claude family of AI models with a safety-focused research program.",
       "sector": "Artificial Intelligence",
       "profile": "AI safety and research company behind the Claude model family. Founded 2021 by former OpenAI researchers; backed by Google, Amazon, and others.",
+      "access_routes": [
+        {
+          "kind": "venue_page",
+          "venue_id": "equityzen",
+          "url": "https://equityzen.com/company/anthropic/",
+          "as_of": "2026-07-14"
+        }
+      ],
       "profile_source_url": "https://en.wikipedia.org/wiki/Anthropic",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -59,8 +127,17 @@
     {
       "id": "spacex",
       "name": "SpaceX",
+      "summary": "SpaceX builds and launches rockets and operates the Starlink satellite internet network.",
       "sector": "Aerospace & Defense",
       "profile": "Launch provider and operator of the Starlink satellite internet constellation. Filed its S-1 on 2026-05-20 and listed on Nasdaq as SPCX on 2026-06-12 at $135.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "SPCX",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/SPCX"
+        }
+      ],
       "profile_source_url": "https://en.wikipedia.org/wiki/SpaceX",
       "ipo_status": "listed",
       "lifecycle": "listed",
@@ -95,8 +172,10 @@
     {
       "id": "xai",
       "name": "xAI",
+      "summary": "xAI develops the Grok AI models and operates large training clusters.",
       "sector": "Artificial Intelligence",
       "profile": "Elon Musk's AI company, developer of the Grok models; merged with X Corp in 2025. Operates the Colossus training cluster in Memphis.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/XAI_(company)",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -123,8 +202,10 @@
     {
       "id": "stripe",
       "name": "Stripe",
+      "summary": "Stripe provides payment processing infrastructure for online businesses.",
       "sector": "Fintech",
       "profile": "Payments infrastructure for internet businesses. Dublin/San Francisco dual-headquartered; among the longest-standing IPO candidates.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Stripe,_Inc.",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -149,8 +230,17 @@
     {
       "id": "databricks",
       "name": "Databricks",
+      "summary": "Databricks builds a data and AI platform for enterprises.",
       "sector": "Data & AI Platform",
       "profile": "Data lakehouse and AI platform company. Repeatedly cited by its CEO as a future public company without a committed timeline.",
+      "access_routes": [
+        {
+          "kind": "venue_page",
+          "venue_id": "equityzen",
+          "url": "https://equityzen.com/company/databricks/",
+          "as_of": "2026-07-14"
+        }
+      ],
       "profile_source_url": "https://en.wikipedia.org/wiki/Databricks",
       "ipo_status": "rumored",
       "lifecycle": "private",
@@ -175,8 +265,10 @@
     {
       "id": "bytedance",
       "name": "ByteDance",
+      "summary": "ByteDance operates TikTok, Douyin, and other consumer internet apps.",
       "sector": "Consumer Internet",
       "profile": "Parent of TikTok and Douyin. The largest private technology company by revenue; periodic employee buybacks set its reference valuation.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/ByteDance",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -201,8 +293,10 @@
     {
       "id": "shein",
       "name": "Shein",
+      "summary": "Shein sells fast fashion online direct to consumers worldwide.",
       "sector": "E-commerce",
       "profile": "Fast-fashion marketplace. Has pursued a listing across multiple venues (US, London, Hong Kong) amid regulatory scrutiny; valuation reported well below its 2023 round in subsequent coverage.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Shein",
       "ipo_status": "rumored",
       "lifecycle": "private",
@@ -227,8 +321,10 @@
     {
       "id": "epic-games",
       "name": "Epic Games",
+      "summary": "Epic Games makes Fortnite and the Unreal Engine game tools.",
       "sector": "Gaming",
       "profile": "Maker of Fortnite and Unreal Engine. Backed by Tencent, Sony, and KIRKBI; Disney took a stake in 2024.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Epic_Games",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -253,8 +349,10 @@
     {
       "id": "canva",
       "name": "Canva",
+      "summary": "Canva offers browser-based graphic design tools for non-designers.",
       "sector": "Design Software",
       "profile": "Visual communication and design platform, Sydney-based, cash-flow positive with recurring employee liquidity programs.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Canva",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -279,8 +377,10 @@
     {
       "id": "revolut",
       "name": "Revolut",
+      "summary": "Revolut runs a digital banking and payments app.",
       "sector": "Fintech",
       "profile": "London-based global neobank with 50m+ customers; holds a UK banking licence (restricted) since 2024. US listing intent widely reported.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Revolut",
       "ipo_status": "rumored",
       "lifecycle": "private",
@@ -305,8 +405,10 @@
     {
       "id": "figure-ai",
       "name": "Figure AI",
+      "summary": "Figure AI develops humanoid robots for industrial work.",
       "sector": "Robotics",
       "profile": "Humanoid robotics company developing the Figure robot line for commercial and industrial deployment.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Figure_AI",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -331,8 +433,10 @@
     {
       "id": "scale-ai",
       "name": "Scale AI",
+      "summary": "Scale AI supplies data labeling and evaluation services for AI training.",
       "sector": "Artificial Intelligence",
       "profile": "Data labeling and evaluation infrastructure for AI. Meta acquired a 49% stake in June 2025; founder Alexandr Wang departed to Meta.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Scale_AI",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -357,8 +461,10 @@
     {
       "id": "perplexity",
       "name": "Perplexity",
+      "summary": "Perplexity operates an AI-powered answer engine for web search.",
       "sector": "Artificial Intelligence",
       "profile": "AI-powered answer engine and search product; rapid 2024-2025 fundraising cadence across multiple rounds.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -383,8 +489,10 @@
     {
       "id": "safe-superintelligence",
       "name": "Safe Superintelligence",
+      "summary": "Safe Superintelligence is an AI research lab with no commercial product.",
       "sector": "Artificial Intelligence",
       "profile": "Research lab founded 2024 by Ilya Sutskever with the stated single goal of building safe superintelligence; no commercial product.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Safe_Superintelligence",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -409,8 +517,10 @@
     {
       "id": "mistral-ai",
       "name": "Mistral AI",
+      "summary": "Mistral AI develops open-weight AI language models.",
       "sector": "Artificial Intelligence",
       "profile": "Paris-based open-weight model developer; Europe's most valuable AI startup, with ASML as lead strategic investor since 2025.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Mistral_AI",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -435,8 +545,10 @@
     {
       "id": "cohere",
       "name": "Cohere",
+      "summary": "Cohere builds AI language models for enterprise deployment.",
       "sector": "Artificial Intelligence",
       "profile": "Toronto-based enterprise AI company focused on secure, private model deployment for business and government.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Cohere",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -461,8 +573,10 @@
     {
       "id": "groq",
       "name": "Groq",
+      "summary": "Groq designs chips and cloud services for fast AI inference.",
       "sector": "AI Semiconductors",
       "profile": "Inference-focused chip company (LPU architecture) selling fast inference via GroqCloud.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Groq",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -487,8 +601,17 @@
     {
       "id": "cerebras",
       "name": "Cerebras Systems",
+      "summary": "Cerebras Systems builds wafer-scale processors for AI computing.",
       "sector": "AI Semiconductors",
       "profile": "Wafer-scale AI compute company. Filed an S-1 in 2024, stepped back and raised privately in 2025, refiled 2026-04-17, and listed on Nasdaq as CBRS on 2026-05-14 at $185.00 per share.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "CBRS",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/CBRS"
+        }
+      ],
       "profile_source_url": "https://en.wikipedia.org/wiki/Cerebras",
       "ipo_status": "listed",
       "lifecycle": "listed",
@@ -520,8 +643,10 @@
     {
       "id": "neuralink",
       "name": "Neuralink",
+      "summary": "Neuralink develops implantable brain-computer interfaces.",
       "sector": "Neurotechnology",
       "profile": "Brain-computer interface company running human clinical trials of its implant since 2024.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Neuralink",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -546,8 +671,10 @@
     {
       "id": "the-boring-company",
       "name": "The Boring Company",
+      "summary": "The Boring Company digs tunnels for underground transportation.",
       "sector": "Infrastructure",
       "profile": "Tunneling and underground transit company; operates the Las Vegas Convention Center Loop.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/The_Boring_Company",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -572,8 +699,10 @@
     {
       "id": "rippling",
       "name": "Rippling",
+      "summary": "Rippling combines payroll, HR, IT, and finance software in one platform.",
       "sector": "HR & Finance Software",
       "profile": "Workforce management platform spanning HR, IT, and finance.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Rippling",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -598,8 +727,10 @@
     {
       "id": "deel",
       "name": "Deel",
+      "summary": "Deel handles international payroll and employment compliance.",
       "sector": "HR Software",
       "profile": "Global payroll and employer-of-record platform.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Deel",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -624,8 +755,10 @@
     {
       "id": "gusto",
       "name": "Gusto",
+      "summary": "Gusto provides payroll and benefits software for small businesses.",
       "sector": "HR Software",
       "profile": "Payroll and benefits platform for small businesses.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Gusto,_Inc.",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -650,8 +783,10 @@
     {
       "id": "plaid",
       "name": "Plaid",
+      "summary": "Plaid connects bank accounts to financial apps through APIs.",
       "sector": "Fintech",
       "profile": "Bank-account connectivity APIs for fintech apps; 2025 secondary reset its reference valuation below the 2021 round.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Plaid_Inc.",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -676,8 +811,10 @@
     {
       "id": "brex",
       "name": "Brex",
+      "summary": "Brex issues corporate cards and spend management software.",
       "sector": "Fintech",
       "profile": "Corporate cards and spend management for startups and enterprises.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Brex",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -702,8 +839,10 @@
     {
       "id": "ramp",
       "name": "Ramp",
+      "summary": "Ramp automates corporate spending, cards, and expense management.",
       "sector": "Fintech",
       "profile": "Spend management and corporate card platform; one of the fastest valuation ramps of the 2024-2025 private market.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Ramp_(company)",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -728,8 +867,10 @@
     {
       "id": "airtable",
       "name": "Airtable",
+      "summary": "Airtable is a no-code database and app-building tool.",
       "sector": "Productivity Software",
       "profile": "No-code app-building and database platform.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Airtable",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -754,8 +895,10 @@
     {
       "id": "notion",
       "name": "Notion",
+      "summary": "Notion is a workspace app combining documents, wikis, and project tracking.",
       "sector": "Productivity Software",
       "profile": "Connected workspace for docs, wikis, and projects.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -780,8 +923,10 @@
     {
       "id": "grammarly",
       "name": "Grammarly",
+      "summary": "Grammarly makes AI writing-assistance software.",
       "sector": "Productivity Software",
       "profile": "AI writing assistant; acquired Coda in 2024 and Superhuman in 2025.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Grammarly",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -806,8 +951,10 @@
     {
       "id": "discord",
       "name": "Discord",
+      "summary": "Discord runs voice, video, and text chat communities.",
       "sector": "Consumer Internet",
       "profile": "Voice/video/text community platform; IPO preparation reported by multiple outlets in 2025.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Discord",
       "ipo_status": "rumored",
       "lifecycle": "private",
@@ -832,8 +979,10 @@
     {
       "id": "anysphere",
       "name": "Anysphere (Cursor)",
+      "summary": "Anysphere makes Cursor, an AI-assisted code editor.",
       "sector": "Developer Tools",
       "profile": "Maker of the Cursor AI code editor; among the fastest companies to $1B+ annualized revenue.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Cursor_(code_editor)",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -860,8 +1009,10 @@
     {
       "id": "glean",
       "name": "Glean",
+      "summary": "Glean provides AI search across a company's internal knowledge.",
       "sector": "Enterprise AI",
       "profile": "Enterprise search and work AI assistant across company knowledge.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Glean_Technologies",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -886,8 +1037,10 @@
     {
       "id": "harvey",
       "name": "Harvey",
+      "summary": "Harvey builds AI tools for law firms and professional services.",
       "sector": "Legal AI",
       "profile": "AI platform for law firms and professional services.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Harvey_(software)",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -912,8 +1065,10 @@
     {
       "id": "elevenlabs",
       "name": "ElevenLabs",
+      "summary": "ElevenLabs makes AI voice synthesis and audio tools.",
       "sector": "Artificial Intelligence",
       "profile": "AI voice synthesis and audio platform.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/ElevenLabs",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -938,8 +1093,10 @@
     {
       "id": "snyk",
       "name": "Snyk",
+      "summary": "Snyk scans code and dependencies for security flaws.",
       "sector": "Cybersecurity",
       "profile": "Developer-first security platform for code and dependencies.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Snyk",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -964,8 +1121,10 @@
     {
       "id": "vercel",
       "name": "Vercel",
+      "summary": "Vercel hosts web frontends and maintains the Next.js framework.",
       "sector": "Developer Tools",
       "profile": "Frontend cloud platform and steward of the Next.js framework.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Vercel",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -990,8 +1149,10 @@
     {
       "id": "hugging-face",
       "name": "Hugging Face",
+      "summary": "Hugging Face hosts open AI models and machine-learning tools.",
       "sector": "Artificial Intelligence",
       "profile": "Open model hub and ML tooling community.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Hugging_Face",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1016,8 +1177,10 @@
     {
       "id": "together-ai",
       "name": "Together AI",
+      "summary": "Together AI runs cloud infrastructure for open-source AI models.",
       "sector": "AI Infrastructure",
       "profile": "Cloud platform for open-source model training and inference.",
+      "access_routes": [],
       "profile_source_url": "https://www.together.ai/blog",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1042,8 +1205,10 @@
     {
       "id": "lambda",
       "name": "Lambda",
+      "summary": "Lambda rents GPU computing for AI training and inference.",
       "sector": "AI Infrastructure",
       "profile": "GPU cloud for AI training and inference workloads.",
+      "access_routes": [],
       "profile_source_url": "https://lambda.ai/blog",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1068,8 +1233,10 @@
     {
       "id": "crusoe",
       "name": "Crusoe",
+      "summary": "Crusoe builds and operates data centers for AI computing.",
       "sector": "AI Infrastructure",
       "profile": "AI data-center developer (Stargate Abilene anchor builder), originally a flared-gas compute company.",
+      "access_routes": [],
       "profile_source_url": "https://crusoe.ai/newsroom",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1094,8 +1261,10 @@
     {
       "id": "vast-data",
       "name": "VAST Data",
+      "summary": "VAST Data sells storage and data infrastructure for AI workloads.",
       "sector": "Data Infrastructure",
       "profile": "AI-era data platform (storage, database, compute fabric).",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/VAST_Data",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1120,8 +1289,10 @@
     {
       "id": "shield-ai",
       "name": "Shield AI",
+      "summary": "Shield AI makes autonomy software and drones for defense.",
       "sector": "Defense Technology",
       "profile": "Autonomy software (Hivemind) and V-BAT aircraft for defense.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Shield_AI",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1146,8 +1317,10 @@
     {
       "id": "anduril",
       "name": "Anduril Industries",
+      "summary": "Anduril Industries builds software-driven defense systems.",
       "sector": "Defense Technology",
       "profile": "Defense products company (Lattice OS, autonomous systems); a founder has repeatedly described an eventual IPO as the plan.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Anduril_Industries",
       "ipo_status": "rumored",
       "lifecycle": "private",
@@ -1172,8 +1345,10 @@
     {
       "id": "flexport",
       "name": "Flexport",
+      "summary": "Flexport manages ocean and air freight logistics digitally.",
       "sector": "Logistics",
       "profile": "Digital freight forwarding and supply-chain platform.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Flexport",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1198,8 +1373,10 @@
     {
       "id": "sierra",
       "name": "Sierra",
+      "summary": "Sierra builds conversational AI agents for customer service.",
       "sector": "Enterprise AI",
       "profile": "Conversational AI agents for customer experience, co-founded by Bret Taylor.",
+      "access_routes": [],
       "profile_source_url": "https://sierra.ai/blog",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1224,8 +1401,10 @@
     {
       "id": "thinking-machines-lab",
       "name": "Thinking Machines Lab",
+      "summary": "Thinking Machines Lab is an AI research company founded by Mira Murati.",
       "sector": "Artificial Intelligence",
       "profile": "AI research company founded 2025 by Mira Murati; raised a record seed round before shipping product.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1250,8 +1429,10 @@
     {
       "id": "polymarket",
       "name": "Polymarket",
+      "summary": "Polymarket runs a prediction market settled in crypto.",
       "sector": "Prediction Markets",
       "profile": "Crypto-settled prediction market; ICE (NYSE parent) announced a strategic investment in 2025 alongside its US re-entry.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Polymarket",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1276,8 +1457,10 @@
     {
       "id": "kalshi",
       "name": "Kalshi",
+      "summary": "Kalshi operates a regulated exchange for event contracts.",
       "sector": "Prediction Markets",
       "profile": "CFTC-regulated event-contract exchange.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Kalshi",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1302,8 +1485,10 @@
     {
       "id": "kraken",
       "name": "Kraken",
+      "summary": "Kraken operates a cryptocurrency exchange.",
       "sector": "Crypto",
       "profile": "US crypto exchange; a public listing has been repeatedly reported as under consideration.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Kraken_(company)",
       "ipo_status": "rumored",
       "lifecycle": "private",
@@ -1330,8 +1515,10 @@
     {
       "id": "ripple",
       "name": "Ripple",
+      "summary": "Ripple sells blockchain payment infrastructure tied to the XRP ledger.",
       "sector": "Crypto",
       "profile": "Enterprise blockchain payments company associated with the XRP ledger.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Ripple_Labs",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1358,8 +1545,10 @@
     {
       "id": "chainguard",
       "name": "Chainguard",
+      "summary": "Chainguard supplies hardened container images for software security.",
       "sector": "Cybersecurity",
       "profile": "Secure software supply chain (hardened container images).",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Chainguard",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1384,8 +1573,10 @@
     {
       "id": "fanatics",
       "name": "Fanatics",
+      "summary": "Fanatics sells licensed sports merchandise and collectibles.",
       "sector": "Sports Commerce",
       "profile": "Licensed sports merchandise, collectibles, and betting platform.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Fanatics,_Inc.",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1410,8 +1601,10 @@
     {
       "id": "waymo",
       "name": "Waymo",
+      "summary": "Waymo operates driverless ride-hailing services.",
       "sector": "Autonomous Vehicles",
       "profile": "Alphabet's autonomous ride-hailing subsidiary with external investors; operates driverless services in multiple US metros.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Waymo",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1436,8 +1629,17 @@
     {
       "id": "klarna",
       "name": "Klarna",
+      "summary": "Klarna offers pay-later consumer financing and banking services.",
       "sector": "Fintech",
       "profile": "Swedish buy-now-pay-later and banking company; listed on NYSE in September 2025.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "KLAR",
+          "exchange": "NYSE",
+          "url": "https://finance.yahoo.com/quote/KLAR"
+        }
+      ],
       "profile_source_url": "https://en.wikipedia.org/wiki/Klarna",
       "ipo_status": "listed",
       "lifecycle": "listed",
@@ -1469,8 +1671,17 @@
     {
       "id": "coreweave",
       "name": "CoreWeave",
+      "summary": "CoreWeave rents GPU cloud computing for AI workloads.",
       "sector": "AI Infrastructure",
       "profile": "GPU cloud provider; listed on Nasdaq in March 2025.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "CRWV",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/CRWV"
+        }
+      ],
       "profile_source_url": "https://en.wikipedia.org/wiki/CoreWeave",
       "ipo_status": "listed",
       "lifecycle": "listed",
@@ -1502,8 +1713,17 @@
     {
       "id": "figma",
       "name": "Figma",
+      "summary": "Figma makes collaborative interface design software.",
       "sector": "Design Software",
       "profile": "Collaborative design platform; listed on NYSE in July 2025.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "FIG",
+          "exchange": "NYSE",
+          "url": "https://finance.yahoo.com/quote/FIG"
+        }
+      ],
       "profile_source_url": "https://en.wikipedia.org/wiki/Figma",
       "ipo_status": "listed",
       "lifecycle": "listed",
@@ -1535,8 +1755,17 @@
     {
       "id": "circle",
       "name": "Circle",
+      "summary": "Circle issues the USDC stablecoin and related payment services.",
       "sector": "Crypto / Fintech",
       "profile": "Issuer of the USDC stablecoin; listed on NYSE in June 2025.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "CRCL",
+          "exchange": "NYSE",
+          "url": "https://finance.yahoo.com/quote/CRCL"
+        }
+      ],
       "profile_source_url": "https://en.wikipedia.org/wiki/Circle_(company)",
       "ipo_status": "listed",
       "lifecycle": "listed",
@@ -1568,8 +1797,17 @@
     {
       "id": "chime",
       "name": "Chime",
+      "summary": "Chime provides consumer banking services through a mobile app.",
       "sector": "Fintech",
       "profile": "US consumer neobank; listed on Nasdaq in June 2025.",
+      "access_routes": [
+        {
+          "kind": "public_listing",
+          "ticker": "CHYM",
+          "exchange": "Nasdaq",
+          "url": "https://finance.yahoo.com/quote/CHYM"
+        }
+      ],
       "profile_source_url": "https://en.wikipedia.org/wiki/Chime_(company)",
       "ipo_status": "listed",
       "lifecycle": "listed",
@@ -1601,8 +1839,10 @@
     {
       "id": "tenstorrent",
       "name": "Tenstorrent",
+      "summary": "Tenstorrent designs RISC-V processors and AI accelerator chips.",
       "sector": "AI Semiconductors",
       "profile": "RISC-V and AI accelerator company led by Jim Keller.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Tenstorrent",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1627,8 +1867,10 @@
     {
       "id": "gopuff",
       "name": "Gopuff",
+      "summary": "Gopuff delivers convenience-store goods from local micro-warehouses.",
       "sector": "Consumer Delivery",
       "profile": "Instant-needs delivery platform.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Gopuff",
       "ipo_status": "private",
       "lifecycle": "private",
@@ -1655,8 +1897,10 @@
     {
       "id": "automation-anywhere",
       "name": "Automation Anywhere",
+      "summary": "Automation Anywhere sells robotic process automation software.",
       "sector": "Enterprise Software",
       "profile": "Robotic process automation platform.",
+      "access_routes": [],
       "profile_source_url": "https://en.wikipedia.org/wiki/Automation_Anywhere",
       "ipo_status": "private",
       "lifecycle": "private",

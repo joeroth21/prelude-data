@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-15T03:11:12+00:00",
-  "as_of": "2026-07-15T03:11:12+00:00",
+  "generated_at": "2026-07-15T04:15:47+00:00",
+  "as_of": "2026-07-15T04:15:47+00:00",
   "source": {
     "name": "SEC EDGAR daily form indexes",
     "url": "https://www.sec.gov/Archives/edgar/daily-index/",
@@ -24345,7 +24345,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1898718/000110465926060835/0001104659-26-060835-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 15.0
     },
     {
       "form_type": "424B4",
@@ -24358,7 +24358,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1853868/000162828026034849/0001628280-26-034849-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 27.0
     },
     {
       "form_type": "424B4",
@@ -24371,7 +24371,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2104882/000119312526224302/0001193125-26-224302-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 18.5
     },
     {
       "form_type": "424B4",
@@ -24423,7 +24423,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/725363/000165495426004757/0001654954-26-004757-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 1.2
     },
     {
       "form_type": "424B4",
@@ -24449,7 +24449,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2066836/000106299326002473/0001062993-26-002473-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 0.4
     },
     {
       "form_type": "424B4",
@@ -24475,7 +24475,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1934114/000110465926057504/0001104659-26-057504-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 21.0
     },
     {
       "form_type": "424B4",
@@ -24488,7 +24488,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1882782/000119312526214819/0001193125-26-214819-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 18.0
     },
     {
       "form_type": "424B4",
@@ -24501,7 +24501,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1489993/000162828026032843/0001628280-26-032843-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 15.0
     },
     {
       "form_type": "424B4",
@@ -24540,7 +24540,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2095743/000119312526209799/0001193125-26-209799-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 19.0
     },
     {
       "form_type": "424B4",
@@ -24553,7 +24553,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1750704/000162828026032207/0001628280-26-032207-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 26.0
     },
     {
       "form_type": "424B4",
@@ -24579,7 +24579,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2030617/000182912626004627/0001829126-26-004627-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 4.0
     },
     {
       "form_type": "424B4",
@@ -24618,7 +24618,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2044817/000119312526202944/0001193125-26-202944-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 10.0
     },
     {
       "form_type": "424B4",
@@ -24631,7 +24631,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2042347/000119312526201758/0001193125-26-201758-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 18.0
     },
     {
       "form_type": "424B4",
@@ -24644,7 +24644,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2067674/000153949726001267/0001539497-26-001267-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 11.5
     },
     {
       "form_type": "424B4",
@@ -24670,7 +24670,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2114044/000119312526201458/0001193125-26-201458-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 18.0
     },
     {
       "form_type": "424B4",
@@ -24696,7 +24696,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2104260/000119312526194920/0001193125-26-194920-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 10.0
     },
     {
       "form_type": "424B4",
@@ -24709,7 +24709,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1827635/000162828026029027/0001628280-26-029027-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 100.0
     },
     {
       "form_type": "424B4",
@@ -24722,7 +24722,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1866816/000149315226019779/0001493152-26-019779-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 7.0
     },
     {
       "form_type": "424B4",
@@ -24735,7 +24735,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2067674/000153949726001250/0001539497-26-001250-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 11.5
     },
     {
       "form_type": "424B4",
@@ -24761,7 +24761,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2026053/000114036126018103/0001140361-26-018103-index.htm",
       "fund_keyword_match": false,
       "universe_company_id": null,
-      "price_usd": null
+      "price_usd": 50.0
     },
     {
       "form_type": "424B4",
