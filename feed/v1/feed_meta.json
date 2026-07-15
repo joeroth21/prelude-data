@@ -1,36 +1,43 @@
 {
   "schema_version": 1,
   "pipeline_version": "0.1.0",
-  "generated_at": "2026-07-14T23:23:37+00:00",
+  "generated_at": "2026-07-15T00:18:23+00:00",
   "compliance": "Publicly available factual data compiled for educational display. No recommendations, ratings, or trade signals.",
   "files": {
     "companies.json": {
       "as_of": "2026-07-14",
-      "generated_at": "2026-07-14T23:22:15+00:00",
-      "sha256": "85e356d6995f01af6b128b1c7ccf2409ef260e7cd4df57d93b7f2809951781e2",
+      "generated_at": "2026-07-15T00:17:01+00:00",
+      "sha256": "fb887699cfbbc085849260a50e56e6e7e6a684ac74c9ba5d30b52419929a16cd",
       "bytes": 44260,
       "record_count": 62
     },
     "pipeline.json": {
-      "as_of": "2026-07-14T23:22:25+00:00",
-      "generated_at": "2026-07-14T23:22:25+00:00",
-      "sha256": "eec885fbe474d2914088e24cb206c7c5470c54031f91447633dcd20551b65171",
+      "as_of": "2026-07-15T00:17:11+00:00",
+      "generated_at": "2026-07-15T00:17:11+00:00",
+      "sha256": "70e0be0cedcf2ddb579efec8c63eccb429da6aa6e956cd52080e6dfab8889cdc",
       "bytes": 33668,
       "record_count": 96
     },
     "wrappers.json": {
-      "as_of": "2026-07-14T23:22:30+00:00",
-      "generated_at": "2026-07-14T23:22:30+00:00",
-      "sha256": "2051b28eaf79f34819bb4a22ebd9155cc20a3a1ac78c3892e9bc444eb1e15b83",
-      "bytes": 13073,
+      "as_of": "2026-07-15T00:17:16+00:00",
+      "generated_at": "2026-07-15T00:17:16+00:00",
+      "sha256": "e03e4966e9893cf0a8b45854118327626b8f5529941094f7035925de84afead5",
+      "bytes": 13080,
       "record_count": 5
     },
     "signals.json": {
       "as_of": "2026-07-14",
-      "generated_at": "2026-07-14T23:22:30+00:00",
-      "sha256": "f59dfdf61f9a54627f73376f7ec002ef62cadc196295a83b16993140e7b44eb9",
+      "generated_at": "2026-07-15T00:17:16+00:00",
+      "sha256": "fef7b1b42020f6fdba778173b914c43cc1788f767b540733742763db2bd12b7b",
       "bytes": 40998,
       "record_count": 62
+    },
+    "briefs.json": {
+      "as_of": "2026-07-15T00:17:16+00:00",
+      "generated_at": "2026-07-15T00:17:16+00:00",
+      "sha256": "e5a79ab0536ca0ea4b3b82d239be87346e1e9d506fe6c9c3df658918b225020c",
+      "bytes": 264,
+      "record_count": null
     }
   }
 }

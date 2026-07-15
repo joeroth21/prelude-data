@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-14T23:22:30+00:00",
-  "as_of": "2026-07-14T23:22:30+00:00",
+  "generated_at": "2026-07-15T00:17:16+00:00",
+  "as_of": "2026-07-15T00:17:16+00:00",
   "notes": "Factual descriptions of investment vehicle structures and terms compiled from issuer disclosures. Educational display only; nothing here is a recommendation. Fee and liquidity facts are hand-curated from the cited sources and re-verified on the curation cadence in the README.",
   "wrappers": [
     {
@@ -29,7 +29,7 @@
       "nav_per_share": {
         "value": 56.03,
         "currency": "USD",
-        "as_of": "2026-07-14T22:45:08+00:00",
+        "as_of": "2026-07-15T00:00:08+00:00",
         "source": "Fund transacts at NAV; NAV via Yahoo Finance quote",
         "source_url": "https://finance.yahoo.com/quote/ARKVX"
       },
@@ -251,7 +251,7 @@
       "structure": "listed_business_development_company",
       "ticker": "SSSS",
       "exchange": "Nasdaq",
-      "issuer_url": "https://suro.com/",
+      "issuer_url": "https://www.surocap.com/",
       "fees": {
         "expense_ratio_pct": null,
         "description": "Internally managed BDC: no external management fee; fund-level operating expenses are reported in its SEC filings (see 10-K/10-Q).",
