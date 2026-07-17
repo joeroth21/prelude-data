@@ -109,12 +109,19 @@ the pipeline gathers material and drafts 4-5 short news pieces for the app's
    word verbatim passages from sources, max one quotation under 15 words,
    150-300 word body, ≥2 sources. Drafts land in `briefs_drafts/YYYY-MM-DD/`
    as markdown with `reviewed: false`, and a marker file lands on the Desktop.
-3. **Review gate — the human step, non-negotiable**: edit each draft, flip
-   `reviewed: true`. `python -m prelude_data.briefs_cli publish` REFUSES the
-   cycle if any draft is unreviewed, re-lints the edited text, assembles
-   `briefs.json` (id, date, title, body, why_it_matters, sources, tickers),
-   validates, and pushes. **Publishing is always manual** — the scheduled
-   jobs only gather and draft.
+3. **Review gate — the human step, non-negotiable**: the scheduled job
+   starts the review console (localhost:8377) and fires a Windows toast;
+   clicking it opens the console (Desktop shortcut "Review The Brief" works
+   any time). The console lists the cycle with status chips, renders each
+   piece exactly as the app will (serif reader, drop cap, source chips),
+   offers inline markdown editing with live lint, source links for
+   verification, per-piece Approve toggles, and one PUBLISH button that
+   runs the full gate (re-lint -> reviewed flags -> publish -> push -> app
+   snapshot refresh -> "live on Pages" confirmation). CLI fallback
+   unchanged: edit drafts, set `reviewed: true`, run
+   `python -m prelude_data.briefs_cli publish`. **Publishing is always
+   manual** — the scheduled jobs only gather and draft; nothing publishes
+   without explicit approval.
 
 The nightly pipeline passes the published `briefs.json` through its own
 validation gate (schema, ≥2 sources per piece, forbidden-language scan), so

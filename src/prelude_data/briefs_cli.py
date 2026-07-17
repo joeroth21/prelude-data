@@ -16,7 +16,6 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import logging
-import os
 import sys
 from pathlib import Path
 
@@ -45,15 +44,6 @@ def setup_logging() -> None:
     )
 
 
-def desktop_marker(text: str) -> None:
-    """The loud 'drafts await review' signal for the scheduled runs."""
-    desktop = Path(os.path.expanduser("~")) / "Desktop"
-    try:
-        marker = desktop / f"PRELUDE-DRAFTS-READY-{dt.date.today().isoformat()}.txt"
-        marker.write_text(text, encoding="utf-8")
-        log.info("marker written: %s", marker)
-    except OSError as exc:
-        log.warning("could not write desktop marker: %s", exc)
 
 
 def cmd_gather_draft() -> int:
@@ -143,14 +133,14 @@ def cmd_gather_draft() -> int:
         return 0
 
     out_dir = write_drafts(drafts)
-    message = (
-        f"The Brief: {len(drafts)} draft(s) await review in\n{out_dir}\n\n"
-        f"Failed topics: {failures or 'none'}\n\n"
-        "Edit each .md, set 'reviewed: true', then run:\n"
-        "  .venv\\Scripts\\python -m prelude_data.briefs_cli publish\n"
+    log.info(
+        "=== DRAFTS READY FOR REVIEW ===\n%d draft(s) in %s (failed topics: %s)\n"
+        "Review console: scripts/briefs_review.py (Desktop shortcut 'Review The Brief')\n"
+        "CLI fallback: edit the .md files, set reviewed: true, then briefs_cli publish",
+        len(drafts),
+        out_dir,
+        failures or "none",
     )
-    log.info("=== DRAFTS READY FOR REVIEW ===\n%s", message)
-    desktop_marker(message)
     return 0
 
 
