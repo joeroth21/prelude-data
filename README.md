@@ -108,7 +108,7 @@ the pipeline gathers material and drafts 4-5 short news pieces for the app's
    no recommendation language (same class of list the app enforces), no 10+
    word verbatim passages from sources, max one quotation under 15 words,
    150-300 word body, ≥2 sources. Drafts land in `briefs_drafts/YYYY-MM-DD/`
-   as markdown with `reviewed: false`, and a marker file lands on the Desktop.
+   as markdown with `reviewed: false`.
 3. **Review gate — the human step, non-negotiable**: the scheduled job
    starts the review console (localhost:8377) and fires a Windows toast;
    clicking it opens the console (Desktop shortcut "Review The Brief" works
